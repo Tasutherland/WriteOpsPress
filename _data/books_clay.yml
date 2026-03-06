@@ -1,35 +1,128 @@
-# Books for Clay Daintry — Small-Town Slow-Burn Romance
-# Replace placeholder data with real titles, hooks, blurbs, and store links.
+# Books for Clay Daintry — Cowboy and Small-Town Romance (MM)
+# Replace placeholder data with real hooks, blurbs, cover paths, and store links.
+- title: "Hard Freeze: An Enemies-to-Lovers MM Cowboy Romance"
+  series: "The Split Rock Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/hard-freeze-an-enemies-to-lovers-mm-cowboy-romance.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GPY95BRQ"
+    us: "https://www.amazon.com/dp/B0GPY95BRQ"
+    uk: "https://www.amazon.co.uk/dp/B0GPY95BRQ"
+    au: "https://www.amazon.com.au/dp/B0GPY95BRQ"
 
-- title: "The Long Way Home"
-  series: "Harrow Lake #1"
-  hook: "She left Harrow Lake swearing she'd never come back. He never left."
-  blurb: "After a decade away, Nora returns to Harrow Lake to settle her grandmother's estate—and immediately runs into the one person who made leaving hard. A warm, slow-burn return-to-hometown romance."
-  cover: "assets/covers/clay/the-long-way-home.webp"
-  featured: true
+- title: "Rough Stock: A Hurt/Comfort Boss-Employee MM Cowboy Romance"
+  series: "The Split Rock Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/rough-stock-a-hurt-comfort-boss-employee-mm-cowboy-romance.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GQ3ZWNV5"
+    us: "https://www.amazon.com/dp/B0GQ3ZWNV5"
+    uk: "https://www.amazon.co.uk/dp/B0GQ3ZWNV5"
+    au: "https://www.amazon.com.au/dp/B0GQ3ZWNV5"
+
+- title: "Tight Rein"
+  series: "The Split Rock Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/tight-rein.webp"
+  featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
     us: "https://www.amazon.com/dp/PLACEHOLDER"
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "Winters Here"
-  series: "Harrow Lake #2"
-  hook: "The grumpy inn owner. The city journalist on deadline. One very small town."
-  blurb: "Grumpy/sunshine, forced proximity, and a small-town Christmas setting that makes you want to stay. A standalone companion to The Long Way Home."
-  cover: "assets/covers/clay/winters-here.webp"
-  featured: true
+- title: "Dry Season"
+  series: "Unforgiving Ground Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/dry-season.webp"
+  featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
     us: "https://www.amazon.com/dp/PLACEHOLDER"
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "Copper Creek"
-  series: ""
-  hook: "He bought the broken-down farm next door. She was not part of the deal."
-  blurb: "A standalone small-town neighbors romance with a found-family subplot and a dog named Brisket who steals every scene."
-  cover: "assets/covers/clay/copper-creek.webp"
+- title: "Low Water"
+  series: "Unforgiving Ground Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/low-water.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Burn Season"
+  series: "Unforgiving Ground Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/burn-season.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Unpacked"
+  series: "Unbroken Range Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/unpacked.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "No Safe Harbor"
+  series: "Unbroken Range Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/no-safe-harbor.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Roots In Winter"
+  series: "Unbroken Range Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/roots-in-winter.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/cowboy-tbd.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/clay/previous-series-bundle.webp"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"

@@ -1,35 +1,140 @@
 # Books for Rook Brennan — Monster Romance and Dark Fantasy
-# Replace placeholder data with real titles, hooks, blurbs, and store links.
+# Replace placeholder data with real hooks, blurbs, cover paths, and store links.
+- title: "Captured by the Enforcer: A Dark MM Orc Monster Romance"
+  series: "The Iron Bonds Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/captured-by-the-enforcer-a-dark-mm-orc-monster-romance.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GHS3ZQFT"
+    us: "https://www.amazon.com/dp/B0GHS3ZQFT"
+    uk: "https://www.amazon.co.uk/dp/B0GHS3ZQFT"
+    au: "https://www.amazon.com.au/dp/B0GHS3ZQFT"
 
-- title: "Thornhide"
-  series: "Creatures of the Vale #1"
-  hook: "The villagers said the forest creature was a monster. They were right—and he was perfect."
-  blurb: "When Mara is left as tribute at the edge of the Thornwood, she expects to die. She doesn't expect to find a creature with too many teeth, too much patience, and an obsessive interest in keeping her alive. Dark fantasy monster romance."
-  cover: "assets/covers/rook/thornhide.webp"
-  featured: true
+- title: "Bought by the Alpha: A Dark MM Orc Romance"
+  series: "The Iron Bonds Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/bought-by-the-alpha-a-dark-mm-orc-romance.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/BOGNJ7663T"
+    us: "https://www.amazon.com/dp/BOGNJ7663T"
+    uk: "https://www.amazon.co.uk/dp/BOGNJ7663T"
+    au: "https://www.amazon.com.au/dp/BOGNJ7663T"
+
+- title: "Claimed by the Chieftain: A Snowed-In MM Monster Romance"
+  series: "The Iron Bonds Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/claimed-by-the-chieftain-a-snowed-in-mm-monster-romance.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GNJBYC93"
+    us: "https://www.amazon.com/dp/B0GNJBYC93"
+    uk: "https://www.amazon.co.uk/dp/B0GNJBYC93"
+    au: "https://www.amazon.com.au/dp/B0GNJBYC93"
+
+- title: "Unnatural Contracts: An MM Monster Romance"
+  series: "Unnatural Contract Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/unnatural-contracts-an-mm-monster-romance.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GQCG8LT6"
+    us: "https://www.amazon.com/dp/B0GQCG8LT6"
+    uk: "https://www.amazon.co.uk/dp/B0GQCG8LT6"
+    au: "https://www.amazon.com.au/dp/B0GQCG8LT6"
+
+- title: "Static & Stone: A Dark MM Monster Romance"
+  series: "Unnatural contract series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/static-stone-a-dark-mm-monster-romance.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GR1QMVBC"
+    us: "https://www.amazon.com/dp/B0GR1QMVBC"
+    uk: "https://www.amazon.co.uk/dp/B0GR1QMVBC"
+    au: "https://www.amazon.com.au/dp/B0GR1QMVBC"
+
+- title: "Blood and Ledger: A Dark Paranormal MM Vampire Romance"
+  series: "Unnatural contract series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/blood-and-ledger-a-dark-paranormal-mm-vampire-romance.webp"
+  featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
     us: "https://www.amazon.com/dp/PLACEHOLDER"
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "The Hollow Kind"
-  series: "Creatures of the Vale #2"
-  hook: "He's made of shadow and want. She's the only light he's ever followed."
-  blurb: "A shade-creature never meant to surface from the deep woods—until a woman with a lantern and bad luck walked in too far. A standalone companion to Thornhide with its own happily ever after."
-  cover: "assets/covers/rook/the-hollow-kind.webp"
-  featured: true
+- title: "The Iron Bonds Trilogy: An Epic MM Monster Romance of Iron, Blood, and Claiming"
+  series: "The Iron Bonds Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/the-iron-bonds-trilogy-an-epic-mm-monster-romance-of-iron-blood-and-claiming.webp"
+  featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
     us: "https://www.amazon.com/dp/PLACEHOLDER"
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "Deep Current"
-  series: ""
-  hook: "He's not human. He never pretended to be. She didn't mind."
-  blurb: "A standalone ocean creature romance. Marine biologist Cass goes overboard in a storm and wakes in an underwater cave—alive, warm, and watched by something ancient and very curious."
-  cover: "assets/covers/rook/deep-current.webp"
+- title: "Wed to the Warlord"
+  series: "The Warlord’s Consort Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/wed-to-the-warlord.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bound to the Throne"
+  series: "The Warlord’s Consort Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/bound-to-the-throne.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Crowned in Blood"
+  series: "The Warlord’s Consort Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/crowned-in-blood.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/tbd-monster.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/rook/previous-series-bundle.webp"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"

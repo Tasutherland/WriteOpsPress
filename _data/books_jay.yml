@@ -1,35 +1,92 @@
-# Books for Jay McGilvery — Sports Romance
-# Replace placeholder data with real titles, hooks, blurbs, and store links.
+# Books for Jay McGilvery — Sports Romance (MM)
+# Replace placeholder data with real hooks, blurbs, cover paths, and store links.
+- title: "Roughing the Kisser: An Enemies to Lovers MM Hockey Romance"
+  series: "Hate to Heat Hockey Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/jay/roughing-the-kisser-an-enemies-to-lovers-mm-hockey-romance.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GPZ51NRK"
+    us: "https://www.amazon.com/dp/B0GPZ51NRK"
+    uk: "https://www.amazon.co.uk/dp/B0GPZ51NRK"
+    au: "https://www.amazon.com.au/dp/B0GPZ51NRK"
 
-- title: "Power Play"
-  series: "Redline Hockey #1"
-  hook: "Rivals on the ice. Something entirely different off it."
-  blurb: "Star center Cole Reeves is used to getting what he wants—except his new linemate, who refuses to make anything easy. A slow-burn hockey romance with sharp banter and scorching tension."
-  cover: "assets/covers/jay/power-play.webp"
-  featured: true
+- title: "Checked In: An Age Gap MM Hockey Romance"
+  series: "Hate to Heat Hockey Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/jay/checked-in-an-age-gap-mm-hockey-romance.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GW48N5FL"
+    us: "https://www.amazon.com/dp/B0GW48N5FL"
+    uk: "https://www.amazon.co.uk/dp/B0GW48N5FL"
+    au: "https://www.amazon.com.au/dp/B0GW48N5FL"
+
+- title: "Gold Medal Agony"
+  series: "Hate to Heat Hockey Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/jay/gold-medal-agony.webp"
+  featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
     us: "https://www.amazon.com/dp/PLACEHOLDER"
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "Off Season"
-  series: "Redline Hockey #2"
-  hook: "Twelve weeks. One cabin. No excuses left."
-  blurb: "Off-season rehab sends two rivals to the same remote training facility. Forced proximity, old grudges, and the kind of chemistry that's harder to skate away from than either of them expected."
-  cover: "assets/covers/jay/off-season.webp"
-  featured: true
+- title: "Redline Collision"
+  series: "The Redline Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/jay/redline-collision.webp"
+  featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
     us: "https://www.amazon.com/dp/PLACEHOLDER"
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "The Draft Pick"
-  series: ""
-  hook: "Top pick. Wrong team. Wrong city. Extremely inconvenient feelings."
-  blurb: "Standalone sports romance. The NHL's most hyped rookie lands in the one city—and across the hall from the one person—that could derail everything he's worked for."
-  cover: "assets/covers/jay/the-draft-pick.webp"
+- title: "Gridlock Reckoning"
+  series: "The Redline Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/jay/gridlock-reckoning.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Last Lap Dominion"
+  series: "The Redline Trilogy"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/jay/last-lap-dominion.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Hockey/job TBD"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/jay/hockey-job-tbd.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/jay/previous-series-bundle.webp"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"

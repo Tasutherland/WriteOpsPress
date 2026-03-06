@@ -1,35 +1,10 @@
-# Books for Nyx Montreaux — FM Mafia Romance
-# Replace placeholder data with real titles, hooks, blurbs, and store links.
-
-- title: "The Don's Debt"
-  series: "Morelli Empire #1"
-  hook: "She owed his family everything. He decided to collect."
-  blurb: "Sera never planned to become a pawn in a mob war—but when the Morelli heir decides her father's debt is hers to repay, she has two choices: run, or learn to play the game. Dark mafia romance with possessive heat and sharp edges."
-  cover: "assets/covers/nyx/the-dons-debt.webp"
-  featured: true
-  stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
-
-- title: "Beautiful Ruin"
-  series: "Morelli Empire #2"
-  hook: "He ruins everything he touches. She's determined to be the exception."
-  blurb: "The Morelli underboss never wanted a wife—but when a rival family demands a blood alliance, the woman chosen is the last one he should want and the only one he can't stop thinking about."
-  cover: "assets/covers/nyx/beautiful-ruin.webp"
-  featured: true
-  stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
-
-- title: "Ivory and Iron"
-  series: "Morelli Empire #3"
-  hook: "Three families. One woman. A war that ends with a wedding."
-  blurb: "The final Morelli Empire book. Tensions between three rival families reach a breaking point, and the only solution anyone agrees on is one nobody wanted. Arranged marriage, forced proximity, and slow-burn obsession."
-  cover: "assets/covers/nyx/ivory-and-iron.webp"
+# Books for Nyx Monteaux — Dark Romance / Romantic Suspense
+# Replace placeholder data with real hooks, blurbs, cover paths, and store links.
+- title: "The Stolen Vow"
+  series: "The Bloodbound Vows Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/nyx/the-stolen-vow.webp"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -37,11 +12,23 @@
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "Smoke and Vow"
-  series: ""
-  hook: "A fake engagement. A real hitman. An inconvenient attraction."
-  blurb: "Standalone dark mafia romance. Posing as the fiancée of the city's most dangerous man was supposed to be a temporary cover—until the lines between the act and reality dissolve completely."
-  cover: "assets/covers/nyx/smoke-and-vow.webp"
+- title: "The Broken Oath"
+  series: "The Bloodbound Vows Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/nyx/the-broken-oath.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "The Blood Crown"
+  series: "The Bloodbound Vows Series"
+  hook: "PLACEHOLDER_HOOK"
+  blurb: "PLACEHOLDER_BLURB"
+  cover: "assets/covers/nyx/the-blood-crown.webp"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
