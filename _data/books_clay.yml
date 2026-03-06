@@ -1,0 +1,38 @@
+# Books for Clay Daintry — Small-Town Slow-Burn Romance
+# Replace placeholder data with real titles, hooks, blurbs, and store links.
+
+- title: "The Long Way Home"
+  series: "Harrow Lake #1"
+  hook: "She left Harrow Lake swearing she'd never come back. He never left."
+  blurb: "After a decade away, Nora returns to Harrow Lake to settle her grandmother's estate—and immediately runs into the one person who made leaving hard. A warm, slow-burn return-to-hometown romance."
+  cover: "assets/covers/clay/the-long-way-home.webp"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Winters Here"
+  series: "Harrow Lake #2"
+  hook: "The grumpy inn owner. The city journalist on deadline. One very small town."
+  blurb: "Grumpy/sunshine, forced proximity, and a small-town Christmas setting that makes you want to stay. A standalone companion to The Long Way Home."
+  cover: "assets/covers/clay/winters-here.webp"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Copper Creek"
+  series: ""
+  hook: "He bought the broken-down farm next door. She was not part of the deal."
+  blurb: "A standalone small-town neighbors romance with a found-family subplot and a dog named Brisket who steals every scene."
+  cover: "assets/covers/clay/copper-creek.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"

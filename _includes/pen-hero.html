@@ -1,0 +1,19 @@
+{% comment %}
+  Pen-name hero section.
+  Expects page variables: title, pen_id, accent, promise, content_notes (bool), content_notes_text
+{% endcomment %}
+
+<section class="pen-hero" style="--pen-accent: {{ page.accent }}">
+  <div class="container">
+    <div class="pen-hero-inner">
+      <span class="pen-rule" aria-hidden="true"></span>
+      <h1 class="pen-name">{{ page.title }}</h1>
+      <p class="pen-promise">{{ page.promise }}</p>
+      {% if page.content_notes %}
+      <p class="content-notes-link">
+        <a href="#content-notes" class="subtle-link">Content notes ↓</a>
+      </p>
+      {% endif %}
+    </div>
+  </div>
+</section>

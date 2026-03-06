@@ -1,0 +1,42 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="{{ '/' | relative_url }}" class="site-logo">
+        <span class="logo-press">WriteOps</span><span class="logo-name">Press</span>
+      </a>
+      <p class="footer-tagline">Independent publishing. Six voices. One catalog.</p>
+    </div>
+
+    <div class="footer-nav">
+      <div class="footer-col">
+        <h4 class="footer-heading">Pen Names</h4>
+        <ul>
+          {% for pen in site.pen_names %}
+          <li><a href="{{ '/pen-names/' | append: pen.id | append: '/' | relative_url }}">{{ pen.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">Site</h4>
+        <ul>
+          <li><a href="{{ '/newsletter/' | relative_url }}">Newsletter</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+          <li><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-newsletter">
+      <p><strong>Stay in the loop.</strong> New releases, cover reveals, and reader extras.</p>
+      <a href="{{ '/newsletter/' | relative_url }}" class="btn btn-outline">Sign Up</a>
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <div class="container">
+      <p>&copy; {{ 'now' | date: "%Y" }} WriteOps Press. All rights reserved.
+        &nbsp;·&nbsp; <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
+      </p>
+    </div>
+  </div>
+</footer>

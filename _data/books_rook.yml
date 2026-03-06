@@ -1,0 +1,38 @@
+# Books for Rook Brennan — Monster Romance and Dark Fantasy
+# Replace placeholder data with real titles, hooks, blurbs, and store links.
+
+- title: "Thornhide"
+  series: "Creatures of the Vale #1"
+  hook: "The villagers said the forest creature was a monster. They were right—and he was perfect."
+  blurb: "When Mara is left as tribute at the edge of the Thornwood, she expects to die. She doesn't expect to find a creature with too many teeth, too much patience, and an obsessive interest in keeping her alive. Dark fantasy monster romance."
+  cover: "assets/covers/rook/thornhide.webp"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "The Hollow Kind"
+  series: "Creatures of the Vale #2"
+  hook: "He's made of shadow and want. She's the only light he's ever followed."
+  blurb: "A shade-creature never meant to surface from the deep woods—until a woman with a lantern and bad luck walked in too far. A standalone companion to Thornhide with its own happily ever after."
+  cover: "assets/covers/rook/the-hollow-kind.webp"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Deep Current"
+  series: ""
+  hook: "He's not human. He never pretended to be. She didn't mind."
+  blurb: "A standalone ocean creature romance. Marine biologist Cass goes overboard in a storm and wakes in an underwater cave—alive, warm, and watched by something ancient and very curious."
+  cover: "assets/covers/rook/deep-current.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"

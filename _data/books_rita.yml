@@ -1,0 +1,50 @@
+# Books for Rita Dole — Spicy Contemporary Romance
+# Replace placeholder data with real titles, hooks, blurbs, and store links.
+
+- title: "The Arrangement"
+  series: ""
+  hook: "Fake dating her boss was supposed to be simple. It was not simple."
+  blurb: "When Dani agrees to pose as her infuriating CEO boss's girlfriend for one family wedding, she figures one weekend is manageable. It's not. Neither is the fact that she's starting to mean it. Spicy fake-dating contemporary romance."
+  cover: "assets/covers/rita/the-arrangement.webp"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Thoroughly Modern Mess"
+  series: ""
+  hook: "She's got a five-year plan. He's a very attractive wrench in it."
+  blurb: "A sharp, funny, steamy standalone contemporary romance about ambition, bad timing, and the kind of man who makes you question every carefully made decision."
+  cover: "assets/covers/rita/thoroughly-modern-mess.webp"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Plus One Problems"
+  series: ""
+  hook: "She brought the wrong man to the right wedding."
+  blurb: "A wedding-weekend romance full of miscommunication, champagne decisions, and surprisingly soft feelings. Standalone; no cliffhangers."
+  cover: "assets/covers/rita/plus-one-problems.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Hold That Thought"
+  series: ""
+  hook: "They met on a delayed flight. Ended up sharing much more than an armrest."
+  blurb: "A spicy strangers-to-lovers story for anyone who's ever hoped a travel delay might turn into something worth missing a flight for."
+  cover: "assets/covers/rita/hold-that-thought.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"

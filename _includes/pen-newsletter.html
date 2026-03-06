@@ -1,0 +1,19 @@
+{% comment %}
+  Per-pen inline newsletter CTA using MailerLite popup trigger.
+  Usage: {% include pen-newsletter.html pen_name=page.title %}
+{% endcomment %}
+
+<section class="pen-newsletter-cta" style="--pen-accent: {{ page.accent }}">
+  <div class="container">
+    <div class="newsletter-cta-inner">
+      <p class="newsletter-cta-text">
+        Get new releases from <strong>{{ include.pen_name }}</strong> straight to your inbox.
+      </p>
+      <a class="btn btn-primary ml-onclick-form"
+         href="javascript:void(0)"
+         onclick="ml('show', 'VWVLkT', true)">
+        Subscribe
+      </a>
+    </div>
+  </div>
+</section>

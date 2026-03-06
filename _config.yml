@@ -1,0 +1,74 @@
+title: WriteOps Press
+description: "Independent publishing house. Six pen names. One catalog."
+url: ""
+baseurl: ""
+email: contact@writeopspress.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "pen-names"
+      type: "pages"
+    values:
+      layout: "pen-name"
+
+# Pen name accent colors (used in templates)
+pen_names:
+  - id: ash-wilder
+    name: Ash Wilder
+    accent: "#7A1E2C"
+    data_key: ash
+    promise: "Dark, intense MM BDSM and paranormal romance where desire and danger collide."
+    content_notes: true
+  - id: nyx-montreaux
+    name: Nyx Montreaux
+    accent: "#1C3F5E"
+    data_key: nyx
+    promise: "Mafia romance dripping with danger, obsession, and heat."
+    content_notes: false
+  - id: rook-brennan
+    name: Rook Brennan
+    accent: "#2B5D3F"
+    data_key: rook
+    promise: "Monster romance and dark fantasy where the creature always gets the girl."
+    content_notes: true
+  - id: clay-daintry
+    name: Clay Daintry
+    accent: "#6B4A2B"
+    data_key: clay
+    promise: "Slow-burn small-town romance with characters you'll want to move in next door to."
+    content_notes: false
+  - id: jay-mcgilvery
+    name: Jay McGilvery
+    accent: "#1E4E7A"
+    data_key: jay
+    promise: "Sports romance—locker rooms, rivalry, and the kind of chemistry that breaks records."
+    content_notes: false
+  - id: rita-dole
+    name: Rita Dole
+    accent: "#4B2A63"
+    data_key: rita
+    promise: "Spicy contemporary romance with sharp wit, messy feelings, and swoon-worthy heat."
+    content_notes: true

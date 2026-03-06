@@ -1,0 +1,42 @@
+{% comment %}
+  Usage: {% include book-tile.html book=book pen_id=pen_id %}
+  Variables:
+    book    — book object from _data/books_*.yml
+    pen_id  — pen name id string (e.g. "ash-wilder")
+{% endcomment %}
+
+<article class="book-tile {% if include.book.featured %}book-tile--featured{% endif %}">
+  <div class="book-cover-wrap">
+    {% if include.book.cover %}
+    <img
+      src="{{ include.book.cover | relative_url }}"
+      alt="Cover of {{ include.book.title }}"
+      class="book-cover"
+      loading="lazy"
+      width="320"
+      height="480"
+    >
+    {% else %}
+    <div class="book-cover-placeholder" aria-hidden="true">
+      <span>{{ include.book.title }}</span>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="book-info">
+    {% if include.book.series %}
+    <p class="book-series">{{ include.book.series }}</p>
+    {% endif %}
+    <h3 class="book-title">{{ include.book.title }}</h3>
+    <p class="book-hook">{{ include.book.hook }}</p>
+
+    <button
+      class="btn btn-primary buy-btn"
+      data-title="{{ include.book.title }}"
+      data-stores='{{ include.book.stores | jsonify }}'
+      aria-haspopup="dialog"
+    >
+      Buy
+    </button>
+  </div>
+</article>

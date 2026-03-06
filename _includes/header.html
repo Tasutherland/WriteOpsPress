@@ -1,0 +1,38 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-logo" aria-label="WriteOps Press — home">
+      <span class="logo-press">WriteOps</span><span class="logo-name">Press</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+      <ul class="nav-list">
+        <li class="nav-item nav-has-dropdown">
+          <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Pen Names <span class="nav-caret" aria-hidden="true">&#9662;</span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            {% for pen in site.pen_names %}
+            <li role="menuitem">
+              <a href="{{ '/pen-names/' | append: pen.id | append: '/' | relative_url }}"
+                 class="dropdown-link"
+                 style="--pen-accent: {{ pen.accent }}">
+                {{ pen.name }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/newsletter/' | relative_url }}" class="nav-link">Newsletter</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/contact/' | relative_url }}" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,38 @@
+# Books for Jay McGilvery — Sports Romance
+# Replace placeholder data with real titles, hooks, blurbs, and store links.
+
+- title: "Power Play"
+  series: "Redline Hockey #1"
+  hook: "Rivals on the ice. Something entirely different off it."
+  blurb: "Star center Cole Reeves is used to getting what he wants—except his new linemate, who refuses to make anything easy. A slow-burn hockey romance with sharp banter and scorching tension."
+  cover: "assets/covers/jay/power-play.webp"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Off Season"
+  series: "Redline Hockey #2"
+  hook: "Twelve weeks. One cabin. No excuses left."
+  blurb: "Off-season rehab sends two rivals to the same remote training facility. Forced proximity, old grudges, and the kind of chemistry that's harder to skate away from than either of them expected."
+  cover: "assets/covers/jay/off-season.webp"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "The Draft Pick"
+  series: ""
+  hook: "Top pick. Wrong team. Wrong city. Extremely inconvenient feelings."
+  blurb: "Standalone sports romance. The NHL's most hyped rookie lands in the one city—and across the hall from the one person—that could derail everything he's worked for."
+  cover: "assets/covers/jay/the-draft-pick.webp"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
