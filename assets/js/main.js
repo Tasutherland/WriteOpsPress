@@ -21,24 +21,37 @@
   }
 
   /* ----------------------------------------------------------
-     Dropdown keyboard support
+     Dropdown — click to open/close, click outside to dismiss
      ---------------------------------------------------------- */
   const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
 
+  function closeAllDropdowns() {
+    dropdownToggles.forEach(function (t) {
+      t.setAttribute('aria-expanded', 'false');
+    });
+  }
+
   dropdownToggles.forEach(function (toggle) {
-    toggle.addEventListener('click', function () {
+    toggle.addEventListener('click', function (e) {
+      e.stopPropagation();
       const expanded = this.getAttribute('aria-expanded') === 'true';
-      this.setAttribute('aria-expanded', !expanded ? 'true' : 'false');
+      closeAllDropdowns();
+      if (!expanded) {
+        this.setAttribute('aria-expanded', 'true');
+      }
     });
   });
 
-  /* Close dropdown when clicking outside */
+  /* Close when clicking anywhere outside the dropdown */
   document.addEventListener('click', function (e) {
     if (!e.target.closest('.nav-has-dropdown')) {
-      dropdownToggles.forEach(function (t) {
-        t.setAttribute('aria-expanded', 'false');
-      });
+      closeAllDropdowns();
     }
+  });
+
+  /* Close on Escape key */
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeAllDropdowns();
   });
 
   /* ----------------------------------------------------------

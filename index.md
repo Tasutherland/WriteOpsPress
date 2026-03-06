@@ -12,8 +12,8 @@ body_class: press-home
       <p class="press-eyebrow">WriteOps Press</p>
       <h1 class="press-title">Books that pull you in<br>and don't let go.</h1>
       <p class="press-blurb">
-        WriteOps Press is an independent publishing house with six pen names spanning dark romance,
-        mafia, paranormal, monster romance, small-town slow burn, sports, and spicy contemporary.
+        WriteOps Press is an independent publishing house with six pen names spanning dark MM romance,
+        mafia, MM paranormal, MM and MF monster romance, MM cowboy, sports, and reverse harem dark fantasy.
         One catalog. Every flavor of heat.
       </p>
     </div>
@@ -39,13 +39,13 @@ body_class: press-home
 
       <a href="/pen-names/rook-brennan/" class="pen-card" style="--pen-accent: #2B5D3F;">
         <h3 class="pen-card-name">Rook Brennan</h3>
-        <p class="pen-card-promise">Monster romance and dark fantasy where the creature always gets the girl.</p>
+        <p class="pen-card-promise">MM monster romance and dark fantasy — creatures with sharp edges and the men brave enough to want them.</p>
         <span class="pen-card-link">Explore</span>
       </a>
 
       <a href="/pen-names/clay-daintry/" class="pen-card" style="--pen-accent: #6B4A2B;">
         <h3 class="pen-card-name">Clay Daintry</h3>
-        <p class="pen-card-promise">Slow-burn small-town romance with characters you'll want to move in next door to.</p>
+        <p class="pen-card-promise">MM cowboy romance with grit, heat, and wide-open country.</p>
         <span class="pen-card-link">Explore</span>
       </a>
 
@@ -57,7 +57,7 @@ body_class: press-home
 
       <a href="/pen-names/rita-dole/" class="pen-card" style="--pen-accent: #4B2A63;">
         <h3 class="pen-card-name">Rita Dole</h3>
-        <p class="pen-card-promise">Spicy contemporary romance with sharp wit, messy feelings, and swoon-worthy heat.</p>
+        <p class="pen-card-promise">MF monster romance and reverse harem dark fantasy — dark, daring, and seriously spicy.</p>
         <span class="pen-card-link">Explore</span>
       </a>
 

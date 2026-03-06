@@ -26,13 +26,13 @@ permalink: /pen-names/
 
       <a href="/pen-names/rook-brennan/" class="pen-card" style="--pen-accent: #2B5D3F;">
         <h2 class="pen-card-name">Rook Brennan</h2>
-        <p class="pen-card-promise">Monster romance and dark fantasy where the creature always gets the girl.</p>
+        <p class="pen-card-promise">MM monster romance and dark fantasy — creatures with sharp edges and the men brave enough to want them.</p>
         <span class="pen-card-link">Explore</span>
       </a>
 
       <a href="/pen-names/clay-daintry/" class="pen-card" style="--pen-accent: #6B4A2B;">
         <h2 class="pen-card-name">Clay Daintry</h2>
-        <p class="pen-card-promise">Slow-burn small-town romance with characters you'll want to move in next door to.</p>
+        <p class="pen-card-promise">MM cowboy romance with grit, heat, and wide-open country.</p>
         <span class="pen-card-link">Explore</span>
       </a>
 
@@ -44,7 +44,7 @@ permalink: /pen-names/
 
       <a href="/pen-names/rita-dole/" class="pen-card" style="--pen-accent: #4B2A63;">
         <h2 class="pen-card-name">Rita Dole</h2>
-        <p class="pen-card-promise">Spicy contemporary romance with sharp wit, messy feelings, and swoon-worthy heat.</p>
+        <p class="pen-card-promise">MF monster romance and reverse harem dark fantasy — dark, daring, and seriously spicy.</p>
         <span class="pen-card-link">Explore</span>
       </a>
 

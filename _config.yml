@@ -52,13 +52,13 @@ pen_names:
     name: Rook Brennan
     accent: "#2B5D3F"
     data_key: rook
-    promise: "Monster romance and dark fantasy where the creature always gets the girl."
+    promise: "MM monster romance and dark fantasy — creatures with sharp edges and the men brave enough to want them."
     content_notes: true
   - id: clay-daintry
     name: Clay Daintry
     accent: "#6B4A2B"
     data_key: clay
-    promise: "Slow-burn small-town romance with characters you'll want to move in next door to."
+    promise: "MM cowboy romance with grit, heat, and wide-open country."
     content_notes: false
   - id: jay-mcgilvery
     name: Jay McGilvery
@@ -70,5 +70,5 @@ pen_names:
     name: Rita Dole
     accent: "#4B2A63"
     data_key: rita
-    promise: "Spicy contemporary romance with sharp wit, messy feelings, and swoon-worthy heat."
+    promise: "MF monster romance and reverse harem dark fantasy — dark, daring, and seriously spicy."
     content_notes: true
