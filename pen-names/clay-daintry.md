@@ -6,7 +6,7 @@ accent: "#6B4A2B"
 promise: "MM cowboy romance with grit, heat, and wide-open country."
 description: "Clay Daintry writes MM cowboy romance — rugged settings, earned heat, and men who mean what they say."
 content_notes: false
-permalink: /pen-names/clay-daintry/
+permalink: /authors/clay-daintry/
 og_image: assets/img/og-clay.jpg
 ---
 

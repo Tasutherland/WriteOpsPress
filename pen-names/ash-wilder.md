@@ -7,7 +7,7 @@ promise: "Dark, intense MM BDSM and paranormal romance where desire and danger c
 description: "Ash Wilder writes MM BDSM and MM paranormal romance. Dark, consensual, and scorchingly hot."
 content_notes: true
 content_notes_text: "Ash Wilder's books contain explicit MM sexual content, BDSM dynamics (consensual), power exchange, and paranormal elements including werewolf/shifter content. Some titles include depictions of past trauma."
-permalink: /pen-names/ash-wilder/
+permalink: /authors/ash-wilder/
 og_image: assets/img/og-ash.jpg
 ---
 

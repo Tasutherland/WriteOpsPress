@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Newsletter"
-description: "Subscribe to WriteOps Press newsletter updates. Choose the pen names you follow, or sign up for everything."
+description: "Subscribe to WriteOps Press newsletter updates. Choose the authors you follow, or sign up for everything."
 permalink: /newsletter/
 ---
 
@@ -9,7 +9,7 @@ permalink: /newsletter/
   <div class="container">
     <div class="newsletter-page-inner">
       <h1>Stay in the loop.</h1>
-      <p class="lead">Choose the pen names you follow. New releases, cover reveals, early access, and reader extras — no spam, ever.</p>
+      <p class="lead">Choose the authors you follow. New releases, cover reveals, early access, and reader extras — no spam, ever.</p>
 
       {% include mailerlite-form.html %}
 
@@ -18,7 +18,7 @@ permalink: /newsletter/
       <div style="text-align: left;">
         <h2 style="font-size: var(--text-lg); margin-bottom: 1rem;">What to expect</h2>
         <ul style="list-style: disc; padding-left: 1.5rem; color: var(--color-text-muted); font-size: var(--text-sm); line-height: 1.8;">
-          <li>New release announcements for your chosen pen names</li>
+          <li>New release announcements for your chosen authors</li>
           <li>Cover reveals and pre-order alerts</li>
           <li>Occasional reader extras (bonus scenes, playlists, reading guides)</li>
           <li>Sale and deal notifications</li>

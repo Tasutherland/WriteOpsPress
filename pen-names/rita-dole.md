@@ -7,7 +7,7 @@ promise: "MF monster romance and reverse harem dark fantasy — dark, daring, an
 description: "Rita Dole writes MF monster romance and reverse harem dark fantasy with heat, heart, and creatures who choose you back."
 content_notes: true
 content_notes_text: "Rita Dole's books contain explicit MF sexual content, reverse harem dynamics, non-human anatomy, and dark fantasy elements. Some titles include dubious consent (clearly flagged per book)."
-permalink: /pen-names/rita-dole/
+permalink: /authors/rita-dole/
 og_image: assets/img/og-rita.jpg
 ---
 

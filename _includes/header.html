@@ -12,12 +12,12 @@
       <ul class="nav-list">
         <li class="nav-item nav-has-dropdown">
           <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-            Pen Names <span class="nav-caret" aria-hidden="true">&#9662;</span>
+            Authors <span class="nav-caret" aria-hidden="true">&#9662;</span>
           </button>
           <ul class="dropdown-menu" role="menu">
             {% for pen in site.pen_names %}
             <li role="menuitem">
-              <a href="{{ '/pen-names/' | append: pen.id | append: '/' | relative_url }}"
+              <a href="{{ '/authors/' | append: pen.id | append: '/' | relative_url }}"
                  class="dropdown-link"
                  style="--pen-accent: {{ pen.accent }}">
                 {{ pen.name }}

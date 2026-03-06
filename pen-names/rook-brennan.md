@@ -7,7 +7,7 @@ promise: "MM monster romance and dark fantasy — creatures with sharp edges and
 description: "Rook Brennan writes MM monster romance and dark fantasy — creatures with sharp edges and devoted hearts."
 content_notes: true
 content_notes_text: "Rook Brennan's books contain explicit MM sexual content, non-human anatomy, dubious consent elements (clearly flagged per book), dark fantasy horror elements, and graphic scenes involving predator/prey dynamics."
-permalink: /pen-names/rook-brennan/
+permalink: /authors/rook-brennan/
 og_image: assets/img/og-rook.jpg
 ---
 

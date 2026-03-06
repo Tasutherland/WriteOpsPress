@@ -6,7 +6,7 @@ accent: "#1C3F5E"
 promise: "Mafia romance dripping with danger, obsession, and heat."
 description: "Nyx Montreaux writes dark FM mafia romance — possessive heroes, fierce heroines, and plots that move fast."
 content_notes: false
-permalink: /pen-names/nyx-montreaux/
+permalink: /authors/nyx-montreaux/
 og_image: assets/img/og-nyx.jpg
 ---
 

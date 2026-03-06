@@ -6,7 +6,7 @@ accent: "#1E4E7A"
 promise: "Sports romance — locker rooms, rivalry, and the kind of chemistry that breaks records."
 description: "Jay McGilvery writes sports romance with sharp banter, athletic heat, and heroes who play to win — on and off the ice."
 content_notes: false
-permalink: /pen-names/jay-mcgilvery/
+permalink: /authors/jay-mcgilvery/
 og_image: assets/img/og-jay.jpg
 ---
 

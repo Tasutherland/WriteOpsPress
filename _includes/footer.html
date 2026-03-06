@@ -9,10 +9,10 @@
 
     <div class="footer-nav">
       <div class="footer-col">
-        <h4 class="footer-heading">Pen Names</h4>
+        <h4 class="footer-heading">Authors</h4>
         <ul>
           {% for pen in site.pen_names %}
-          <li><a href="{{ '/pen-names/' | append: pen.id | append: '/' | relative_url }}">{{ pen.name }}</a></li>
+          <li><a href="{{ '/authors/' | append: pen.id | append: '/' | relative_url }}">{{ pen.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
