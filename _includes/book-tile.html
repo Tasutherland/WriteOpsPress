@@ -4,12 +4,10 @@
     book    — book object from _data/books_*.yml
     pen_id  — pen name id string (e.g. "ash-wilder")
 {% endcomment %}
-{% assign ca_url = include.book.stores.ca | default: "" %}
-{% if ca_url contains "PLACEHOLDER" %}
-  {% comment %} Hide unpublished/prep entries (no ASIN yet) {% endcomment %}
-  {% return %}
-{% endif %}
 
+{% assign ca_url = include.book.stores.ca | default: "" %}
+
+{% unless ca_url contains "PLACEHOLDER" %}
 <article class="book-tile {% if include.book.featured %}book-tile--featured{% endif %}">
   <div class="book-cover-wrap">
     {% if include.book.cover %}
@@ -33,7 +31,6 @@
     <p class="book-series">{{ include.book.series }}</p>
     {% endif %}
     <h3 class="book-title">{{ include.book.title }}</h3>
-  
 
     <button
       class="btn btn-primary buy-btn"
@@ -45,3 +42,4 @@
     </button>
   </div>
 </article>
+{% endunless %}
