@@ -1,9 +1,8 @@
 # Books for Rita Dole — Dark Fantasy Romance
-# Auto-generated from master list. Hook/blurb omitted by design.
+# Auto-generated from master list. Spreadsheet order reversed (newest first).
 
-- title: "The Key and the Claim"
-  series: "The Underworld Sentinels"
-  cover: "assets/covers/rita/the-key-and-the-claim.jpg"
+- title: "Bundle"
+  cover: "assets/covers/rita/bundle.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -11,9 +10,26 @@
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "Throne of Silver and Salt"
-  series: "The Underworld Sentinels"
-  cover: "assets/covers/rita/throne-of-silver-and-salt.jpg"
+- title: "TBD RH"
+  cover: "assets/covers/rita/tbd-rh.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD RH"
+  cover: "assets/covers/rita/tbd-rh.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD RH"
+  cover: "assets/covers/rita/tbd-rh.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -31,8 +47,9 @@
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "TBD RH"
-  cover: "assets/covers/rita/tbd-rh.jpg"
+- title: "Throne of Silver and Salt"
+  series: "The Underworld Sentinels"
+  cover: "assets/covers/rita/throne-of-silver-and-salt.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -40,26 +57,9 @@
     uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
-- title: "TBD RH"
-  cover: "assets/covers/rita/tbd-rh.jpg"
-  featured: false
-  stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
-
-- title: "TBD RH"
-  cover: "assets/covers/rita/tbd-rh.jpg"
-  featured: false
-  stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
-
-- title: "Bundle"
-  cover: "assets/covers/rita/bundle.jpg"
+- title: "The Key and the Claim"
+  series: "The Underworld Sentinels"
+  cover: "assets/covers/rita/the-key-and-the-claim.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
