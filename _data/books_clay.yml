@@ -1,10 +1,9 @@
-# Books for Clay Daintry — Cowboy and Small-Town Romance (MM)
-# Replace placeholder data with real hooks, blurbs, cover paths, and store links.
+# Books for Clay Daintry — Cowboy / Small-Town Romance
+# Auto-generated from master list. Hook/blurb omitted by design.
+
 - title: "Hard Freeze: An Enemies-to-Lovers MM Cowboy Romance"
   series: "The Split Rock Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/hard-freeze-an-enemies-to-lovers-mm-cowboy-romance.webp"
+  cover: "assets/covers/clay/hard-freeze.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GPY95BRQ"
@@ -14,9 +13,7 @@
 
 - title: "Rough Stock: A Hurt/Comfort Boss-Employee MM Cowboy Romance"
   series: "The Split Rock Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/rough-stock-a-hurt-comfort-boss-employee-mm-cowboy-romance.webp"
+  cover: "assets/covers/clay/rough-stock.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GQ3ZWNV5"
@@ -26,9 +23,7 @@
 
 - title: "Tight Rein"
   series: "The Split Rock Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/tight-rein.webp"
+  cover: "assets/covers/clay/tight-rein.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -38,9 +33,17 @@
 
 - title: "Dry Season"
   series: "Unforgiving Ground Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/dry-season.webp"
+  cover: "assets/covers/clay/dry-season.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "The Split Rock Series"
+  series: "The Split Rock Series"
+  cover: "assets/covers/clay/the-split-rock-series.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -50,9 +53,7 @@
 
 - title: "Low Water"
   series: "Unforgiving Ground Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/low-water.webp"
+  cover: "assets/covers/clay/low-water.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -62,9 +63,17 @@
 
 - title: "Burn Season"
   series: "Unforgiving Ground Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/burn-season.webp"
+  cover: "assets/covers/clay/burn-season.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Unforgiving Ground Trilogy"
+  series: "Unforgiving Ground Trilogy"
+  cover: "assets/covers/clay/unforgiving-ground-trilogy.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -74,9 +83,7 @@
 
 - title: "Unpacked"
   series: "Unbroken Range Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/unpacked.webp"
+  cover: "assets/covers/clay/unpacked.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -86,9 +93,7 @@
 
 - title: "No Safe Harbor"
   series: "Unbroken Range Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/no-safe-harbor.webp"
+  cover: "assets/covers/clay/no-safe-harbor.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -98,9 +103,17 @@
 
 - title: "Roots In Winter"
   series: "Unbroken Range Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/roots-in-winter.webp"
+  cover: "assets/covers/clay/roots-in-winter.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Unbroken Range Trilogy"
+  series: "Unbroken Range Trilogy"
+  cover: "assets/covers/clay/unbroken-range-trilogy.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -109,9 +122,25 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "Cowboy TBD"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/cowboy-tbd.webp"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -120,9 +149,187 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "Previous Series Bundle"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/clay/previous-series-bundle.webp"
+  cover: "assets/covers/clay/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/clay/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/clay/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/clay/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/clay/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Cowboy TBD"
+  cover: "assets/covers/clay/cowboy-tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/clay/previous-series-bundle.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"

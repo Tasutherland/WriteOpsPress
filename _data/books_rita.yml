@@ -1,10 +1,9 @@
 # Books for Rita Dole — Dark Fantasy Romance
-# Replace placeholder data with real hooks, blurbs, cover paths, and store links.
+# Auto-generated from master list. Hook/blurb omitted by design.
+
 - title: "The Key and the Claim"
   series: "The Underworld Sentinels"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rita/the-key-and-the-claim.webp"
+  cover: "assets/covers/rita/the-key-and-the-claim.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -14,9 +13,7 @@
 
 - title: "Throne of Silver and Salt"
   series: "The Underworld Sentinels"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rita/throne-of-silver-and-salt.webp"
+  cover: "assets/covers/rita/throne-of-silver-and-salt.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -26,9 +23,7 @@
 
 - title: "The Underworld Sentinels duology"
   series: "The Underworld Sentinels"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rita/the-underworld-sentinels-duology.webp"
+  cover: "assets/covers/rita/the-underworld-sentinels-duology.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -37,9 +32,25 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "TBD RH"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rita/tbd-rh.webp"
+  cover: "assets/covers/rita/tbd-rh.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD RH"
+  cover: "assets/covers/rita/tbd-rh.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD RH"
+  cover: "assets/covers/rita/tbd-rh.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -48,9 +59,7 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "Bundle"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rita/bundle.webp"
+  cover: "assets/covers/rita/bundle.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"

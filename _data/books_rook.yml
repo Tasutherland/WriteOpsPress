@@ -1,10 +1,9 @@
-# Books for Rook Brennan — Monster Romance and Dark Fantasy
-# Replace placeholder data with real hooks, blurbs, cover paths, and store links.
+# Books for Rook Brennan — Monster Romance
+# Auto-generated from master list. Hook/blurb omitted by design.
+
 - title: "Captured by the Enforcer: A Dark MM Orc Monster Romance"
   series: "The Iron Bonds Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/captured-by-the-enforcer-a-dark-mm-orc-monster-romance.webp"
+  cover: "assets/covers/rook/captured-by-the-enforcer.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GHS3ZQFT"
@@ -14,9 +13,7 @@
 
 - title: "Bought by the Alpha: A Dark MM Orc Romance"
   series: "The Iron Bonds Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/bought-by-the-alpha-a-dark-mm-orc-romance.webp"
+  cover: "assets/covers/rook/bought-by-the-alpha.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/BOGNJ7663T"
@@ -26,9 +23,7 @@
 
 - title: "Claimed by the Chieftain: A Snowed-In MM Monster Romance"
   series: "The Iron Bonds Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/claimed-by-the-chieftain-a-snowed-in-mm-monster-romance.webp"
+  cover: "assets/covers/rook/claimed-by-the-chieftain.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GNJBYC93"
@@ -38,9 +33,7 @@
 
 - title: "Unnatural Contracts: An MM Monster Romance"
   series: "Unnatural Contract Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/unnatural-contracts-an-mm-monster-romance.webp"
+  cover: "assets/covers/rook/unnatural-contracts.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GQCG8LT6"
@@ -50,9 +43,7 @@
 
 - title: "Static & Stone: A Dark MM Monster Romance"
   series: "Unnatural contract series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/static-stone-a-dark-mm-monster-romance.webp"
+  cover: "assets/covers/rook/static-stone.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GR1QMVBC"
@@ -62,9 +53,7 @@
 
 - title: "Blood and Ledger: A Dark Paranormal MM Vampire Romance"
   series: "Unnatural contract series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/blood-and-ledger-a-dark-paranormal-mm-vampire-romance.webp"
+  cover: "assets/covers/rook/blood-and-ledger.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -74,9 +63,7 @@
 
 - title: "The Iron Bonds Trilogy: An Epic MM Monster Romance of Iron, Blood, and Claiming"
   series: "The Iron Bonds Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/the-iron-bonds-trilogy-an-epic-mm-monster-romance-of-iron-blood-and-claiming.webp"
+  cover: "assets/covers/rook/the-iron-bonds-trilogy.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -86,9 +73,7 @@
 
 - title: "Wed to the Warlord"
   series: "The Warlord’s Consort Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/wed-to-the-warlord.webp"
+  cover: "assets/covers/rook/wed-to-the-warlord.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -98,9 +83,7 @@
 
 - title: "Bound to the Throne"
   series: "The Warlord’s Consort Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/bound-to-the-throne.webp"
+  cover: "assets/covers/rook/bound-to-the-throne.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -110,9 +93,27 @@
 
 - title: "Crowned in Blood"
   series: "The Warlord’s Consort Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/crowned-in-blood.webp"
+  cover: "assets/covers/rook/crowned-in-blood.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Unnatural contract series"
+  series: "Unnatural contract series"
+  cover: "assets/covers/rook/unnatural-contract-series.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "The Warlord’s Consort Trilogy"
+  series: "The Warlord’s Consort Trilogy"
+  cover: "assets/covers/rook/the-warlords-consort-trilogy.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -121,9 +122,25 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "Tbd Monster"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/tbd-monster.webp"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -132,9 +149,259 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "Previous Series Bundle"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/rook/previous-series-bundle.webp"
+  cover: "assets/covers/rook/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/rook/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/rook/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/rook/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/rook/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/rook/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/rook/previous-series-bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Tbd Monster"
+  cover: "assets/covers/rook/tbd-monster.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Previous Series Bundle"
+  cover: "assets/covers/rook/previous-series-bundle.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"

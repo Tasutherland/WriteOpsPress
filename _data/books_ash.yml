@@ -1,10 +1,9 @@
 # Books for Ash Wilder — MM BDSM and MM Paranormal Romance
-# Replace placeholder data with real hooks, blurbs, cover paths, and store links.
+# Auto-generated from master list. Hook/blurb omitted by design.
+
 - title: "Surrender's Cage: A Steamy Enemies-to-Lovers Romance with Intense Power Play"
   series: "The Surrender Protocol"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/surrender-s-cage-a-steamy-enemies-to-lovers-romance-with-intense-power-play.webp"
+  cover: "assets/covers/ash/surrenders-cage.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FK31FH3G"
@@ -14,9 +13,7 @@
 
 - title: "Terms of Submission: A High-Heat Enemies-to-Lovers MM Romance of Power, Surrender, and Corporate Scandal"
   series: "The Surrender Protocol"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/terms-of-submission-a-high-heat-enemies-to-lovers-mm-romance-of-power-surrender.webp"
+  cover: "assets/covers/ash/terms-of-submission.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FKZZK117"
@@ -26,9 +23,7 @@
 
 - title: "Under New Command: The Executive, the Dom, and the Power of Surrender"
   series: "The Surrender Protocol"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/under-new-command-the-executive-the-dom-and-the-power-of-surrender.webp"
+  cover: "assets/covers/ash/under-new-command.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FM45J64F"
@@ -38,9 +33,7 @@
 
 - title: "Obsidian Protocol: Submission, Survival, and Surrender in a Dark Club Romance"
   series: "Obsidian Pact Series *Make.com"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/obsidian-protocol-submission-survival-and-surrender-in-a-dark-club-romance.webp"
+  cover: "assets/covers/ash/obsidian-protocol.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FMS9VT2K"
@@ -50,9 +43,7 @@
 
 - title: "Obsidian Threshold: Bondage, Surrender, and the Fire Between Fangs: A Gritty BDSM M/M Romance"
   series: "Obsidian Pact Series *Make.com"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/obsidian-threshold-bondage-surrender-and-the-fire-between-fangs-a-gritty-bdsm-m.webp"
+  cover: "assets/covers/ash/obsidian-threshold.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FNKG58VY"
@@ -62,9 +53,7 @@
 
 - title: "Obsidian Contract: A Queer BDSM Romance of Surrender, Power, and the Cost of Belonging"
   series: "Obsidian Pact Series *Make.com"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/obsidian-contract-a-queer-bdsm-romance-of-surrender-power-and-the-cost-of-belong.webp"
+  cover: "assets/covers/ash/obsidian-contract.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FP9ZHK7B"
@@ -74,9 +63,7 @@
 
 - title: "Eat the Rich Complete Series: Brats, Billionaires, and Brutal Heat"
   series: "Eat the Rich"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/eat-the-rich-complete-series-brats-billionaires-and-brutal-heat.webp"
+  cover: "assets/covers/ash/eat-the-rich-complete-series.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FPQJXHHJ"
@@ -86,9 +73,7 @@
 
 - title: "Wild Hearts: A Gay Alpha Werewolf Romance"
   series: "The WIld Pack"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/wild-hearts-a-gay-alpha-werewolf-romance.webp"
+  cover: "assets/covers/ash/wild-hearts.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FQ3QZ25Q"
@@ -98,9 +83,7 @@
 
 - title: "Obsidian Legacy: An M/M+ BDSM Inheritance Romance of Authority and Surrender"
   series: "Obsidian Pact Series *Make.com"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/obsidian-legacy-an-m-m-bdsm-inheritance-romance-of-authority-and-surrender.webp"
+  cover: "assets/covers/ash/obsidian-legacy.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FR39BFMN"
@@ -109,9 +92,7 @@
     au: "https://www.amazon.com.au/dp/B0FR39BFMN"
 
 - title: "In His Custody: A Dark Dom/Sub Mafia Romance"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/in-his-custody-a-dark-dom-sub-mafia-romance.webp"
+  cover: "assets/covers/ash/in-his-custody.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FS2J85PT"
@@ -120,9 +101,7 @@
     au: "https://www.amazon.com.au/dp/B0FS2J85PT"
 
 - title: "Heat Cycle: A Dark Shifter Romance of Heat, Rivalry, and Forbidden Bonds"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/heat-cycle-a-dark-shifter-romance-of-heat-rivalry-and-forbidden-bonds.webp"
+  cover: "assets/covers/ash/heat-cycle.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FSYNKLWX"
@@ -132,9 +111,7 @@
 
 - title: "Craving the Leash: A Dark MM BDSM Romance of Surrender and Control"
   series: "The Surrender Protocol"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/craving-the-leash-a-dark-mm-bdsm-romance-of-surrender-and-control.webp"
+  cover: "assets/covers/ash/craving-the-leash.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FV2R737F"
@@ -144,9 +121,7 @@
 
 - title: "Silent Fang: A Dark Wolf Shifter M/M Omegaverse Romance"
   series: "Bloodbound Authority"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/silent-fang-a-dark-wolf-shifter-m-m-omegaverse-romance.webp"
+  cover: "assets/covers/ash/silent-fang.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FVZLM386"
@@ -156,9 +131,7 @@
 
 - title: "Chained Moon: A Dark MM Shifter Romance of Captivity, Bond, and Rebellion"
   series: "Bloodbound Authority"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/chained-moon-a-dark-mm-shifter-romance-of-captivity-bond-and-rebellion.webp"
+  cover: "assets/covers/ash/chained-moon.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FWZPWHZ5"
@@ -167,9 +140,7 @@
     au: "https://www.amazon.com.au/dp/B0FWZPWHZ5"
 
 - title: "Howl Beneath the Skin: A Dark M/M Shifter Romance of Truth, Territory, and Unholy Chemistry"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/howl-beneath-the-skin-a-dark-m-m-shifter-romance-of-truth-territory-and-unholy-c.webp"
+  cover: "assets/covers/ash/howl-beneath-the-skin.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FXFWQ8F4"
@@ -179,9 +150,7 @@
 
 - title: "Alpha By Right: A Dark M/M Shifter Romance of Dominance, Desire, and Defiance"
   series: "Bloodbound Authority"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/alpha-by-right-a-dark-m-m-shifter-romance-of-dominance-desire-and-defiance.webp"
+  cover: "assets/covers/ash/alpha-by-right.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FY3YGRQM"
@@ -190,9 +159,7 @@
     au: "https://www.amazon.com.au/dp/B0FY3YGRQM"
 
 - title: "Bound by Distance: A Fated Mates Shifter Romance of Desire, Danger, and Destiny"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/bound-by-distance-a-fated-mates-shifter-romance-of-desire-danger-and-destiny.webp"
+  cover: "assets/covers/ash/bound-by-distance.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FYGXFVL8"
@@ -201,9 +168,7 @@
     au: "https://www.amazon.com.au/dp/B0FYGXFVL8"
 
 - title: "Moonbound Rivals: A Fated-Mates Omegaverse Romance of Rival Packs and Forbidden Desire"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/moonbound-rivals-a-fated-mates-omegaverse-romance-of-rival-packs-and-forbidden-d.webp"
+  cover: "assets/covers/ash/moonbound-rivals.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FZDDMD4H"
@@ -212,9 +177,7 @@
     au: "https://www.amazon.com.au/dp/B0FZDDMD4H"
 
 - title: "Blood Oath, Bone Bond: Dark magic, forbidden loyalty, and a fated-mates bite that breaks every rule."
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/blood-oath-bone-bond-dark-magic-forbidden-loyalty-and-a-fated-mates-bite-that-br.webp"
+  cover: "assets/covers/ash/blood-oath-bone-bond.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FZ69DXDS"
@@ -224,9 +187,7 @@
 
 - title: "Frostbite: A snow-bound second-chance MM shifter romance of power, surrender, and survival"
   series: "Wolves in winter"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/frostbite-a-snow-bound-second-chance-mm-shifter-romance-of-power-surrender-and-s.webp"
+  cover: "assets/covers/ash/frostbite.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G1NBLBVY"
@@ -236,9 +197,7 @@
 
 - title: "Winter Hunt: A hunted wolf. A second chance at pack. A love worth the fight."
   series: "Wolves in winter"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/winter-hunt-a-hunted-wolf-a-second-chance-at-pack-a-love-worth-the-fight.webp"
+  cover: "assets/covers/ash/winter-hunt.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G26FJH7C"
@@ -248,9 +207,7 @@
 
 - title: "Evergreen Moon: A wounded alpha. A mechanic with wolf blood. One winter night that changes everything."
   series: "Wolves in winter"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/evergreen-moon-a-wounded-alpha-a-mechanic-with-wolf-blood-one-winter-night-that.webp"
+  cover: "assets/covers/ash/evergreen-moon.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G2MQY8VB"
@@ -260,9 +217,7 @@
 
 - title: "Under the Pine: A winter BDSM romance about controlled desire, quiet refuge, and the man strong enough to hold him steady."
   series: "Season of submission series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/under-the-pine-a-winter-bdsm-romance-about-controlled-desire-quiet-refuge-and-th.webp"
+  cover: "assets/covers/ash/under-the-pine.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G36B4KNR"
@@ -272,9 +227,7 @@
 
 - title: "Whiteout Submission: A storm-locked cabin, a broken cop, and the man who refuses to let him fall apart."
   series: "Season of submission series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/whiteout-submission-a-storm-locked-cabin-a-broken-cop-and-the-man-who-refuses-to.webp"
+  cover: "assets/covers/ash/whiteout-submission.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G3XGG5BQ"
@@ -284,9 +237,7 @@
 
 - title: "Coldest Mate: A winter-trapped, fated-mates MM shifter romance"
   series: "Wolves in winter"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/coldest-mate-a-winter-trapped-fated-mates-mm-shifter-romance.webp"
+  cover: "assets/covers/ash/coldest-mate.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G3QN74CT"
@@ -296,9 +247,7 @@
 
 - title: "Silent Howl: A High-Heat MM Wolf Shifter Romance of Winter Survival, Rogue Threats, and Forbidden Pack-Bound Desire"
   series: "Wolves in winter"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/silent-howl-a-high-heat-mm-wolf-shifter-romance-of-winter-survival-rogue-threats.webp"
+  cover: "assets/covers/ash/silent-howl.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G4RY3D62"
@@ -308,9 +257,7 @@
 
 - title: "The Naughty List: A holiday D/s romance of obedience, structure, and surrender."
   series: "Season of submission series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/the-naughty-list-a-holiday-d-s-romance-of-obedience-structure-and-surrender.webp"
+  cover: "assets/covers/ash/the-naughty-list.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G4XMK92G"
@@ -320,9 +267,7 @@
 
 - title: "Knotty Not Nice:  An MM Omegaverse Holiday Romance"
   series: "Wolves in winter"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/knotty-not-nice-an-mm-omegaverse-holiday-romance.webp"
+  cover: "assets/covers/ash/knotty-not-nice.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G5GMXYTW"
@@ -332,9 +277,7 @@
 
 - title: "Midnight Discipline: A disciplined ex-cop. A ruthless CEO. One midnight contract that rewrites every ru"
   series: "Season of submission series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/midnight-discipline-a-disciplined-ex-cop-a-ruthless-ceo-one-midnight-contract-th.webp"
+  cover: "assets/covers/ash/midnight-discipline.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G5NZPDZS"
@@ -344,9 +287,7 @@
 
 - title: "Chains of Asphalt: A runaway mechanic, a dominant biker, and a storm-soaked road that won’t let either of them go."
   series: "Burnham Saints MC Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/chains-of-asphalt-a-runaway-mechanic-a-dominant-biker-and-a-storm-soaked-road-th.webp"
+  cover: "assets/covers/ash/chains-of-asphalt.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G65PVRNS"
@@ -356,9 +297,7 @@
 
 - title: "Under the Patch: A high-heat MM biker romance of danger, loyalty, and forbidden desire."
   series: "Burnham Saints MC Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/under-the-patch-a-high-heat-mm-biker-romance-of-danger-loyalty-and-forbidden-des.webp"
+  cover: "assets/covers/ash/under-the-patch.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G7KM7345"
@@ -368,9 +307,7 @@
 
 - title: "Savage Ice: A Dark MM Hockey Shifter Romance"
   series: "Zeroline Wolves"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/savage-ice-a-dark-mm-hockey-shifter-romance.webp"
+  cover: "assets/covers/ash/savage-ice.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0G8HFWQDH"
@@ -380,9 +317,7 @@
 
 - title: "Blindside Mate: A Gay Sports Shifter Romance"
   series: "Zeroline Wolves"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/blindside-mate-a-gay-sports-shifter-romance.webp"
+  cover: "assets/covers/ash/blindside-mate.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GC5XZ1DB"
@@ -392,9 +327,7 @@
 
 - title: "Powerplay Pact: A Dark MM Shifter Suspense"
   series: "Zeroline Wolves"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/powerplay-pact-a-dark-mm-shifter-suspense.webp"
+  cover: "assets/covers/ash/powerplay-pact.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GCKDXWFZ"
@@ -404,9 +337,7 @@
 
 - title: "Stay Down: (Eat the RIch #2)"
   series: "Eat the Rich 2nd edition"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/stay-down-eat-the-rich-2.webp"
+  cover: "assets/covers/ash/stay-down.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0CW1DNBYL"
@@ -416,9 +347,7 @@
 
 - title: "Open Wide: (Eat the Rich #1)"
   series: "Eat the Rich 2nd edition"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/open-wide-eat-the-rich-1.webp"
+  cover: "assets/covers/ash/open-wide.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0F4Y5Y6KG"
@@ -428,9 +357,7 @@
 
 - title: "Hard to Swallow: (Eat the Rich #3)"
   series: "Eat the Rich 2nd edition"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/hard-to-swallow-eat-the-rich-3.webp"
+  cover: "assets/covers/ash/hard-to-swallow.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0F94K6RGL"
@@ -440,9 +367,7 @@
 
 - title: "Asset Transfer: (Eat the Rich #4)"
   series: "Eat the Rich 2nd edition"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/asset-transfer-eat-the-rich-4.webp"
+  cover: "assets/covers/ash/asset-transfer.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FCVC8W65"
@@ -450,11 +375,19 @@
     uk: "https://www.amazon.co.uk/dp/B0FCVC8W65"
     au: "https://www.amazon.com.au/dp/B0FCVC8W65"
 
+- title: "Eat the Rich Complete Series: Brats, Billionaires, and Brutal Heat"
+  series: "Eat the Rich 2nd edition"
+  cover: "assets/covers/ash/eat-the-rich-complete-series.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0FPQJXHHJ"
+    us: "https://www.amazon.com/dp/B0FPQJXHHJ"
+    uk: "https://www.amazon.co.uk/dp/B0FPQJXHHJ"
+    au: "https://www.amazon.com.au/dp/B0FPQJXHHJ"
+
 - title: "Feral Vow: An MM Fated Mates Shifter Romance"
   series: "Feral Hearts series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/feral-vow-an-mm-fated-mates-shifter-romance.webp"
+  cover: "assets/covers/ash/feral-vow.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GD8FKMP5"
@@ -464,9 +397,7 @@
 
 - title: "Alpha's Demand: A Dark Medical Omegaverse Romance"
   series: "Feral Hearts series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/alpha-s-demand-a-dark-medical-omegaverse-romance.webp"
+  cover: "assets/covers/ash/alphas-demand.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GDHCXK8M"
@@ -476,9 +407,7 @@
 
 - title: "Howl of Possession: An MM Fated Mates Shifter Romance"
   series: "Feral Hearts series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/howl-of-possession-an-mm-fated-mates-shifter-romance.webp"
+  cover: "assets/covers/ash/howl-of-possession.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GF9779TR"
@@ -488,9 +417,7 @@
 
 - title: "Snowed in with the Alpha: A High-Heat MM Fated Mates Shifter Romance"
   series: "Feral Hearts series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/snowed-in-with-the-alpha-a-high-heat-mm-fated-mates-shifter-romance.webp"
+  cover: "assets/covers/ash/snowed-in-with-the-alpha.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GFFN8SXK"
@@ -500,9 +427,7 @@
 
 - title: "Emberbound: An M/M Shifter Mating Romance"
   series: "Feral Hearts series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/emberbound-an-m-m-shifter-mating-romance.webp"
+  cover: "assets/covers/ash/emberbound.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GG9HRG99"
@@ -512,9 +437,7 @@
 
 - title: "Velvet Restraint: A Dark MM BDSM Romance"
   series: "Season of surrender series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/velvet-restraint-a-dark-mm-bdsm-romance.webp"
+  cover: "assets/covers/ash/velvet-restraint.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GH13XDYD"
@@ -524,9 +447,7 @@
 
 - title: "Leather & Lies: An MM BDSM Club Owner Romance"
   series: "Season of surrender series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/leather-lies-an-mm-bdsm-club-owner-romance.webp"
+  cover: "assets/covers/ash/leather-lies.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GHR71KHD"
@@ -536,9 +457,7 @@
 
 - title: "Silent Command: An MM Billionaire Bodyguard Romance"
   series: "Season of surrender series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/silent-command-an-mm-billionaire-bodyguard-romance.webp"
+  cover: "assets/covers/ash/silent-command.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GJ6Y1NWQ"
@@ -548,9 +467,7 @@
 
 - title: "Cruel Frame: A Dark MM BDSM Romance"
   series: "Season of surrender series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/cruel-frame-a-dark-mm-bdsm-romance.webp"
+  cover: "assets/covers/ash/cruel-frame.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GK27PM4G"
@@ -560,9 +477,7 @@
 
 - title: "Obedience Gift: A Dark Corporate Power Exchange MM Romance"
   series: "Season of surrender series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/obedience-gift-a-dark-corporate-power-exchange-mm-romance.webp"
+  cover: "assets/covers/ash/obedience-gift.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GKJBMKZY"
@@ -572,9 +487,7 @@
 
 - title: "Heavy Hand: A Dark M/M Size Difference Romance"
   series: "Iron Gate Club series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/heavy-hand-a-dark-m-m-size-difference-romance.webp"
+  cover: "assets/covers/ash/heavy-hand.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GL43C9RQ"
@@ -584,9 +497,7 @@
 
 - title: "The Ad for Silence: A Dark MM BDSM Romance"
   series: "Rules of Control Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/the-ad-for-silence-a-dark-mm-bdsm-romance.webp"
+  cover: "assets/covers/ash/the-ad-for-silence.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GJTRSMRW"
@@ -596,9 +507,7 @@
 
 - title: "Hold Position: A Dark MM Military BDSM Romance"
   series: "Iron Gate Club series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/hold-position-a-dark-mm-military-bdsm-romance.webp"
+  cover: "assets/covers/ash/hold-position.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GMS4B7FW"
@@ -608,9 +517,7 @@
 
 - title: "Terms of Ownership: A Dark MM BDSM Romance"
   series: "Rules of Control Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/terms-of-ownership-a-dark-mm-bdsm-romance.webp"
+  cover: "assets/covers/ash/terms-of-ownership.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GN3YTHXC"
@@ -620,9 +527,7 @@
 
 - title: "Cross the Line: A Dark Forbidden Authority MM Romance"
   series: "Iron Gate Club series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/cross-the-line-a-dark-forbidden-authority-mm-romance.webp"
+  cover: "assets/covers/ash/cross-the-line.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GNTMDP5H"
@@ -632,9 +537,7 @@
 
 - title: "No Soft Landing: A Dark Power Exchange Romance"
   series: "Rules of Control Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/no-soft-landing-a-dark-power-exchange-romance.webp"
+  cover: "assets/covers/ash/no-soft-landing.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GPDB7VYL"
@@ -644,9 +547,7 @@
 
 - title: "Kill The Story: A Dark M/M BDSM Romance"
   series: "Iron Gate Club series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/kill-the-story-a-dark-m-m-bdsm-romance.webp"
+  cover: "assets/covers/ash/kill-the-story.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GPXXJDBZ"
@@ -656,9 +557,7 @@
 
 - title: "On your Knees: A Dark Billionaire MM Romance"
   series: "Iron Gate Club series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/on-your-knees-a-dark-billionaire-mm-romance.webp"
+  cover: "assets/covers/ash/on-your-knees.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GQV9867J"
@@ -668,9 +567,7 @@
 
 - title: "Breaking the Witness: A Dark Obsessive MM Suspense Romance"
   series: "season of surrender series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/breaking-the-witness-a-dark-obsessive-mm-suspense-romance.webp"
+  cover: "assets/covers/ash/breaking-the-witness.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -680,9 +577,7 @@
 
 - title: "The Iron Gate: A Dark MM Protector Romance"
   series: "Iron Gate Club series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/the-iron-gate-a-dark-mm-protector-romance.webp"
+  cover: "assets/covers/ash/the-iron-gate.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -692,9 +587,7 @@
 
 - title: "Iron Gate Club series 1 (heavy hand, hold position, cross the line )"
   series: "Iron Gate Club series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/iron-gate-club-series-1-heavy-hand-hold-position-cross-the-line.webp"
+  cover: "assets/covers/ash/iron-gate-club-series-1-heavy-hand-hold-position-cross-the-line.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -704,9 +597,7 @@
 
 - title: "Mutually Assured Silence"
   series: "Mutually Assured Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/mutually-assured-silence.webp"
+  cover: "assets/covers/ash/mutually-assured-silence.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -716,9 +607,7 @@
 
 - title: "Crown of Blood & Smoke"
   series: "Empire of Blood Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/crown-of-blood-smoke.webp"
+  cover: "assets/covers/ash/crown-of-blood-smoke.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -728,9 +617,7 @@
 
 - title: "Mutually Assured Damage"
   series: "Mutually Assured Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/mutually-assured-damage.webp"
+  cover: "assets/covers/ash/mutually-assured-damage.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -740,9 +627,7 @@
 
 - title: "Rules of control series"
   series: "Rules of Control Series"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/rules-of-control-series.webp"
+  cover: "assets/covers/ash/rules-of-control-series.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -752,9 +637,7 @@
 
 - title: "Mutually Assured Exposure"
   series: "Mutually Assured Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/mutually-assured-exposure.webp"
+  cover: "assets/covers/ash/mutually-assured-exposure.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -764,9 +647,7 @@
 
 - title: "Empire of Ash & Oaths"
   series: "Empire of Blood Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/empire-of-ash-oaths.webp"
+  cover: "assets/covers/ash/empire-of-ash-oaths.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -775,9 +656,17 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "Cold Claim"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/cold-claim.webp"
+  cover: "assets/covers/ash/cold-claim.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Iron gate club series 2"
+  series: "Iron gate club series 2"
+  cover: "assets/covers/ash/iron-gate-club-series-2.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -787,9 +676,7 @@
 
 - title: "Terms of dominion"
   series: "Dominion Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/terms-of-dominion.webp"
+  cover: "assets/covers/ash/terms-of-dominion.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -799,9 +686,7 @@
 
 - title: "Throne of Ruin & Flame"
   series: "Empire of Blood Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/throne-of-ruin-flame.webp"
+  cover: "assets/covers/ash/throne-of-ruin-flame.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -811,9 +696,17 @@
 
 - title: "Terms of ruin"
   series: "Dominion Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/terms-of-ruin.webp"
+  cover: "assets/covers/ash/terms-of-ruin.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Mutually Assured Trilogy"
+  series: "Mutually Assured Trilogy"
+  cover: "assets/covers/ash/mutually-assured-trilogy.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -823,9 +716,7 @@
 
 - title: "Terms of surrender"
   series: "Dominion Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/terms-of-surrender.webp"
+  cover: "assets/covers/ash/terms-of-surrender.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -835,9 +726,7 @@
 
 - title: "The Burn"
   series: "Arson Commander Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/the-burn.webp"
+  cover: "assets/covers/ash/the-burn.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -847,9 +736,17 @@
 
 - title: "Claimed in the storm"
   series: "Wilderness Capture Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/claimed-in-the-storm.webp"
+  cover: "assets/covers/ash/claimed-in-the-storm.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Empire of Blood Trilogy"
+  series: "Empire of Blood Trilogy"
+  cover: "assets/covers/ash/empire-of-blood-trilogy.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -859,9 +756,7 @@
 
 - title: "Claimed in the Light"
   series: "Wilderness Capture Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/claimed-in-the-light.webp"
+  cover: "assets/covers/ash/claimed-in-the-light.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -871,9 +766,7 @@
 
 - title: "The Flashover"
   series: "Arson Commander Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/the-flashover.webp"
+  cover: "assets/covers/ash/the-flashover.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -883,9 +776,7 @@
 
 - title: "Claimed Without Shelter"
   series: "Wilderness Capture Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/claimed-without-shelter.webp"
+  cover: "assets/covers/ash/claimed-without-shelter.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -895,9 +786,17 @@
 
 - title: "The Containment"
   series: "Arson Commander Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/the-containment.webp"
+  cover: "assets/covers/ash/the-containment.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Dominion Trilogy"
+  series: "Dominion Trilogy"
+  cover: "assets/covers/ash/dominion-trilogy.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -906,9 +805,36 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "TBD"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/tbd.webp"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Empire of Blood Trilogy"
+  series: "Empire of Blood Trilogy"
+  cover: "assets/covers/ash/empire-of-blood-trilogy.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  series: "Wilderness Capture Trilogy"
+  cover: "assets/covers/ash/tbd.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -917,9 +843,80 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "Wilderness Capture Trilogy"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/wilderness-capture-trilogy.webp"
+  cover: "assets/covers/ash/wilderness-capture-trilogy.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Arson Commander Trilogy"
+  series: "Arson Commander Trilogy"
+  cover: "assets/covers/ash/arson-commander-trilogy.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -928,9 +925,448 @@
     au: "https://www.amazon.com.au/dp/PLACEHOLDER"
 
 - title: "Bundle"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/bundle.webp"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "Bundle"
+  cover: "assets/covers/ash/bundle.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
+    us: "https://www.amazon.com/dp/PLACEHOLDER"
+    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
+    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+
+- title: "TBD"
+  cover: "assets/covers/ash/tbd.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -940,9 +1376,7 @@
 
 - title: "The First Rule"
   series: "newsletter reader magnet - eat the rich"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/the-first-rule.webp"
+  cover: "assets/covers/ash/the-first-rule.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
@@ -952,9 +1386,7 @@
 
 - title: "Hard Reset"
   series: "newsletter reader magnet - eat the rich"
-  hook: "PLACEHOLDER_HOOK"
-  blurb: "PLACEHOLDER_BLURB"
-  cover: "assets/covers/ash/hard-reset.webp"
+  cover: "assets/covers/ash/hard-reset.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/PLACEHOLDER"
