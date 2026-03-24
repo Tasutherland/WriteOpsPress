@@ -344,20 +344,20 @@
   cover: "assets/covers/rook/the-iron-bonds-trilogy.jpg"
   featured: false
   stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+    ca: "https://www.amazon.ca/dp/B0GT5YJYY1"
+    us: "https://www.amazon.com/dp/B0GT5YJYY1"
+    uk: "https://www.amazon.co.uk/dp/B0GT5YJYY1"
+    au: "https://www.amazon.com.au/dp/B0GT5YJYY1"
 
 - title: "Blood and Ledger: A Dark Paranormal MM Vampire Romance"
   series: "Unnatural contract series"
   cover: "assets/covers/rook/blood-and-ledger.jpg"
   featured: false
   stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+    ca: "https://www.amazon.ca/dp/B0GS6ZW7FB"
+    us: "https://www.amazon.com/dp/B0GS6ZW7FB"
+    uk: "https://www.amazon.co.uk/dp/B0GS6ZW7FB"
+    au: "https://www.amazon.com.au/dp/B0GS6ZW7FB"
 
 - title: "Static & Stone: A Dark MM Monster Romance"
   series: "Unnatural contract series"

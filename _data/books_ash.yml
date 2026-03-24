@@ -785,40 +785,40 @@
   cover: "assets/covers/ash/crown-of-blood-smoke.jpg"
   featured: false
   stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+    ca: "https://www.amazon.ca/dp/B0GTFXFFJG"
+    us: "https://www.amazon.com/dp/B0GTFXFFJG"
+    uk: "https://www.amazon.co.uk/dp/B0GTFXFFJG"
+    au: "https://www.amazon.com.au/dp/B0GTFXFFJG"
 
 - title: "Mutually Assured Silence"
   series: "Mutually Assured Trilogy"
   cover: "assets/covers/ash/mutually-assured-silence.jpg"
   featured: false
   stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+    ca: "https://www.amazon.ca/dp/B0GSWSYH9Q"
+    us: "https://www.amazon.com/dp/B0GSWSYH9Q"
+    uk: "https://www.amazon.co.uk/dp/B0GSWSYH9Q"
+    au: "https://www.amazon.com.au/dp/B0GSWSYH9Q"
 
 - title: "Iron Gate Club series 1 (heavy hand, hold position, cross the line )"
   series: "Iron Gate Club series"
   cover: "assets/covers/ash/iron-gate-club-series-1-heavy-hand-hold-position-cross-the-line.jpg"
   featured: false
   stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+    ca: "https://www.amazon.ca/dp/B0GSH42DHL"
+    us: "https://www.amazon.com/dp/B0GSH42DHL"
+    uk: "https://www.amazon.co.uk/dp/B0GSH42DHL"
+    au: "https://www.amazon.com.au/dp/B0GSH42DHL"
 
 - title: "The Iron Gate: A Dark MM Protector Romance"
   series: "Iron Gate Club series"
   cover: "assets/covers/ash/the-iron-gate.jpg"
   featured: false
   stores:
-    ca: "https://www.amazon.ca/dp/PLACEHOLDER"
-    us: "https://www.amazon.com/dp/PLACEHOLDER"
-    uk: "https://www.amazon.co.uk/dp/PLACEHOLDER"
-    au: "https://www.amazon.com.au/dp/PLACEHOLDER"
+    ca: "https://www.amazon.ca/dp/B0GS1SMHG3"
+    us: "https://www.amazon.com/dp/B0GS1SMHG3"
+    uk: "https://www.amazon.co.uk/dp/B0GS1SMHG3"
+    au: "https://www.amazon.com.au/dp/B0GS1SMHG3"
 
 - title: "Breaking the Witness: A Dark Obsessive MM Suspense Romance"
   series: "season of surrender series"
