@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Home"
-description: "WriteOps Press — Independent publishing house. Six authors. Romance for every kind of dark, tender, and daring reader."
+description: "WriteOps Press — Independent romance publisher specializing in high-heat MM, monster, paranormal, romantasy, and dark fantasy romance."
 permalink: /
 body_class: press-home
 ---
@@ -12,9 +12,10 @@ body_class: press-home
       <p class="press-eyebrow">WriteOps Press</p>
       <h1 class="press-title">Books that pull you in<br>and don't let go.</h1>
       <p class="press-blurb">
-        WriteOps Press is an independent publishing house with six authors spanning dark MM romance,
-        mafia, MM paranormal, MM and MF monster romance, MM cowboy, sports, and reverse harem dark fantasy.
-        One catalog. Every flavor of heat.
+        WriteOps Press is an independent romance publisher specializing in high-heat MM,
+        monster, paranormal, romantasy, and dark fantasy romance. Across every pen name,
+        the stories are intense, trope-forward, emotionally charged, and built for readers
+        who want heat with bite.
       </p>
     </div>
   </div>
@@ -27,37 +28,25 @@ body_class: press-home
 
       <a href="/authors/ash-wilder/" class="pen-card" style="--pen-accent: #7A1E2C;">
         <h3 class="pen-card-name">Ash Wilder</h3>
-        <p class="pen-card-promise">Dark, intense MM BDSM and paranormal romance where desire and danger collide.</p>
-        <span class="pen-card-link">Explore</span>
-      </a>
-
-      <a href="/authors/nyx-montreaux/" class="pen-card" style="--pen-accent: #1C3F5E;">
-        <h3 class="pen-card-name">Nyx Montreaux</h3>
-        <p class="pen-card-promise">Mafia romance dripping with danger, obsession, and heat.</p>
+        <p class="pen-card-promise">Dark MM BDSM / paranormal</p>
         <span class="pen-card-link">Explore</span>
       </a>
 
       <a href="/authors/rook-brennan/" class="pen-card" style="--pen-accent: #2B5D3F;">
         <h3 class="pen-card-name">Rook Brennan</h3>
-        <p class="pen-card-promise">MM monster romance and dark fantasy — creatures with sharp edges and the men brave enough to want them.</p>
+        <p class="pen-card-promise">MM monster / dark fantasy</p>
         <span class="pen-card-link">Explore</span>
       </a>
 
-      <a href="/authors/clay-daintry/" class="pen-card" style="--pen-accent: #6B4A2B;">
-        <h3 class="pen-card-name">Clay Daintry</h3>
-        <p class="pen-card-promise">MM cowboy romance with grit, heat, and wide-open country.</p>
-        <span class="pen-card-link">Explore</span>
-      </a>
-
-      <a href="/authors/jay-mcgilvery/" class="pen-card" style="--pen-accent: #1E4E7A;">
-        <h3 class="pen-card-name">Jay McGilvery</h3>
-        <p class="pen-card-promise">Sports romance — locker rooms, rivalry, and the kind of chemistry that breaks records.</p>
+      <a href="/authors/alexandra-sterling/" class="pen-card" style="--pen-accent: #7B3F61;">
+        <h3 class="pen-card-name">Alexandra Sterling</h3>
+        <p class="pen-card-promise">Monster court / fantasy romance</p>
         <span class="pen-card-link">Explore</span>
       </a>
 
       <a href="/authors/rita-dole/" class="pen-card" style="--pen-accent: #4B2A63;">
         <h3 class="pen-card-name">Rita Dole</h3>
-        <p class="pen-card-promise">MF monster romance and reverse harem dark fantasy — dark, daring, and seriously spicy.</p>
+        <p class="pen-card-promise">MF monster / dark romantasy</p>
         <span class="pen-card-link">Explore</span>
       </a>
 
