@@ -1,0 +1,21 @@
+- title: "The Key and the Claim"
+  series: "Warden's Key #1"
+  hook: "A high-heat monster romance where a dangerous key, a powerful claim, and a heroine under pressure collide."
+  cover: "assets/covers/rita/key_and_claim.jpg"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GX46GM4T"
+    us: "https://www.amazon.com/dp/B0GX46GM4T"
+    uk: "https://www.amazon.co.uk/dp/B0GX46GM4T"
+    au: "https://www.amazon.com.au/dp/B0GX46GM4T"
+
+- title: "Throne of Silver and Salt"
+  series: "Warden's Key #2"
+  hook: "A dark romantasy monster romance of bargains, saltwater power, dangerous courts, and a throne that demands a price."
+  cover: "assets/covers/rita/throne_of_silver&salt.png"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GX2XWK3N"
+    us: "https://www.amazon.com/dp/B0GX2XWK3N"
+    uk: "https://www.amazon.co.uk/dp/B0GX2XWK3N"
+    au: "https://www.amazon.com.au/dp/B0GX2XWK3N"

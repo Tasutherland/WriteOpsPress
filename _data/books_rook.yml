@@ -1,0 +1,109 @@
+- title: "Captured by the Enforcer"
+  series: "The Iron Bonds #1"
+  hook: "A dark MM orc monster romance where captivity, survival, and brutal devotion become impossible to untangle."
+  cover: "assets/covers/rook/captured_by_the_enforcer.jpg"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GHS3ZQFT"
+    us: "https://www.amazon.com/dp/B0GHS3ZQFT"
+    uk: "https://www.amazon.co.uk/dp/B0GHS3ZQFT"
+    au: "https://www.amazon.com.au/dp/B0GHS3ZQFT"
+
+- title: "Bought by the Alpha"
+  series: "The Iron Bonds #2"
+  hook: "A dark MM orc romance about ownership, resistance, and the possessive bond neither man expected to want."
+  cover: "assets/covers/rook/bought_by_the_alpha.jpg"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GNJ7663T"
+    us: "https://www.amazon.com/dp/B0GNJ7663T"
+    uk: "https://www.amazon.co.uk/dp/B0GNJ7663T"
+    au: "https://www.amazon.com.au/dp/B0GNJ7663T"
+
+- title: "Claimed by the Chieftain"
+  series: "The Iron Bonds #3"
+  hook: "A snowed-in MM monster romance where a ruthless chieftain, a trapped human, and a claiming bond collide."
+  cover: "assets/covers/rook/Claimed_by_the_chieftain.png"
+  featured: true
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GNJBYC93"
+    us: "https://www.amazon.com/dp/B0GNJBYC93"
+    uk: "https://www.amazon.co.uk/dp/B0GNJBYC93"
+    au: "https://www.amazon.com.au/dp/B0GNJBYC93"
+
+- title: "The Iron Bonds Trilogy"
+  series: "The Iron Bonds"
+  hook: "The complete MM orc monster romance trilogy of captivity, claiming, war, and hard-won devotion."
+  cover: "assets/covers/rook/the_iron_bonds_trilogy.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GT5YJYY1"
+    us: "https://www.amazon.com/dp/B0GT5YJYY1"
+    uk: "https://www.amazon.co.uk/dp/B0GT5YJYY1"
+    au: "https://www.amazon.com.au/dp/B0GT5YJYY1"
+
+- title: "Wed to the Warlord"
+  series: "The Warlord’s Consort #1"
+  hook: "An MM monster warlord romance where a political marriage becomes a dangerous path to power and devotion."
+  cover: "assets/covers/rook/wed_to_the_warlord.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GTRGW8Z6"
+    us: "https://www.amazon.com/dp/B0GTRGW8Z6"
+    uk: "https://www.amazon.co.uk/dp/B0GTRGW8Z6"
+    au: "https://www.amazon.com.au/dp/B0GTRGW8Z6"
+
+- title: "Bound to the Throne"
+  series: "The Warlord’s Consort #2"
+  hook: "An MM fantasy monster romance where court power, dangerous vows, and desire tighten around the throne."
+  cover: "assets/covers/rook/bound_to_the_throne.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GTYQBPGX"
+    us: "https://www.amazon.com/dp/B0GTYQBPGX"
+    uk: "https://www.amazon.co.uk/dp/B0GTYQBPGX"
+    au: "https://www.amazon.com.au/dp/B0GTYQBPGX"
+
+- title: "The Beast in the Hold"
+  series: "Dead Mile Monsters #1"
+  hook: "A grim MM monster romance where a locked hold, a dangerous creature, and survival turn into need."
+  cover: "assets/covers/rook/the_beast_in_the_hold.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GY1Q783D"
+    us: "https://www.amazon.com/dp/B0GY1Q783D"
+    uk: "https://www.amazon.co.uk/dp/B0GY1Q783D"
+    au: "https://www.amazon.com.au/dp/B0GY1Q783D"
+
+- title: "Crowned in Blood"
+  series: "The Warlord’s Consort #3"
+  hook: "A dark MM fantasy romance where blood, crown, and devotion decide the cost of taking power."
+  cover: "assets/covers/rook/crowned_in_blood.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0CXJJTTXF"
+    us: "https://www.amazon.com/dp/B0CXJJTTXF"
+    uk: "https://www.amazon.co.uk/dp/B0CXJJTTXF"
+    au: "https://www.amazon.com.au/dp/B0CXJJTTXF"
+
+- title: "Unnatural Contracts"
+  series: "Unnatural Contract #1"
+  hook: "An MM monster romance where a contract with teeth turns survival, bargaining, and desire into a binding risk."
+  cover: "assets/covers/rook/unnatural_contracts.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GQCH8LT6"
+    us: "https://www.amazon.com/dp/B0GQCH8LT6"
+    uk: "https://www.amazon.co.uk/dp/B0GQCH8LT6"
+    au: "https://www.amazon.com.au/dp/B0GQCH8LT6"
+
+- title: "Beast in the Breach"
+  series: "Dead Mile Monsters #2"
+  hook: "A high-heat MM monster romance where the breach opens, the beast returns, and survival has a price."
+  cover: "assets/covers/rook/the_beast_in_the_breach.jpg"
+  featured: false
+  stores:
+    ca: "https://www.amazon.ca/dp/B0GZHNL9PL"
+    us: "https://www.amazon.com/dp/B0GZHNL9PL"
+    uk: "https://www.amazon.co.uk/dp/B0GZHNL9PL"
+    au: "https://www.amazon.com.au/dp/B0GZHNL9PL"
