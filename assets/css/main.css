@@ -804,19 +804,57 @@ p:last-child {
   color: var(--color-text-muted) !important;
 }
 
-.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRow,
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox,
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow {
+  position: relative;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox input[type="checkbox"],
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow input[type="checkbox"] {
+  position: absolute;
+  left: 0.85rem;
+  top: 0.9rem;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: #7a1e2c;
+  cursor: pointer;
+}
+
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow,
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow label,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description p,
 .newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox label,
-.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox .label-description,
-.newsletter-shell .ml-form-embedContainer .ml-form-embedPermissionsContent,
-.newsletter-shell .ml-form-embedContainer .ml-form-embedPermissionsContent a {
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox .label-description {
   color: var(--color-text) !important;
 }
 
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow label,
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox label {
+  display: block;
+  min-height: 24px;
+  padding-left: 1.75rem !important;
+  cursor: pointer;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description,
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox .label-description {
+  display: block;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description p {
+  margin: 0;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-form-embedPermissionsContent,
+.newsletter-shell .ml-form-embedContainer .ml-form-embedPermissionsContent p {
+  color: var(--color-text-muted) !important;
+}
+
 .newsletter-shell .ml-form-embedContainer .ml-form-embedPermissionsContent a {
+  color: var(--color-text) !important;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
