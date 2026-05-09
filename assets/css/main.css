@@ -804,6 +804,23 @@ p:last-child {
   color: var(--color-text-muted) !important;
 }
 
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRow,
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow,
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow label,
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description,
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description p,
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox label,
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox .label-description,
+.newsletter-shell .ml-form-embedContainer .ml-form-embedPermissionsContent,
+.newsletter-shell .ml-form-embedContainer .ml-form-embedPermissionsContent a {
+  color: var(--color-text) !important;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-form-embedPermissionsContent a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .newsletter-shell .ml-form-embedContainer .ml-form-fieldRow input {
   border-radius: 999px !important;
   border-color: rgba(79, 52, 44, 0.18) !important;
