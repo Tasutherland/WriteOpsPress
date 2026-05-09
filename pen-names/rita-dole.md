@@ -3,10 +3,10 @@ layout: pen-name
 title: "Rita Dole"
 pen_id: rita-dole
 accent: "#4B2A63"
-promise: "MF monster romance and reverse harem dark fantasy — dark, daring, and seriously spicy."
-description: "Rita Dole writes MF monster romance and reverse harem dark fantasy with heat, heart, and creatures who choose you back."
+promise: "High-heat MF monster romance and dark romantasy where bargains cut deep, queens are forged under pressure, and desire has teeth."
+description: "Rita Dole writes high-heat MF monster romance and dark romantasy where bargains cut deep, queens are forged under pressure, and desire has teeth."
 content_notes: true
-content_notes_text: "Rita Dole's books contain explicit MF sexual content, reverse harem dynamics, non-human anatomy, and dark fantasy elements. Some titles include dubious consent (clearly flagged per book)."
+content_notes_text: "Rita Dole's books contain explicit MF sexual content, non-human anatomy, dangerous bargains, power imbalance, and dark fantasy elements. Some titles include dubious consent (clearly flagged per book)."
 permalink: /authors/rita-dole/
 og_image: assets/img/og-rita.jpg
 ---
@@ -30,7 +30,7 @@ og_image: assets/img/og-rita.jpg
   {% endif %}
 
   <section class="section">
-    <h2 class="section-heading">All Books</h2>
+    <h2 class="section-heading">Featured Books</h2>
     <div class="books-grid">
       {% for book in site.data.books_rita %}
         {% include book-tile.html book=book pen_id="rita-dole" %}

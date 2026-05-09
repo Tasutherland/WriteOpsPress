@@ -3,11 +3,14 @@ layout: pen-name
 title: "Nyx Montreaux"
 pen_id: nyx-montreaux
 accent: "#1C3F5E"
-promise: "Mafia romance dripping with danger, obsession, and heat."
-description: "Nyx Montreaux writes dark FM mafia romance — possessive heroes, fierce heroines, and plots that move fast."
+promise: "Luxury-noir dark mafia romance where obsession, power, and violence forge hard-won devotion."
+description: "Nyx Montreaux writes luxury-noir dark mafia romance where obsession, power, and violence forge hard-won devotion."
 content_notes: false
 permalink: /authors/nyx-montreaux/
 og_image: assets/img/og-nyx.jpg
+published: false
+sitemap: false
+robots: noindex, nofollow
 ---
 
 {% include pen-hero.html %}
@@ -29,7 +32,7 @@ og_image: assets/img/og-nyx.jpg
   {% endif %}
 
   <section class="section">
-    <h2 class="section-heading">All Books</h2>
+    <h2 class="section-heading">Featured Books</h2>
     <div class="books-grid">
       {% for book in site.data.books_nyx %}
         {% include book-tile.html book=book pen_id="nyx-montreaux" %}

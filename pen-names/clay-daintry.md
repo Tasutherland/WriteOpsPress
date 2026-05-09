@@ -3,11 +3,14 @@ layout: pen-name
 title: "Clay Daintry"
 pen_id: clay-daintry
 accent: "#6B4A2B"
-promise: "MM cowboy romance with grit, heat, and wide-open country."
-description: "Clay Daintry writes MM cowboy romance — rugged settings, earned heat, and men who mean what they say."
+promise: "High-heat MM western romance about hard men, hard weather, and the surrender that only happens when there is nowhere left to run."
+description: "Clay Daintry writes high-heat MM western romance about hard men, hard weather, and the surrender that only happens when there is nowhere left to run."
 content_notes: false
 permalink: /authors/clay-daintry/
 og_image: assets/img/og-clay.jpg
+published: false
+sitemap: false
+robots: noindex, nofollow
 ---
 
 {% include pen-hero.html %}
@@ -29,7 +32,7 @@ og_image: assets/img/og-clay.jpg
   {% endif %}
 
   <section class="section">
-    <h2 class="section-heading">All Books</h2>
+    <h2 class="section-heading">Featured Books</h2>
     <div class="books-grid">
       {% for book in site.data.books_clay %}
         {% include book-tile.html book=book pen_id="clay-daintry" %}

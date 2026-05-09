@@ -3,8 +3,8 @@ layout: pen-name
 title: "Ash Wilder"
 pen_id: ash-wilder
 accent: "#7A1E2C"
-promise: "Dark, intense MM BDSM and paranormal romance where desire and danger collide."
-description: "Ash Wilder writes MM BDSM and MM paranormal romance. Dark, consensual, and scorchingly hot."
+promise: "Dark, intense MM BDSM and paranormal romance where control, danger, and desire collide."
+description: "Ash Wilder writes dark, intense MM BDSM and paranormal romance where control, danger, and desire collide."
 content_notes: true
 content_notes_text: "Ash Wilder's books contain explicit MM sexual content, BDSM dynamics (consensual), power exchange, and paranormal elements including werewolf/shifter content. Some titles include depictions of past trauma."
 permalink: /authors/ash-wilder/
@@ -30,7 +30,7 @@ og_image: assets/img/og-ash.jpg
   {% endif %}
 
   <section class="section">
-    <h2 class="section-heading">All Books</h2>
+    <h2 class="section-heading">Featured Books</h2>
     <div class="books-grid">
       {% for book in site.data.books_ash %}
         {% include book-tile.html book=book pen_id="ash-wilder" %}
