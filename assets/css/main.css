@@ -768,6 +768,16 @@ p:last-child {
   width: 100%;
 }
 
+.newsletter-shell-frame {
+  padding: 1px;
+  border-radius: calc(var(--radius-lg) + 2px);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.04));
+}
+
+.newsletter-shell-embed {
+  width: 100%;
+}
+
 .newsletter-shell .ml-form-embedContainer .ml-form-embedWrapper {
   width: 100%;
   max-width: none;
