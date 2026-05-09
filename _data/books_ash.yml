@@ -12,7 +12,7 @@
 - title: "Open Wide"
   series: "Eat the Rich #1"
   hook: "A brutal, high-heat MM romance where wealth, appetite, and power games collide behind closed doors."
-  cover: "assets/covers/Copy of open_wide.jpg"
+  cover: "assets/covers/open_wide.jpg"
   featured: true
   stores:
     ca: "https://www.amazon.ca/dp/B0F4Y5Y6KG"
@@ -45,7 +45,7 @@
 - title: "Silent Command"
   series: "Season of Surrender #3"
   hook: "An MM billionaire bodyguard romance where restraint, protection, and obedience become impossible to separate."
-  cover: "assets/covers/Copy of silent_command.png"
+  cover: "assets/covers/silent_command.png"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GJ6Y1NWQ"
@@ -56,7 +56,7 @@
 - title: "Snowed in with the Alpha"
   series: "Feral Hearts #4"
   hook: "A high-heat MM fated mates shifter romance trapped in snow, hunger, and a bond neither man can ignore."
-  cover: "assets/covers/Copy of snowed_in_w_the_alpha.png"
+  cover: "assets/covers/snowed_in_w_the_alpha.png"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0GFFN8SXK"
@@ -67,7 +67,7 @@
 - title: "Craving the Leash"
   series: "The Surrender Protocol #4"
   hook: "A dark MM BDSM romance of surrender, control, and the terrifying relief of wanting exactly what is forbidden."
-  cover: "assets/covers/Copy of craving_the_leash.png"
+  cover: "assets/covers/craving_the_leash.jpg"
   featured: false
   stores:
     ca: "https://www.amazon.ca/dp/B0FV2R737F"
