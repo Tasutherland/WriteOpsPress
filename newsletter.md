@@ -8,14 +8,14 @@ permalink: /newsletter/
 <section class="section section--lg">
   <div class="container">
     <div class="newsletter-page-inner">
-      <h1>Stay in the loop.</h1>
-      <p class="lead">Choose the authors you follow. New releases, cover reveals, early access, and reader extras with a cleaner path into the romance lane you want.</p>
+      <h1>Get the next release first.</h1>
+      <p class="lead">New releases, cover reveals, and reader extras from WriteOps Press. Choose the heat level, monsters, bargains, and devotion you want in your inbox.</p>
 
       {% include mailerlite-form.html
         shell_class="newsletter-shell--page"
         eyebrow="Newsletter"
-        heading="Choose your romance lane."
-        body="Join the master list, follow specific lines, and get release news that feels intentional instead of noisy."
+        heading="Get the next release first."
+        body="New releases, cover reveals, and reader extras from WriteOps Press. Choose the heat level, monsters, bargains, and devotion you want in your inbox."
       %}
 
       <hr class="divider">
