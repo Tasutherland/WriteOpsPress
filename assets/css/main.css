@@ -805,6 +805,7 @@ p:last-child {
 }
 
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow,
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow label,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description,
 .newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox label,

@@ -11,6 +11,17 @@ bundle exec jekyll serve --livereload
 
 Open `http://localhost:4000` in your browser.
 
+
+## Project Notes for Beginners
+
+If you're new to this repo, here are the basics in plain language:
+
+- **What kind of project this is:** This is a static website built with Jekyll and hosted on GitHub Pages. The site is generated from templates and content files; there is no custom backend server in this repo.
+- **Where book data lives:** Book listings live in YAML files inside `_data/`, such as `_data/books_ash.yml` and other `books_<pen>.yml` files.
+- **Where author pages live:** Author pages live in the `pen-names/` folder, with one Markdown file per pen name.
+- **How to preview the site locally:** Run `bundle install`, then run `bundle exec jekyll serve --livereload`, and open `http://localhost:4000`.
+- **What files should be edited carefully:** Edit `_config.yml`, `_layouts/`, and shared `_includes/` carefully because changes there can affect many pages at once.
+
 ## Adding a New Book
 
 1. **Export/resize the cover** to WEBP (or JPG fallback), target under 200KB.
