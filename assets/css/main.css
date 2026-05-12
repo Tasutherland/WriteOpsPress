@@ -871,6 +871,15 @@ p:last-child {
   background: rgba(79, 52, 44, 0.04);
 }
 
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow.ml-validate-required {
+  clear: both;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.7rem 0.8rem !important;
+  border-radius: 12px;
+  background: rgba(79, 52, 44, 0.04);
+}
+
 .newsletter-shell .ml-form-embedContainer .ml-form-embedSubmit button {
   border-radius: 999px !important;
   background: linear-gradient(135deg, #7a1e2c, #9b3d45) !important;
