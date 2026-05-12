@@ -804,44 +804,53 @@ p:last-child {
   color: var(--color-text-muted) !important;
 }
 
-.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox,
-.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow {
-  position: relative;
-}
-
-.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox input[type="checkbox"],
-.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow input[type="checkbox"] {
-  position: absolute;
-  left: 0.85rem;
-  top: 0.9rem;
-  width: 16px;
-  height: 16px;
-  margin: 0;
-  accent-color: #7a1e2c;
-  cursor: pointer;
-}
-
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow,
 .newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow label,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description,
-.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description p,
 .newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox label,
-.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox .label-description {
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox .label-description,
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description p {
   color: var(--color-text) !important;
 }
 
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox,
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow {
+  position: static !important;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-checkbox-option,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow label,
 .newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox label {
-  display: block;
+  display: flex !important;
+  align-items: flex-start;
+  gap: 0.6rem;
+  width: 100%;
   min-height: 24px;
-  padding-left: 1.75rem !important;
+  padding-left: 0 !important;
+  position: static !important;
   cursor: pointer;
 }
 
+.newsletter-shell .ml-form-embedContainer .ml-checkbox-option input[type="checkbox"],
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow input[type="checkbox"],
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox input[type="checkbox"] {
+  position: static !important;
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  margin: 0.15rem 0 0 !important;
+  accent-color: #7a1e2c;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-checkbox-option .label-description,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description,
 .newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox .label-description {
   display: block;
+  flex: 1 1 auto;
+  pointer-events: auto;
 }
 
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description p {
