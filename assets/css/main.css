@@ -805,52 +805,43 @@ p:last-child {
 }
 
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow,
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox {
+  display: grid !important;
+  grid-template-columns: 18px 1fr;
+  gap: 0.6rem;
+  align-items: start;
+  position: static !important;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow input[type="checkbox"],
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox input[type="checkbox"] {
+  position: static !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0.2rem 0 0 !important;
+  accent-color: #7a1e2c;
+  cursor: pointer;
+  opacity: 1 !important;
+  appearance: auto !important;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow label,
+.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox label {
+  display: block !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  position: static !important;
+  cursor: pointer;
+}
+
+.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow,
 .newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow label,
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description,
 .newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox label,
-.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox .label-description,
-.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description p {
-  color: var(--color-text) !important;
-}
-
-.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox,
-.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow {
-  position: static !important;
-}
-
-.newsletter-shell .ml-form-embedContainer .ml-checkbox-option,
-.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow label,
-.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox label {
-  display: flex !important;
-  align-items: flex-start;
-  gap: 0.6rem;
-  width: 100%;
-  min-height: 24px;
-  padding-left: 0 !important;
-  position: static !important;
-  cursor: pointer;
-}
-
-.newsletter-shell .ml-form-embedContainer .ml-checkbox-option input[type="checkbox"],
-.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow input[type="checkbox"],
-.newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox input[type="checkbox"] {
-  position: static !important;
-  flex: 0 0 auto;
-  width: 16px;
-  height: 16px;
-  margin: 0.15rem 0 0 !important;
-  accent-color: #7a1e2c;
-  cursor: pointer;
-  pointer-events: auto;
-}
-
-.newsletter-shell .ml-form-embedContainer .ml-checkbox-option .label-description,
-.newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description,
 .newsletter-shell .ml-form-embedContainer .ml-form-interestGroupsRowCheckbox .label-description {
-  display: block;
-  flex: 1 1 auto;
-  pointer-events: auto;
+  color: var(--color-text) !important;
 }
 
 .newsletter-shell .ml-form-embedContainer .ml-form-checkboxRow .label-description p {
