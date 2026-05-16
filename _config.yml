@@ -49,12 +49,6 @@ pen_names:
     data_key: rook
     promise: "MM monster romance and dark fantasy with dangerous creatures, possessive heat, and love that bites back."
     content_notes: true
-  - id: alexandra-sterling
-    name: Alexandra Sterling
-    accent: "#7B3F61"
-    data_key: alexandra
-    promise: "High-heat monster court romance and fantasy romance with dangerous rulers, binding bargains, and heroines who refuse to break."
-    content_notes: true
   - id: rita-dole
     name: Rita Dole
     accent: "#4B2A63"
