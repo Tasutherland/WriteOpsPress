@@ -1,21 +1,32 @@
 - title: "The Key and the Claim"
   series: "Warden's Key #1"
   hook: "A high-heat monster romance where a dangerous key, a powerful claim, and a heroine under pressure collide."
-  cover: "assets/covers/the_key_and_claim.jpg"
+  cover: "assets/covers/rita/the-key-and-the-claim.jpg"
   featured: true
   stores:
-    ca: "https://www.amazon.ca/dp/B0GX46GM4T"
     us: "https://www.amazon.com/dp/B0GX46GM4T"
+    ca: "https://www.amazon.ca/dp/B0GX46GM4T"
     uk: "https://www.amazon.co.uk/dp/B0GX46GM4T"
     au: "https://www.amazon.com.au/dp/B0GX46GM4T"
+
+- title: "Monster's Marriage Clause"
+  series: "Monster Marriage Clause #1"
+  hook: "A high-heat MF monster romance where marriage terms, dangerous desire, and power imbalance become impossible to ignore."
+  cover: "assets/covers/rita/monsters-marriage-clause.jpg"
+  featured: true
+  stores:
+    us: "https://www.amazon.com/dp/B0H31C16D3"
+    ca: "https://www.amazon.ca/dp/B0H31C16D3"
+    uk: "https://www.amazon.co.uk/dp/B0H31C16D3"
+    au: "https://www.amazon.com.au/dp/B0H31C16D3"
 
 - title: "Throne of Silver and Salt"
   series: "Warden's Key #2"
   hook: "A dark romantasy monster romance of bargains, saltwater power, dangerous courts, and a throne that demands a price."
-  cover: "assets/covers/throne_of_silver& salt.jpg"
-  featured: true
+  cover: "assets/covers/rita/throne-of-silver-and-salt.jpg"
+  featured: false
   stores:
-    ca: "https://www.amazon.ca/dp/B0GX2XWK3N"
     us: "https://www.amazon.com/dp/B0GX2XWK3N"
+    ca: "https://www.amazon.ca/dp/B0GX2XWK3N"
     uk: "https://www.amazon.co.uk/dp/B0GX2XWK3N"
     au: "https://www.amazon.com.au/dp/B0GX2XWK3N"

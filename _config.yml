@@ -55,3 +55,15 @@ pen_names:
     data_key: rita
     promise: "High-heat MF monster romance and dark romantasy where bargains cut deep, queens are forged under pressure, and desire has teeth."
     content_notes: true
+  - id: m-farrow
+    name: M. Farrow
+    accent: "#28306F"
+    data_key: farrow
+    promise: "High-heat why-choose monster romantasy where dangerous bargains create impossible bonds, heroines seize power under pressure, and devotion is never limited to two."
+    content_notes: true
+  - id: eve-hartley
+    name: Eve Hartley
+    accent: "#6B3A2E"
+    data_key: eve
+    promise: "Witty, emotionally grounded historical romance where capable women, inconvenient scandals, and carefully arranged matches turn into hard-won love."
+    content_notes: false

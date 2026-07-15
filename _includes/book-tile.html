@@ -5,20 +5,32 @@
     pen_id  — pen name id string (e.g. "ash-wilder")
 {% endcomment %}
 
-{% assign ca_url = include.book.stores.ca | default: "" %}
+{% assign us_url = include.book.stores.us | default: "" %}
 
-{% unless ca_url contains "PLACEHOLDER" %}
 <article class="book-tile {% if include.book.featured %}book-tile--featured{% endif %}">
   <div class="book-cover-wrap">
     {% if include.book.cover %}
-    <img
-      src="{{ include.book.cover | relative_url }}"
-      alt="Cover of {{ include.book.title }}"
-      class="book-cover"
-      loading="lazy"
-      width="320"
-      height="480"
-    >
+      {% if us_url != "" and us_url contains "amazon.com/dp/" %}
+      <a href="{{ us_url }}" target="_blank" rel="noopener noreferrer" aria-label="Buy {{ include.book.title }} on Amazon.com">
+        <img
+          src="{{ include.book.cover | relative_url }}"
+          alt="Cover of {{ include.book.title }}"
+          class="book-cover"
+          loading="lazy"
+          width="320"
+          height="480"
+        >
+      </a>
+      {% else %}
+      <img
+        src="{{ include.book.cover | relative_url }}"
+        alt="Cover of {{ include.book.title }}"
+        class="book-cover"
+        loading="lazy"
+        width="320"
+        height="480"
+      >
+      {% endif %}
     {% else %}
     <div class="book-cover-placeholder" aria-hidden="true">
       <span>{{ include.book.title }}</span>
@@ -30,8 +42,15 @@
     {% if include.book.series %}
     <p class="book-series">{{ include.book.series }}</p>
     {% endif %}
-    <h3 class="book-title">{{ include.book.title }}</h3>
+    <h3 class="book-title">
+      {% if us_url != "" and us_url contains "amazon.com/dp/" %}
+      <a href="{{ us_url }}" target="_blank" rel="noopener noreferrer">{{ include.book.title }}</a>
+      {% else %}
+      {{ include.book.title }}
+      {% endif %}
+    </h3>
 
+    {% if us_url != "" and us_url contains "amazon.com/dp/" %}
     <button
       class="btn btn-primary buy-btn"
       data-title="{{ include.book.title }}"
@@ -40,6 +59,6 @@
     >
       Buy
     </button>
+    {% endif %}
   </div>
 </article>
-{% endunless %}

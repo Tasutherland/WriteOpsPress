@@ -1,0 +1,32 @@
+- title: "Revel of Monsters"
+  series: "Monster Revels"
+  hook: "A high-heat why-choose monster romantasy where revelry, bargains, and dangerous bonds test the heroine's power."
+  cover: "assets/covers/farrow/revel-of-monsters.jpg"
+  featured: true
+  stores:
+    us: "https://www.amazon.com/dp/B0H73C69WR"
+    ca: "https://www.amazon.ca/dp/B0H73C69WR"
+    uk: "https://www.amazon.co.uk/dp/B0H73C69WR"
+    au: "https://www.amazon.com.au/dp/B0H73C69WR"
+
+- title: "Hexed by the Demon Lord"
+  series: "The Noxmere Duet #1"
+  hook: "A high-heat monster romantasy where a dangerous curse, a demon lord, and an impossible bargain bind desire to power."
+  cover: "assets/covers/farrow/hexed-by-the-demon-lord.jpg"
+  featured: true
+  stores:
+    us: "https://www.amazon.com/dp/B0GZVB658S"
+    ca: "https://www.amazon.ca/dp/B0GZVB658S"
+    uk: "https://www.amazon.co.uk/dp/B0GZVB658S"
+    au: "https://www.amazon.com.au/dp/B0GZVB658S"
+
+- title: "Kept by the Demon Lord"
+  series: "The Noxmere Duet #2"
+  hook: "A high-heat monster romantasy where devotion, court pressure, and dangerous bonds deepen under a demon lord's claim."
+  cover: "assets/covers/farrow/kept-by-the-demon-lord.jpg"
+  featured: false
+  stores:
+    us: "https://www.amazon.com/dp/B0GX35YGT3"
+    ca: "https://www.amazon.ca/dp/B0GX35YGT3"
+    uk: "https://www.amazon.co.uk/dp/B0GX35YGT3"
+    au: "https://www.amazon.com.au/dp/B0GX35YGT3"

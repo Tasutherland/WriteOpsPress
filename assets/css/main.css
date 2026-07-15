@@ -549,6 +549,21 @@ p:last-child {
   gap: var(--space-8);
 }
 
+.books-coming-soon {
+  max-width: 42rem;
+  padding: var(--space-8);
+  border: 1px solid rgba(79, 52, 44, 0.12);
+  border-left: 4px solid var(--pen-accent);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.76), rgba(255, 250, 246, 0.92));
+  box-shadow: var(--shadow-soft);
+}
+
+.books-coming-soon p {
+  color: var(--color-text-muted);
+  line-height: var(--leading-loose);
+}
+
 .featured-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
