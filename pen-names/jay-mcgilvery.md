@@ -7,39 +7,16 @@ promise: "High-heat MM romance where controlled men in public-pressure worlds br
 description: "Jay McGilvery writes high-heat MM romance where controlled men in public-pressure worlds break open in private."
 content_notes: false
 permalink: /authors/jay-mcgilvery/
-og_image: assets/img/og-jay.jpg
-published: false
 sitemap: false
 robots: noindex, nofollow
 ---
 
 {% include pen-hero.html %}
 
-{% include pen-newsletter.html pen_name="Jay McGilvery" %}
-
 <div class="container">
-
-  {% assign featured_books = site.data.books_jay | where: "featured", true %}
-  {% if featured_books.size > 0 %}
-  <section class="section">
-    <h2 class="section-heading">Start Here</h2>
-    <div class="featured-grid">
-      {% for book in featured_books %}
-        {% include book-tile.html book=book pen_id="jay-mcgilvery" %}
-      {% endfor %}
-    </div>
+  <section class="section legacy-author-notice">
+    <h2 class="section-heading">This pen is retired</h2>
+    <p>This author is no longer publishing new releases through WriteOps Press.</p>
+    <a class="btn btn-primary" href="{{ '/authors/' | relative_url }}">Explore active authors</a>
   </section>
-  {% endif %}
-
-  <section class="section">
-    <h2 class="section-heading">Featured Books</h2>
-    <div class="books-grid">
-      {% for book in site.data.books_jay %}
-        {% include book-tile.html book=book pen_id="jay-mcgilvery" %}
-      {% endfor %}
-    </div>
-  </section>
-
 </div>
-
-{% include pen-newsletter.html pen_name="Jay McGilvery" %}

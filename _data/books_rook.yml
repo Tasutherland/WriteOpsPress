@@ -1,8 +1,11 @@
 - title: "Captured by the Enforcer"
+  work_id: "W0092"
   series: "The Iron Bonds #1"
   hook: "A dark MM orc monster romance where captivity, survival, and brutal devotion become impossible to untangle."
   cover: "assets/covers/rook/captured-by-the-enforcer.jpg"
   featured: true
+  featured_order: 3
+  distribution_group: amazon-ku
   stores:
     us: "https://www.amazon.com/dp/B0GHS3ZQFT"
     ca: "https://www.amazon.ca/dp/B0GHS3ZQFT"
@@ -10,10 +13,13 @@
     au: "https://www.amazon.com.au/dp/B0GHS3ZQFT"
 
 - title: "Shadow's Cage"
+  work_id: "W0155"
   series: "Vault Beasts #1"
   hook: "A dark MM monster romance where captivity, hunger, and forbidden trust turn the vault into a dangerous refuge."
   cover: "assets/covers/rook/shadows-cage.jpg"
   featured: true
+  featured_order: 4
+  distribution_group: amazon-ku
   stores:
     us: "https://www.amazon.com/dp/B0H2ZF2JQ7"
     ca: "https://www.amazon.ca/dp/B0H2ZF2JQ7"
@@ -24,7 +30,7 @@
   series: "Dead Mile Monsters #1"
   hook: "A grim MM monster romance where a locked hold, a dangerous creature, and survival turn into need."
   cover: "assets/covers/rook/the-beast-in-the-hold.jpg"
-  featured: true
+  featured: false
   stores:
     us: "https://www.amazon.com/dp/B0GY1Q783D"
     ca: "https://www.amazon.ca/dp/B0GY1Q783D"
@@ -107,3 +113,67 @@
     ca: "https://www.amazon.ca/dp/B0H4HVFHW5"
     uk: "https://www.amazon.co.uk/dp/B0H4HVFHW5"
     au: "https://www.amazon.com.au/dp/B0H4HVFHW5"
+
+- title: "Oops, I Dated a Werewolf"
+  work_id: "W0205"
+  series: "Monster Mistakes #1"
+  hook: "An MM monster romance where one dating mistake leads to claws, danger, and a bond neither man expected."
+  cover: "assets/covers/rook/oops-i-dated-a-werewolf.jpg"
+  featured: true
+  featured_order: 2
+  distribution_group: amazon-ku
+  stores:
+    us: "https://www.amazon.com/dp/B0H9XCDB8D"
+    ca: "https://www.amazon.ca/dp/B0H9XCDB8D"
+    uk: "https://www.amazon.co.uk/dp/B0H9XCDB8D"
+    au: "https://www.amazon.com.au/dp/B0H9XCDB8D"
+
+- title: "Monster on the Rim"
+  work_id: "W0175"
+  series: "Warbeast's Mates #1"
+  hook: "An MM monster romance of hostile-planet survival, military betrayal, and a protector who chooses devotion."
+  cover: "assets/covers/rook/monster-on-the-rim.jpg"
+  featured: true
+  featured_order: 5
+  distribution_group: amazon-ku
+  stores:
+    us: "https://www.amazon.com/dp/B0H5X6VBDK"
+    ca: "https://www.amazon.ca/dp/B0H5X6VBDK"
+    uk: "https://www.amazon.co.uk/dp/B0H5X6VBDK"
+    au: "https://www.amazon.com.au/dp/B0H5X6VBDK"
+
+- title: "Full Contact"
+  work_id: "W0300"
+  series: "The Xenoknot Protocols"
+  hook: "An MM alien romantic suspense story of infiltration, survival, and an impossible bond."
+  cover: "assets/covers/full_contact.jpg"
+  featured: true
+  featured_order: 1
+  distribution_group: amazon-ku
+  availability: retailer-links-pending
+
+- title: "Made for the Spider Beast"
+  work_id: "W0314"
+  isbn: "9798231798278"
+  series: "Made for the Monster #2"
+  hook: "An MM spider monster romance where saving a condemned theater means trusting the creature holding it together."
+  cover: "assets/covers/rook/made-for-the-spider-beast.jpg"
+  featured: true
+  featured_order: 1
+  distribution_group: wide
+  availability: preorder
+  retailer_url: "https://www.kobo.com/gb/en/ebook/made-for-the-spider-beast"
+  retailer_label: "Preorder on Kobo"
+
+- title: "Made for the Chimera"
+  work_id: "W0329"
+  isbn: "9798233175589"
+  series: "Made for the Monster #3"
+  hook: "An MM chimera monster romance where a wildfire rescue depends on trust, partnership, and an impossible body."
+  cover: "assets/covers/rook/made-for-the-chimera.jpg"
+  featured: true
+  featured_order: 2
+  distribution_group: wide
+  availability: preorder
+  retailer_url: "https://www.kobo.com/at/de/ebook/made-for-the-chimera"
+  retailer_label: "Preorder on Kobo"

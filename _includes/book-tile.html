@@ -6,15 +6,21 @@
 {% endcomment %}
 
 {% assign us_url = include.book.stores.us | default: "" %}
+{% assign retailer_url = include.book.retailer_url | default: "" %}
+{% assign store_count = include.book.stores | size %}
+{% assign primary_url = retailer_url %}
+{% if primary_url == "" %}
+  {% assign primary_url = us_url %}
+{% endif %}
 
-<article class="book-tile {% if include.book.featured %}book-tile--featured{% endif %}">
+<article class="book-tile {% if include.book.featured %}book-tile--featured{% endif %} {% if include.book.distribution_group %}book-tile--{{ include.book.distribution_group }}{% endif %}">
   <div class="book-cover-wrap">
     {% if include.book.cover %}
-      {% if us_url != "" and us_url contains "amazon.com/dp/" %}
-      <a href="{{ us_url }}" target="_blank" rel="noopener noreferrer" aria-label="Buy {{ include.book.title }} on Amazon.com">
+      {% if primary_url != "" %}
+      <a href="{{ primary_url }}" target="_blank" rel="noopener noreferrer" aria-label="View retailer options for {{ include.book.title }} by {{ page.title }}">
         <img
           src="{{ include.book.cover | relative_url }}"
-          alt="Cover of {{ include.book.title }}"
+          alt="Cover of {{ include.book.title }} by {{ page.title }}"
           class="book-cover"
           loading="lazy"
           width="320"
@@ -24,7 +30,7 @@
       {% else %}
       <img
         src="{{ include.book.cover | relative_url }}"
-        alt="Cover of {{ include.book.title }}"
+        alt="Cover of {{ include.book.title }} by {{ page.title }}"
         class="book-cover"
         loading="lazy"
         width="320"
@@ -43,22 +49,30 @@
     <p class="book-series">{{ include.book.series }}</p>
     {% endif %}
     <h3 class="book-title">
-      {% if us_url != "" and us_url contains "amazon.com/dp/" %}
-      <a href="{{ us_url }}" target="_blank" rel="noopener noreferrer">{{ include.book.title }}</a>
+      {% if primary_url != "" %}
+      <a href="{{ primary_url }}" target="_blank" rel="noopener noreferrer">{{ include.book.title }}</a>
       {% else %}
       {{ include.book.title }}
       {% endif %}
     </h3>
 
-    {% if us_url != "" and us_url contains "amazon.com/dp/" %}
+    {% if store_count > 0 %}
     <button
       class="btn btn-primary buy-btn"
       data-title="{{ include.book.title }}"
       data-stores='{{ include.book.stores | jsonify }}'
       aria-haspopup="dialog"
     >
-      Buy
+      Choose Amazon Store
     </button>
+    {% elsif retailer_url != "" %}
+    <a class="btn btn-primary buy-btn" href="{{ retailer_url }}" target="_blank" rel="noopener noreferrer">
+      {{ include.book.retailer_label | default: "View Retailers" }}
+    </a>
+    {% elsif include.book.availability == "retailer-links-pending" %}
+    <p class="book-availability">Retailer links pending</p>
+    {% elsif include.book.availability == "coming-soon" %}
+    <p class="book-availability">Coming Soon</p>
     {% endif %}
   </div>
 </article>

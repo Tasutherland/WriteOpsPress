@@ -35,7 +35,9 @@ If you're new to this repo, here are the basics in plain language:
   hook: "One-line hook (~150 chars)."
   blurb: "2–4 sentence short blurb."
   cover: "assets/covers/ash/my-book.webp"
-  featured: false                  # set true to show in Start Here
+  featured: true                   # only featured books are rendered publicly
+  featured_order: 1                # display order within the curated shelf
+  distribution_group: amazon-ku    # amazon-ku or wide
   stores:
     ca: "https://www.amazon.ca/dp/ASIN"
     us: "https://www.amazon.com/dp/ASIN"
@@ -59,19 +61,15 @@ assets/
   img/               — Logos, OG images, favicon
 pen-names/           — One .md file per pen name
 index.md             — Press home page
-newsletter.md
 privacy.md
 contact.md
 ```
 
-## MailerLite
-
-The global signup form (account `1929203`, form `181146944483100052`) is embedded in:
-- `newsletter.md` (full embed)
-- `index.md` (full embed)
-- Each pen-name page (popup trigger via `.ml-onclick-form` button)
-
-To update the form, replace the HTML in `_includes/mailerlite-form.html`.
+For a wide-release book, set `distribution_group: wide`. Add a verified `retailer_url`
+(such as a universal retailer page) or a `stores` mapping when one is available. A featured
+book can remain visible without a retailer URL; use `availability: retailer-links-pending`
+to show that state. Never add a placeholder retailer URL. Unfeatured catalog entries remain
+in the YAML file and can be promoted later without redesigning the author page.
 
 ## Custom Domain
 
@@ -83,6 +81,6 @@ To update the form, replace the HTML in `_includes/mailerlite-form.html`.
 
 - [ ] Test on mobile width (375px and 430px)
 - [ ] Click every Buy link for CA, US, and UK
-- [ ] Confirm MailerLite form submits and redirects correctly
+- [ ] Confirm only curated featured books appear on each active author page
 - [ ] Check Open Graph images appear when sharing on social
 - [ ] Validate sitemap at `/sitemap.xml`

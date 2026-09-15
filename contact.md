@@ -49,10 +49,6 @@ permalink: /contact/
         <li><strong>Rights &amp; licensing:</strong> <a href="mailto:rights@writeopspress.com">rights@writeopspress.com</a></li>
       </ul>
 
-      <p style="margin-top: 2rem; font-size: var(--text-sm); color: var(--color-text-muted);">
-        For newsletter and subscription questions, please use the unsubscribe link in any email
-        or visit the <a href="/newsletter/">Newsletter page</a>.
-      </p>
     </div>
   </div>
 </section>

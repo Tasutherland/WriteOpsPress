@@ -62,16 +62,23 @@
   const storeButtons  = document.getElementById('modal-store-buttons');
   const modalClose    = document.querySelector('.modal-close');
   const modalBackdrop = document.querySelector('.modal-backdrop');
+  let modalTrigger    = null;
 
   const STORE_LABELS = {
     ca: { label: 'Amazon Canada',    flag: '🇨🇦', note: 'amazon.ca' },
     us: { label: 'Amazon US',        flag: '🇺🇸', note: 'amazon.com' },
     uk: { label: 'Amazon UK',        flag: '🇬🇧', note: 'amazon.co.uk' },
     au: { label: 'Amazon Australia', flag: '🇦🇺', note: 'amazon.com.au' },
+    universal: { label: 'All Retailers', flag: '🛒', note: 'Universal book link' },
+    kobo: { label: 'Kobo', flag: '📖', note: 'kobo.com' },
+    apple: { label: 'Apple Books', flag: '📚', note: 'books.apple.com' },
+    barnes_noble: { label: 'Barnes & Noble', flag: '📘', note: 'barnesandnoble.com' },
   };
 
-  function openModal(title, stores) {
+  function openModal(title, stores, trigger) {
     if (!modal) return;
+
+    modalTrigger = trigger;
 
     modalTitle.textContent = title;
     storeButtons.innerHTML = '';
@@ -104,6 +111,8 @@
     if (!modal) return;
     modal.setAttribute('hidden', '');
     document.body.style.overflow = '';
+    if (modalTrigger) modalTrigger.focus();
+    modalTrigger = null;
   }
 
   // Wire up every Buy button
@@ -112,7 +121,7 @@
     if (!btn) return;
     const title  = btn.dataset.title  || 'Buy this book';
     const stores = JSON.parse(btn.dataset.stores || '{}');
-    openModal(title, stores);
+    openModal(title, stores, btn);
   });
 
   if (modalClose)    modalClose.addEventListener('click', closeModal);

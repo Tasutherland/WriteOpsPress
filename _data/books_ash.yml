@@ -1,8 +1,11 @@
 - title: "Velvet Restraint"
+  work_id: "W0082"
   series: "Season of Surrender #1"
   hook: "A dark MM BDSM romance about control, trust, and the dangerous intimacy of being fully seen."
   cover: "assets/covers/ash/velvet-restraint.jpg"
   featured: true
+  featured_order: 4
+  distribution_group: amazon-ku
   stores:
     us: "https://www.amazon.com/dp/B0GH13XDYD"
     ca: "https://www.amazon.ca/dp/B0GH13XDYD"
@@ -13,7 +16,7 @@
   series: "Rules of Control #2"
   hook: "A dark MM BDSM romance about surrender, possession, and the terms two dangerous men refuse to break."
   cover: "assets/covers/ash/terms-of-ownership.jpg"
-  featured: true
+  featured: false
   stores:
     us: "https://www.amazon.com/dp/B0GN3YTHXC"
     ca: "https://www.amazon.ca/dp/B0GN3YTHXC"
@@ -24,7 +27,7 @@
   series: "Eat the Rich #1"
   hook: "A brutal, high-heat MM romance where wealth, appetite, and power games collide behind closed doors."
   cover: "assets/covers/ash/open-wide.jpg"
-  featured: true
+  featured: false
   stores:
     us: "https://www.amazon.com/dp/B0F4Y5Y6KG"
     ca: "https://www.amazon.ca/dp/B0F4Y5Y6KG"
@@ -32,10 +35,13 @@
     au: "https://www.amazon.com.au/dp/B0F4Y5Y6KG"
 
 - title: "The Ad for Silence"
+  work_id: "W0093"
   series: "Rules of Control #1"
   hook: "A dark MM BDSM romance where one dangerous offer turns silence, obedience, and need into a contract."
   cover: "assets/covers/ash/the-ad-for-silence.jpg"
-  featured: false
+  featured: true
+  featured_order: 3
+  distribution_group: amazon-ku
   stores:
     us: "https://www.amazon.com/dp/B0GJTRSMRW"
     ca: "https://www.amazon.ca/dp/B0GJTRSMRW"
@@ -107,3 +113,33 @@
     ca: "https://www.amazon.ca/dp/B0GX2WNZ2G"
     uk: "https://www.amazon.co.uk/dp/B0GX2WNZ2G"
     au: "https://www.amazon.com.au/dp/B0GX2WNZ2G"
+
+- title: "Make Room"
+  work_id: "W0264"
+  series: "Room for One More"
+  hook: "A dark MM romance where workplace proximity turns co-dominance into something neither man can ignore."
+  cover: "assets/covers/ash/make-room.jpg"
+  featured: true
+  featured_order: 1
+  distribution_group: amazon-ku
+  availability: retailer-links-pending
+
+- title: "Good Boys Don't Share"
+  work_id: "W0262"
+  series: "Room for One More"
+  hook: "A dark MM romance where an established couple makes room for a third and control becomes shared."
+  cover: "assets/covers/ash/good-boys-dont-share.jpg"
+  featured: true
+  featured_order: 2
+  distribution_group: amazon-ku
+  availability: retailer-links-pending
+
+- title: "Backstage Obedience"
+  product_id: "P0388"
+  series: "Public Men, Private Control #1"
+  hook: "A high-heat MM rockstar BDSM romance where public pressure and private control collide backstage."
+  cover: "assets/covers/ash/backstage-obedience.jpg"
+  featured: true
+  featured_order: 5
+  distribution_group: amazon-ku
+  availability: retailer-links-pending

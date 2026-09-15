@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "WriteOps Press"
-description: "Independent romance publisher specializing in high-heat MM, monster, paranormal, romantasy, and dark fantasy romance."
+description: "Independent romance press publishing dark MM romance, monster romance, why-choose romantasy, and historical romance."
 permalink: /
 body_class: press-home
 ---
@@ -12,15 +12,14 @@ body_class: press-home
       <p class="press-eyebrow">WriteOps Press</p>
       <h1 class="press-title">Books that pull you in<br>and don't let go.</h1>
       <p class="press-blurb">
-        WriteOps Press is an independent romance publisher specializing in high-heat MM,
-        monster, paranormal, romantasy, and dark fantasy romance. Across every pen name,
+        WriteOps Press is an independent romance publisher specializing in dark MM romance,
+        monster romance, why-choose romantasy, and historical romance. Across every pen name,
         the stories are intense, trope-forward, emotionally charged, and built for readers
         who want heat with bite.
       </p>
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container">
     <h2 class="section-heading" style="--pen-accent: #111">Our Authors</h2>
@@ -33,16 +32,5 @@ body_class: press-home
       </a>
       {% endfor %}
     </div>
-  </div>
-</section>
-
-<section class="section section--newsletter">
-  <div class="container">
-    {% include mailerlite-form.html
-      shell_class="newsletter-shell--home"
-      eyebrow="Newsletter"
-      heading="Get the next release first."
-      body="New releases, cover reveals, and reader extras from WriteOps Press. Choose the heat level, monsters, bargains, and devotion you want in your inbox."
-    %}
   </div>
 </section>

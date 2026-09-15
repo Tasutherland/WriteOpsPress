@@ -1,8 +1,11 @@
 - title: "The Key and the Claim"
+  work_id: "W0160"
   series: "Warden's Key #1"
   hook: "A high-heat monster romance where a dangerous key, a powerful claim, and a heroine under pressure collide."
   cover: "assets/covers/rita/the-key-and-the-claim.jpg"
   featured: true
+  featured_order: 3
+  distribution_group: amazon-ku
   stores:
     us: "https://www.amazon.com/dp/B0GX46GM4T"
     ca: "https://www.amazon.ca/dp/B0GX46GM4T"
@@ -10,10 +13,13 @@
     au: "https://www.amazon.com.au/dp/B0GX46GM4T"
 
 - title: "Monster's Marriage Clause"
+  work_id: "W0172"
   series: "Monster Marriage Clause #1"
   hook: "A high-heat MF monster romance where marriage terms, dangerous desire, and power imbalance become impossible to ignore."
   cover: "assets/covers/rita/monsters-marriage-clause.jpg"
   featured: true
+  featured_order: 4
+  distribution_group: amazon-ku
   stores:
     us: "https://www.amazon.com/dp/B0H31C16D3"
     ca: "https://www.amazon.ca/dp/B0H31C16D3"
@@ -30,3 +36,42 @@
     ca: "https://www.amazon.ca/dp/B0GX2XWK3N"
     uk: "https://www.amazon.co.uk/dp/B0GX2XWK3N"
     au: "https://www.amazon.com.au/dp/B0GX2XWK3N"
+
+- title: "The Demon’s Prize Wager"
+  work_id: "W0207"
+  series: "The Demon’s Prize Wager #1"
+  hook: "A high-heat dark fantasy monster romance where a dangerous wager binds a contract-reader to the arena's most feared demon champion."
+  cover: "assets/covers/rita/the-demons-prize-wager.jpg"
+  featured: true
+  featured_order: 2
+  distribution_group: amazon-ku
+  stores:
+    us: "https://www.amazon.com/dp/B0HBT369WT"
+    ca: "https://www.amazon.ca/dp/B0HBT369WT"
+    uk: "https://www.amazon.co.uk/dp/B0HBT369WT"
+    au: "https://www.amazon.com.au/dp/B0HBT369WT"
+
+- title: "The Auctioneer’s Claim"
+  work_id: "W0218"
+  series: "The Monster Auctioneer’s Mistake Duology #1"
+  hook: "A dark fantasy monster romance where an auctioneer's claim becomes a dangerous path to trust."
+  cover: "assets/covers/rita/the-auctioneers-claim.jpg"
+  featured: true
+  featured_order: 5
+  distribution_group: amazon-ku
+  availability: preorder
+  stores:
+    us: "https://www.amazon.com/dp/B0HCRGVTPH"
+    ca: "https://www.amazon.ca/dp/B0HCRGVTPH"
+    uk: "https://www.amazon.co.uk/dp/B0HCRGVTPH"
+    au: "https://www.amazon.com.au/dp/B0HCRGVTPH"
+
+- title: "The Demon’s Broken Crown"
+  work_id: "W0229"
+  series: "The Demon’s Prize Wager #2"
+  hook: "A dark fantasy demon romance where an established bond is tested by a throne under siege."
+  cover: "assets/covers/rita/the-demons-broken-crown.jpg"
+  featured: true
+  featured_order: 1
+  distribution_group: amazon-ku
+  availability: retailer-links-pending

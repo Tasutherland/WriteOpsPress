@@ -1,0 +1,20 @@
+{% comment %}
+  Curated, work-level catalog for a standard author page.
+  Usage: {% include featured-books.html books=site.data.books_ash pen_id="ash-wilder" %}
+{% endcomment %}
+
+{% assign featured_books = include.books | where: "featured", true | sort: "featured_order" %}
+<section class="section" aria-labelledby="featured-books-heading">
+  <h2 class="section-heading" id="featured-books-heading">Featured Books</h2>
+  {% if featured_books.size > 0 %}
+  <div class="books-grid books-grid--curated">
+    {% for book in featured_books %}
+      {% include book-tile.html book=book pen_id=include.pen_id %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="books-coming-soon">
+    <p>Books coming soon.</p>
+  </div>
+  {% endif %}
+</section>

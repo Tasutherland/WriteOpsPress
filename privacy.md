@@ -14,28 +14,22 @@ permalink: /privacy/
       <p>WriteOps Press ("we," "us," "our") is committed to protecting your privacy. This policy explains what information we collect, how we use it, and your rights.</p>
 
       <h2>1. What We Collect</h2>
-      <p>We collect only what we need to operate our newsletter and website:</p>
+      <p>The website does not operate accounts, checkout, or email signup forms. We may receive information only when you choose to contact us directly:</p>
       <ul>
-        <li><strong>Email address</strong> — when you subscribe to our newsletter via MailerLite embedded forms.</li>
-        <li><strong>Group/interest preferences</strong> — which pen names you opt into, so we send you relevant content.</li>
+        <li><strong>Contact details and message content</strong> — when you send us an email.</li>
         <li><strong>Basic analytics</strong> (if enabled) — aggregate page views and referrers only. No personal tracking.</li>
       </ul>
-      <p>We do <strong>not</strong> collect payment information, names (unless you provide them), or any data beyond what is listed above.</p>
+      <p>We do <strong>not</strong> collect payment information or ask readers to create an account on this site.</p>
 
       <h2>2. How We Use It</h2>
       <ul>
-        <li>To send you newsletters and release announcements you've subscribed to.</li>
+        <li>To respond to messages you send us.</li>
         <li>To improve the site based on aggregate traffic patterns.</li>
-        <li>We do not sell, rent, or share your email address with third parties for marketing purposes.</li>
+        <li>We do not sell or rent your personal information for marketing purposes.</li>
       </ul>
 
       <h2>3. Third-Party Services</h2>
       <ul>
-        <li>
-          <strong>MailerLite</strong> — We use MailerLite to manage our email list and send newsletters.
-          MailerLite stores your email address and subscription preferences on their servers.
-          See <a href="https://www.mailerlite.com/legal/privacy-policy" target="_blank" rel="noopener">MailerLite's Privacy Policy</a>.
-        </li>
         <li>
           <strong>GitHub Pages</strong> — This site is hosted on GitHub Pages (GitHub, Inc.).
           GitHub may collect server logs as part of standard hosting operations.
@@ -51,22 +45,20 @@ permalink: /privacy/
       </ul>
 
       <h2>4. Cookies</h2>
-      <p>This site does not use first-party cookies. Third-party services (MailerLite, GitHub Pages, Google Fonts) may set their own cookies according to their respective policies.</p>
+      <p>This site does not use first-party cookies. Third-party services such as GitHub Pages and Google Fonts may process standard request data according to their own policies.</p>
 
       <h2>5. Your Rights</h2>
       <p>You have the right to:</p>
       <ul>
-        <li><strong>Unsubscribe</strong> — use the unsubscribe link in any newsletter email, or contact us directly.</li>
-        <li><strong>Access or delete</strong> your data — email us at <a href="mailto:contact@writeopspress.com">contact@writeopspress.com</a> and we will respond within 30 days.</li>
-        <li><strong>Update your preferences</strong> — click "manage preferences" in any newsletter email.</li>
+        <li><strong>Access or delete</strong> personal information you previously sent us — email <a href="mailto:contact@writeopspress.com">contact@writeopspress.com</a> and we will respond within 30 days.</li>
       </ul>
       <p>If you are located in the EU/EEA, you have additional rights under GDPR. If you are in Canada, your rights are governed by PIPEDA/provincial privacy law. Contact us with any requests.</p>
 
       <h2>6. Data Retention</h2>
-      <p>We retain your email address and preferences for as long as you remain subscribed. When you unsubscribe, your data is removed from active sending lists. We may retain suppression records to honour opt-outs.</p>
+      <p>We retain direct correspondence only as long as reasonably necessary to answer the request, maintain business records, or meet legal obligations.</p>
 
       <h2>7. Children</h2>
-      <p>This site is intended for adults (18+). We do not knowingly collect data from minors. If you believe a minor has subscribed, please contact us immediately.</p>
+      <p>This site is intended for adults (18+). We do not knowingly collect data from minors. If you believe a minor has sent us personal information, please contact us immediately.</p>
 
       <h2>8. Changes to This Policy</h2>
       <p>We may update this policy from time to time. The "last updated" date at the top of this page reflects the most recent revision. Continued use of the site after changes constitutes acceptance of the updated policy.</p>

@@ -12,30 +12,8 @@ permalink: /authors/m-farrow/
 
 {% include pen-hero.html %}
 
-{% include pen-newsletter.html pen_name="M. Farrow" %}
-
 <div class="container">
-
-  {% assign featured_books = site.data.books_farrow | where: "featured", true %}
-  {% if featured_books.size > 0 %}
-  <section class="section">
-    <h2 class="section-heading">Start Here</h2>
-    <div class="featured-grid">
-      {% for book in featured_books %}
-        {% include book-tile.html book=book pen_id="m-farrow" %}
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
-  <section class="section">
-    <h2 class="section-heading">Featured Books</h2>
-    <div class="books-grid">
-      {% for book in site.data.books_farrow %}
-        {% include book-tile.html book=book pen_id="m-farrow" %}
-      {% endfor %}
-    </div>
-  </section>
+  {% include featured-books.html books=site.data.books_farrow pen_id="m-farrow" %}
 
   {% if page.content_notes %}
   <div class="content-notes" id="content-notes">
@@ -45,5 +23,3 @@ permalink: /authors/m-farrow/
   {% endif %}
 
 </div>
-
-{% include pen-newsletter.html pen_name="M. Farrow" %}

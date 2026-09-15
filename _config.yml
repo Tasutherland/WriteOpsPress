@@ -1,5 +1,5 @@
 title: WriteOps Press
-description: "Independent romance publisher specializing in high-heat MM, monster, paranormal, romantasy, and dark fantasy romance."
+description: "Independent romance press publishing dark MM romance, monster romance, why-choose romantasy, and historical romance."
 url: "https://writeopshq.com"
 baseurl: ""
 email: contact@writeopspress.com
@@ -37,23 +37,17 @@ defaults:
 # Public pen names shown in the site navigation.
 # Hidden pages can still exist, but only these authors appear in the main site UI.
 pen_names:
-  - id: ash-wilder
-    name: Ash Wilder
-    accent: "#7A1E2C"
-    data_key: ash
-    promise: "Dark, intense MM BDSM and paranormal romance where control, danger, and desire collide."
-    content_notes: true
   - id: rook-brennan
     name: Rook Brennan
     accent: "#2B5D3F"
     data_key: rook
     promise: "MM monster romance and dark fantasy with dangerous creatures, possessive heat, and love that bites back."
     content_notes: true
-  - id: rita-dole
-    name: Rita Dole
-    accent: "#4B2A63"
-    data_key: rita
-    promise: "High-heat MF monster romance and dark romantasy where bargains cut deep, queens are forged under pressure, and desire has teeth."
+  - id: ash-wilder
+    name: Ash Wilder
+    accent: "#7A1E2C"
+    data_key: ash
+    promise: "Dark, intense MM BDSM and paranormal romance where control, danger, and desire collide."
     content_notes: true
   - id: m-farrow
     name: M. Farrow
@@ -61,9 +55,9 @@ pen_names:
     data_key: farrow
     promise: "High-heat why-choose monster romantasy where dangerous bargains create impossible bonds, heroines seize power under pressure, and devotion is never limited to two."
     content_notes: true
-  - id: eve-hartley
-    name: Eve Hartley
-    accent: "#6B3A2E"
-    data_key: eve
-    promise: "Witty, emotionally grounded historical romance where capable women, inconvenient scandals, and carefully arranged matches turn into hard-won love."
-    content_notes: false
+  - id: rita-dole
+    name: Rita Dole
+    accent: "#4B2A63"
+    data_key: rita
+    promise: "High-heat MF monster romance and dark romantasy where bargains cut deep, queens are forged under pressure, and desire has teeth."
+    content_notes: true

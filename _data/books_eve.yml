@@ -1,1 +1,12 @@
-[]
+- title: "Third Time's the Charm"
+  work_id: "W0206"
+  series: "A Scandalous Charms Romance #1"
+  hook: "A witty historical romance where a supposed curse, a capable heroine, and a determined gentleman turn scandal into a hard-won match."
+  cover: "assets/covers/eve/third-times-the-charm.jpg"
+  featured: false
+  distribution_group: amazon-ku
+  stores:
+    us: "https://www.amazon.com/dp/B0H6LVB5G9"
+    ca: "https://www.amazon.ca/dp/B0H6LVB5G9"
+    uk: "https://www.amazon.co.uk/dp/B0H6LVB5G9"
+    au: "https://www.amazon.com.au/dp/B0H6LVB5G9"

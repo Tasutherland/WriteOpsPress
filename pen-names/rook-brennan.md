@@ -8,33 +8,47 @@ description: "Rook Brennan writes MM monster romance and dark fantasy with dange
 content_notes: true
 content_notes_text: "Rook Brennan's books contain explicit MM sexual content, non-human anatomy, dubious consent elements (clearly flagged per book), dark fantasy horror elements, and graphic scenes involving predator/prey dynamics."
 permalink: /authors/rook-brennan/
-og_image: assets/img/og-rook.jpg
 ---
 
 {% include pen-hero.html %}
 
-{% include pen-newsletter.html pen_name="Rook Brennan" %}
-
 <div class="container">
+  {% assign featured_books = site.data.books_rook | where: "featured", true | sort: "featured_order" %}
+  {% assign amazon_books = featured_books | where: "distribution_group", "amazon-ku" %}
+  {% assign wide_books = featured_books | where: "distribution_group", "wide" %}
 
-  {% assign featured_books = site.data.books_rook | where: "featured", true %}
-  {% if featured_books.size > 0 %}
-  <section class="section">
-    <h2 class="section-heading">Start Here</h2>
-    <div class="featured-grid">
-      {% for book in featured_books %}
-        {% include book-tile.html book=book pen_id="rook-brennan" %}
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
+  <section class="section" aria-labelledby="rook-featured-heading">
+    <h2 class="section-heading" id="rook-featured-heading">Featured Books</h2>
+    <div class="distribution-grid">
+      <section class="distribution-shelf" aria-labelledby="rook-amazon-heading">
+        <div class="distribution-shelf-header">
+          <h3 id="rook-amazon-heading">Amazon &amp; Kindle Unlimited</h3>
+          <p>Read in Kindle Unlimited or buy on Amazon.</p>
+        </div>
+        <div class="books-grid books-grid--shelf">
+          {% for book in amazon_books %}
+            {% include book-tile.html book=book pen_id="rook-brennan" %}
+          {% endfor %}
+        </div>
+      </section>
 
-  <section class="section">
-    <h2 class="section-heading">Featured Books</h2>
-    <div class="books-grid">
-      {% for book in site.data.books_rook %}
-        {% include book-tile.html book=book pen_id="rook-brennan" %}
-      {% endfor %}
+      <section class="distribution-shelf" aria-labelledby="rook-wide-heading">
+        <div class="distribution-shelf-header">
+          <h3 id="rook-wide-heading">Other Retailers</h3>
+          <p>Available through participating ebook retailers.</p>
+        </div>
+        {% if wide_books.size > 0 %}
+        <div class="books-grid books-grid--shelf">
+          {% for book in wide_books %}
+            {% include book-tile.html book=book pen_id="rook-brennan" %}
+          {% endfor %}
+        </div>
+        {% else %}
+        <div class="books-coming-soon books-coming-soon--shelf">
+          <p>More retailer editions will be added here as verified links become available.</p>
+        </div>
+        {% endif %}
+      </section>
     </div>
   </section>
 
@@ -46,5 +60,3 @@ og_image: assets/img/og-rook.jpg
   {% endif %}
 
 </div>
-
-{% include pen-newsletter.html pen_name="Rook Brennan" %}

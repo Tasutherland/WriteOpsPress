@@ -1,8 +1,11 @@
 - title: "Revel of Monsters"
+  work_id: "W0261"
   series: "Monster Revels"
   hook: "A high-heat why-choose monster romantasy where revelry, bargains, and dangerous bonds test the heroine's power."
   cover: "assets/covers/farrow/revel-of-monsters.jpg"
   featured: true
+  featured_order: 2
+  distribution_group: amazon-ku
   stores:
     us: "https://www.amazon.com/dp/B0H73C69WR"
     ca: "https://www.amazon.ca/dp/B0H73C69WR"
@@ -10,10 +13,13 @@
     au: "https://www.amazon.com.au/dp/B0H73C69WR"
 
 - title: "Hexed by the Demon Lord"
+  work_id: "W0169"
   series: "The Noxmere Duet #1"
   hook: "A high-heat monster romantasy where a dangerous curse, a demon lord, and an impossible bargain bind desire to power."
   cover: "assets/covers/farrow/hexed-by-the-demon-lord.jpg"
   featured: true
+  featured_order: 1
+  distribution_group: amazon-ku
   stores:
     us: "https://www.amazon.com/dp/B0GZVB658S"
     ca: "https://www.amazon.ca/dp/B0GZVB658S"
@@ -30,3 +36,13 @@
     ca: "https://www.amazon.ca/dp/B0GX35YGT3"
     uk: "https://www.amazon.co.uk/dp/B0GX35YGT3"
     au: "https://www.amazon.com.au/dp/B0GX35YGT3"
+
+- title: "Wanted by the Hungry Hollow"
+  work_id: "W0233"
+  series: "The Hollow Duet #1"
+  hook: "A monster why-choose romance where forced proximity and mating season turn hunger into an impossible bond."
+  cover: "assets/covers/farrow/wanted-by-the-hungry-hollow.jpg"
+  featured: true
+  featured_order: 3
+  distribution_group: amazon-ku
+  availability: retailer-links-pending

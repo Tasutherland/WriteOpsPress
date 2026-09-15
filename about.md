@@ -19,7 +19,6 @@ body_class: about-page
     </div>
   </div>
 </section>
-
 <section class="section section--feature">
   <div class="container">
     <div class="about-grid">
@@ -40,7 +39,6 @@ body_class: about-page
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container prose-page prose-page--feature">
     <h2 class="section-heading">Our Mandate</h2>
@@ -56,7 +54,6 @@ body_class: about-page
     </p>
   </div>
 </section>
-
 <section class="section section--tinted">
   <div class="container prose-page prose-page--feature">
     <h2 class="section-heading">What Readers Can Expect</h2>
@@ -82,16 +79,5 @@ body_class: about-page
       We are interested in fiction with teeth: stories that balance desire with consequence and
       intensity with payoff, while still feeling polished, market-aware, and easy to step into.
     </p>
-  </div>
-</section>
-
-<section class="section section--newsletter">
-  <div class="container">
-    {% include mailerlite-form.html
-      shell_class="newsletter-shell--about"
-      eyebrow="Newsletter"
-      heading="Get the next release first."
-      body="New releases, cover reveals, and reader extras from WriteOps Press. Choose the heat level, monsters, bargains, and devotion you want in your inbox."
-    %}
   </div>
 </section>
