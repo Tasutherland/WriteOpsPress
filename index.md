@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "WriteOps Press"
-description: "Independent romance press publishing dark MM romance, monster romance, why-choose romantasy, and historical romance."
+description: "Independent romance press publishing dark MM romance, monster romance, why-choose romantasy, and dark fantasy romance."
 permalink: /
 body_class: press-home
 ---
@@ -13,10 +13,11 @@ body_class: press-home
       <h1 class="press-title">Books that pull you in<br>and don't let go.</h1>
       <p class="press-blurb">
         WriteOps Press is an independent romance publisher specializing in dark MM romance,
-        monster romance, why-choose romantasy, and historical romance. Across every pen name,
+        monster romance, why-choose romantasy, and dark fantasy romance. Across every pen name,
         the stories are intense, trope-forward, emotionally charged, and built for readers
         who want heat with bite.
       </p>
+      <p class="press-blurb"><a href="{{ '/books/' | relative_url }}">Explore our books →</a></p>
     </div>
   </div>
 </section>
