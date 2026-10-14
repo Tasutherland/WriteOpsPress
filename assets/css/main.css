@@ -1172,3 +1172,39 @@ p:last-child {
   }
 
 }
+
+
+/* Searchable catalog and generated book/series detail pages */
+.book-hook { margin-top: 0.7rem; font-size: 0.94rem; line-height: 1.55; color: var(--color-text-muted); }
+.book-info .book-availability { margin-block: 0.7rem; }
+.catalog-more { margin-top: 1.5rem; font-weight: 600; }
+.catalog-intro { padding-bottom: 2rem; }
+.catalog-intro p { max-width: 54rem; }
+.catalog-author-nav { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+.catalog-author-nav a { border: 1px solid var(--color-border); border-radius: 999px; padding: .65rem 1rem; background: var(--color-surface-strong); }
+.catalog-author-section { border-top: 1px solid var(--color-border); }
+.catalog-author-section h2 { margin-bottom: .8rem; }
+.catalog-author-section .books-grid { margin-top: 1.75rem; }
+.catalog-breadcrumb { display: flex; gap: .75rem; flex-wrap: wrap; padding-top: 2rem; font-size: .9rem; color: var(--color-text-muted); }
+.detail-layout { display: grid; grid-template-columns: minmax(200px, 320px) minmax(0, 1fr); align-items: start; gap: clamp(2rem, 5vw, 5rem); padding-block: 3rem 2rem; }
+.detail-cover img { width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow-card); }
+.detail-copy h1 { margin-block: .5rem 1.2rem; }
+.detail-copy .book-series { margin-bottom: 1.5rem; }
+.detail-hook { max-width: 48rem; font-size: 1.18rem; line-height: 1.65; }
+.detail-retailers { margin-block: 2rem; }
+.detail-retailers h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+.retailer-list { display: flex; gap: .75rem; flex-wrap: wrap; }
+.retailer-list li a { display: flex; align-items: center; gap: .7rem; padding: .8rem 1.1rem; background: var(--color-surface-strong); border: 1px solid var(--color-border); border-radius: 8px; font-weight: 600; }
+.retailer-list a:hover { text-decoration: underline; }
+.detail-status { font-weight: 600; }
+.detail-notes { color: var(--color-text-muted); font-size: .9rem; margin-top: 1.6rem; }
+.related-books h2 { margin-bottom: 1.2rem; }
+.related-books .btn + .btn { margin-left: .6rem; }
+.catalog-series-grid { margin-top: 2rem; }
+@media (max-width: 720px) {
+  .detail-layout { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+  .detail-cover { max-width: 270px; margin-inline: auto; }
+  .catalog-breadcrumb { padding-top: 1.2rem; }
+  .related-books .btn { display: block; margin-bottom: .75rem; }
+  .related-books .btn + .btn { margin-left: 0; }
+}
