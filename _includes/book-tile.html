@@ -1,78 +1,47 @@
 {% comment %}
-  Usage: {% include book-tile.html book=book pen_id=pen_id %}
-  Variables:
-    book    — book object from _data/books_*.yml
-    pen_id  — pen name id string (e.g. "ash-wilder")
+  Show a catalog book with its permanent on-site page and a retailer action.
+  The generated detail_url is assigned by _plugins/catalog_pages.rb.
 {% endcomment %}
-
-{% assign us_url = include.book.stores.us | default: "" %}
-{% assign retailer_url = include.book.retailer_url | default: "" %}
-{% assign store_count = include.book.stores | size %}
-{% assign primary_url = retailer_url %}
-{% if primary_url == "" %}
-  {% assign primary_url = us_url %}
-{% endif %}
-
-<article class="book-tile {% if include.book.featured %}book-tile--featured{% endif %} {% if include.book.distribution_group %}book-tile--{{ include.book.distribution_group }}{% endif %}">
+{% assign book = include.book %}
+{% assign primary_url = book.detail_url | default: book.retailer_url | default: book.stores.us %}
+{% assign store_count = book.stores | size %}
+<article class="book-tile {% if book.featured %}book-tile--featured{% endif %} {% if book.distribution_group %}book-tile--{{ book.distribution_group }}{% endif %}">
   <div class="book-cover-wrap">
-    {% if include.book.cover %}
-      {% if primary_url != "" %}
-      <a href="{{ primary_url }}" target="_blank" rel="noopener noreferrer" aria-label="View retailer options for {{ include.book.title }} by {{ page.title }}">
-        <img
-          src="{{ include.book.cover | relative_url }}"
-          alt="Cover of {{ include.book.title }} by {{ page.title }}"
-          class="book-cover"
-          loading="lazy"
-          width="320"
-          height="480"
-        >
-      </a>
+    {% if book.cover %}
+      {% if primary_url %}
+        <a href="{{ primary_url | relative_url }}" aria-label="Learn about {{ book.title | escape }} by {{ book.pen_name | default: page.title | escape }}">
+          <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title | escape }} by {{ book.pen_name | default: page.title | escape }}" class="book-cover" loading="lazy" width="320" height="480">
+        </a>
       {% else %}
-      <img
-        src="{{ include.book.cover | relative_url }}"
-        alt="Cover of {{ include.book.title }} by {{ page.title }}"
-        class="book-cover"
-        loading="lazy"
-        width="320"
-        height="480"
-      >
+        <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title | escape }}" class="book-cover" loading="lazy" width="320" height="480">
       {% endif %}
     {% else %}
-    <div class="book-cover-placeholder" aria-hidden="true">
-      <span>{{ include.book.title }}</span>
-    </div>
+    <div class="book-cover-placeholder" aria-hidden="true"><span>{{ book.title }}</span></div>
     {% endif %}
   </div>
-
   <div class="book-info">
-    {% if include.book.series %}
-    <p class="book-series">{{ include.book.series }}</p>
+    {% if book.series_name %}
+      <p class="book-series">
+        {% if book.series_url %}<a href="{{ book.series_url | relative_url }}">{{ book.series }}</a>{% else %}{{ book.series }}{% endif %}
+      </p>
+    {% elsif book.series %}
+      <p class="book-series">{{ book.series }}</p>
     {% endif %}
     <h3 class="book-title">
-      {% if primary_url != "" %}
-      <a href="{{ primary_url }}" target="_blank" rel="noopener noreferrer">{{ include.book.title }}</a>
-      {% else %}
-      {{ include.book.title }}
-      {% endif %}
+      {% if book.detail_url %}<a href="{{ book.detail_url | relative_url }}">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}
     </h3>
-
+    {% if book.hook %}<p class="book-hook">{{ book.hook }}</p>{% endif %}
+    {% if book.availability == "preorder" %}<p class="book-availability">Preorder</p>{% endif %}
     {% if store_count > 0 %}
-    <button
-      class="btn btn-primary buy-btn"
-      data-title="{{ include.book.title }}"
-      data-stores='{{ include.book.stores | jsonify }}'
-      aria-haspopup="dialog"
-    >
-      Choose Amazon Store
+    <button class="btn btn-primary buy-btn" data-title="{{ book.title | escape }}" data-stores='{{ book.stores | jsonify }}' aria-haspopup="dialog">
+      {% if book.availability == "preorder" %}Choose Preorder Store{% else %}Choose Store{% endif %}
     </button>
-    {% elsif retailer_url != "" %}
-    <a class="btn btn-primary buy-btn" href="{{ retailer_url }}" target="_blank" rel="noopener noreferrer">
-      {{ include.book.retailer_label | default: "View Retailers" }}
-    </a>
-    {% elsif include.book.availability == "retailer-links-pending" %}
-    <p class="book-availability">Retailer links pending</p>
-    {% elsif include.book.availability == "coming-soon" %}
+    {% elsif book.retailer_url %}
+    <a class="btn btn-primary buy-btn" href="{{ book.retailer_url }}" target="_blank" rel="noopener noreferrer">{{ book.retailer_label | default: "View Retailers" }}</a>
+    {% elsif book.availability == "coming-soon" %}
     <p class="book-availability">Coming Soon</p>
+    {% else %}
+    <p class="book-availability">Retailer links pending</p>
     {% endif %}
   </div>
 </article>
