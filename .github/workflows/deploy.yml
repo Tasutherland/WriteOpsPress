@@ -38,6 +38,9 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Validate SEO and book catalog
+        run: ruby scripts/validate_seo.rb _site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

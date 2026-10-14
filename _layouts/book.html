@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  {% assign book = page.book %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": {{ book.title | jsonify }},
+    "author": {"@type": "Person", "name": {{ page.pen_name | jsonify }}, "url": {{ page.author_url | absolute_url | jsonify }}},
+    "description": {{ page.description | jsonify }},
+    "url": {{ page.url | absolute_url | jsonify }}{% if book.cover %},
+    "image": {{ book.cover | absolute_url | jsonify }}{% endif %}{% if book.isbn %},
+    "isbn": {{ book.isbn | jsonify }}{% endif %}{% if book.series_name %},
+    "isPartOf": {"@type": "BookSeries", "name": {{ book.series_name | jsonify }}}{% endif %}
+  }
+  </script>
+</head>
+<body class="book-page pen-{{ page.pen_id }}">
+  {% include header.html %}
+  <main id="main-content">
+    <div class="container catalog-breadcrumb">
+      <a href="{{ '/books/' | relative_url }}">All Books</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ page.author_url | relative_url }}">{{ page.pen_name }}</a>
+      {% if book.series_url %}
+      <span aria-hidden="true">/</span>
+      <a href="{{ book.series_url | relative_url }}">{{ book.series_name }}</a>
+      {% endif %}
+    </div>
+    <article class="container detail-layout">
+      <div class="detail-cover">
+        {% if book.cover %}
+        <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }} by {{ page.pen_name }}" width="320" height="480" fetchpriority="high">
+        {% endif %}
+      </div>
+      <div class="detail-copy">
+        <p class="press-eyebrow">{{ page.pen_name }}</p>
+        <h1>{{ book.title }}</h1>
+        {% if book.series_name %}
+        <p class="book-series">
+          {% if book.series_url %}<a href="{{ book.series_url | relative_url }}">{{ book.series }}</a>{% else %}{{ book.series }}{% endif %}
+        </p>
+        {% endif %}
+        {% if book.hook %}<p class="detail-hook">{{ book.hook }}</p>{% endif %}
+        {% if book.blurb %}<div class="detail-blurb">{{ book.blurb | markdownify }}</div>{% endif %}
+        {% if book.availability == "preorder" %}<p class="detail-status">Available for preorder</p>{% endif %}
+        <div class="detail-retailers">
+          <h2>Where to read</h2>
+          {% if book.stores and book.stores.size > 0 %}
+          <ul class="retailer-list">
+            {% for store in book.stores %}
+            <li><a href="{{ store[1] }}" rel="noopener noreferrer" target="_blank">{% case store[0] %}{% when 'us' %}Amazon US{% when 'ca' %}Amazon Canada{% when 'uk' %}Amazon UK{% when 'au' %}Amazon Australia{% when 'kobo' %}Kobo{% when 'apple' %}Apple Books{% when 'barnes_noble' %}Barnes &amp; Noble{% when 'universal' %}All retailers{% else %}{{ store[0] | replace: '_', ' ' | capitalize }}{% endcase %}<span aria-hidden="true">↗</span></a></li>
+            {% endfor %}
+          </ul>
+          {% elsif book.retailer_url %}
+          <a class="btn btn-primary" href="{{ book.retailer_url }}" target="_blank" rel="noopener noreferrer">{{ book.retailer_label | default: "View retailers" }}</a>
+          {% elsif book.availability == "coming-soon" %}
+          <p>Coming soon. Retailer details will be added when confirmed.</p>
+          {% else %}
+          <p>Retailer links are being verified. Check back for purchase and preorder options.</p>
+          {% endif %}
+        </div>
+        <p class="detail-notes">For general content guidance, visit the <a href="{{ page.author_url | relative_url }}#content-notes">{{ page.pen_name }} author page</a>.</p>
+      </div>
+    </article>
+    {% if page.series_books.size > 1 %}
+    <section class="container section related-books" aria-labelledby="series-books-heading">
+      <h2 id="series-books-heading">{% if book.series_url %}<a href="{{ book.series_url | relative_url }}">More from {{ book.series_name }}</a>{% else %}Other books in this series{% endif %}</h2>
+      <div class="books-grid books-grid--curated">
+        {% for related in page.series_books %}
+          {% unless related.detail_url == book.detail_url %}
+            {% include book-tile.html book=related %}
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+    <section class="container section related-books">
+      <a class="btn btn-outline" href="{{ page.author_url | relative_url }}">Explore {{ page.pen_name }} books</a>
+      <a class="btn btn-outline" href="{{ '/books/' | relative_url }}">Browse all books</a>
+    </section>
+  </main>
+  {% include footer.html %}
+  {% include buy-modal.html %}
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

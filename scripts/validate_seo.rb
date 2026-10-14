@@ -1,0 +1,49 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+require "json"
+require "yaml"
+require "date"
+
+site_dir = ARGV.fetch(0, "_site")
+config = YAML.safe_load_file("_config.yml", permitted_classes: [Date, Time], aliases: true)
+authors = config.fetch("pen_names")
+expected = authors.sum do |author|
+  data = YAML.safe_load_file("_data/books_#{author.fetch('data_key')}.yml", permitted_classes: [Date, Time], aliases: true)
+  data.count { |book| !book["title"].to_s.strip.empty? }
+end
+
+errors = []
+book_files = Dir.glob(File.join(site_dir, "books", "*", "*", "index.html"))
+errors << "Expected #{expected} generated book pages; found #{book_files.length}" if book_files.length != expected
+catalog = File.join(site_dir, "books", "index.html")
+errors << "Missing all-books catalog page" unless File.file?(catalog)
+sitemap = File.join(site_dir, "sitemap.xml")
+errors << "Missing sitemap.xml" unless File.file?(sitemap)
+robots = File.join(site_dir, "robots.txt")
+errors << "Wrong sitemap domain in robots.txt" unless File.file?(robots) && File.read(robots).include?("Sitemap: https://writeopshq.com/sitemap.xml")
+
+book_files.each do |path|
+  html = File.read(path)
+  url = path.sub(%r{\A#{Regexp.escape(site_dir)}/?}, "").sub(/index\.html\z/, "")
+  errors << "#{url}: missing H1" unless html.match?(/<h1\b/i)
+  errors << "#{url}: missing canonical URL" unless html.match?(/<link\s+rel=["']canonical["']/i)
+  schemas = html.scan(%r{<script\b[^>]*type=["']application/ld\+json["'][^>]*>(.*?)</script>}im).flatten
+  parsed = schemas.filter_map { |s| JSON.parse(s) rescue nil }
+  errors << "#{url}: missing valid Book schema" unless parsed.any? { |item| item["@type"] == "Book" }
+  errors << "#{url}: not found in sitemap" if File.file?(sitemap) && !File.read(sitemap).include?("/#{url}")
+end
+
+Dir.glob(File.join(site_dir, "**", "*.html")).each do |path|
+  html = File.read(path)
+  html.scan(/href=["'](\/(?:books|series)\/[^"'?#]*\/?)["']/).flatten.uniq.each do |url|
+    target = File.join(site_dir, url.sub(%r{\A/}, ""), "index.html")
+    errors << "#{path}: broken catalog link #{url}" unless File.file?(target)
+  end
+end
+
+if errors.any?
+  warn "SEO/catalog validation FAILED:"
+  errors.each { |message| warn "  - #{message}" }
+  exit 1
+end
+puts "SEO/catalog validation passed: #{expected} book pages, sitemap, canonicals, Book schema and internal links."
