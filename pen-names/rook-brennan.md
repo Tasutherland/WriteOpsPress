@@ -52,6 +52,8 @@ permalink: /authors/rook-brennan/
     </div>
   </section>
 
+  <p class="catalog-more"><a href="{{ '/books/' | relative_url }}#rook-brennan">Browse all Rook Brennan books →</a></p>
+
   {% if page.content_notes %}
   <div class="content-notes" id="content-notes">
     <p class="content-notes-title">Content Notes</p>
