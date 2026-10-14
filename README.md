@@ -35,7 +35,7 @@ If you're new to this repo, here are the basics in plain language:
   hook: "One-line hook (~150 chars)."
   blurb: "2–4 sentence short blurb."
   cover: "assets/covers/ash/my-book.webp"
-  featured: true                   # only featured books are rendered publicly
+  featured: true                   # shown in curated author shelves; all books get detail pages
   featured_order: 1                # display order within the curated shelf
   distribution_group: amazon-ku    # amazon-ku or wide
   stores:
@@ -68,8 +68,29 @@ contact.md
 For a wide-release book, set `distribution_group: wide`. Add a verified `retailer_url`
 (such as a universal retailer page) or a `stores` mapping when one is available. A featured
 book can remain visible without a retailer URL; use `availability: retailer-links-pending`
-to show that state. Never add a placeholder retailer URL. Unfeatured catalog entries remain
-in the YAML file and can be promoted later without redesigning the author page.
+to show that state. Never add a placeholder retailer URL. Unfeatured catalog entries remain in the YAML file and appear in the complete book catalog at /books/ as well as on their own detail pages. Promote them to the featured author shelves by setting featured: true.
+
+## Automatic book and series pages / SEO
+
+- The custom generator at `_plugins/catalog_pages.rb` builds a permanent
+  `/books/<pen-name>/<book-title>/` page for every book in the four active
+  pen-name YAML files. Every book appears on `/books/`, even if not featured.
+- Series with two or more listed books also get permanent `/series/<pen>/<series>/`
+  pages, with reading-order links. The feature shelves remain curated.
+- The existing book `hook` is used as a search description and reader-facing
+  teaser. Add an optional `blurb` for fuller text on a book page. Book pages
+  include Book JSON-LD, cover OG images (when a cover is present), canonical URLs,
+  and verified retailer links only.
+- To verify locally: `bundle exec jekyll build` and
+  `ruby scripts/validate_seo.rb _site`. The GitHub Pages workflow runs both.
+- Keep `_config.yml` > `url`, `CNAME`, and `robots.txt` on the same
+  public domain (`https://writeopshq.com`).
+- After deployment, verify the domain and submit `https://writeopshq.com/sitemap.xml`
+  in Google Search Console. Monitor indexed pages, branded searches, and
+  retailer click-throughs before adding optional analytics.
+- New titles only require an entry in `_data/books_*.yml`. Ensure the cover
+  file exists, the hook is accurate, and retailer URLs are verified before
+  publishing; do not invent or guess retailer URLs.
 
 ## Custom Domain
 
