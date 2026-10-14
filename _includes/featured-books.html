@@ -12,6 +12,7 @@
       {% include book-tile.html book=book pen_id=include.pen_id %}
     {% endfor %}
   </div>
+  <p class="catalog-more"><a href="{{ '/books/' | relative_url }}#{{ include.pen_id }}">Browse all books by {{ page.title }} →</a></p>
   {% else %}
   <div class="books-coming-soon">
     <p>Books coming soon.</p>
