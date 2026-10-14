@@ -13,6 +13,19 @@ expected = authors.sum do |author|
 end
 
 errors = []
+# Catch outdated preorder labels when a known release date has passed.
+authors.each do |author|
+  data = YAML.safe_load_file("_data/books_#{author.fetch('data_key')}.yml", permitted_classes: [Date, Time], aliases: true)
+  data.each do |book|
+    next unless book["availability"] == "preorder" && book["release_date"]
+
+    release_date = Date.parse(book["release_date"].to_s)
+    if release_date <= Date.today
+      errors << "#{book['title']}: preorder status remains after #{release_date}"
+    end
+  end
+end
+
 book_files = Dir.glob(File.join(site_dir, "books", "*", "*", "index.html"))
 # ASIN-only catalog entries must render real, region-specific Amazon destinations.
 # A retailer_url or explicit stores mapping remains valid for wide titles.
