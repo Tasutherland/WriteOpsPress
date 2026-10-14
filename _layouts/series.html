@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body class="series-page">
+  {% include header.html %}
+  <main id="main-content">
+    <div class="container catalog-breadcrumb">
+      <a href="{{ '/books/' | relative_url }}">All Books</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ page.author_url | relative_url }}">{{ page.pen_name }}</a>
+    </div>
+    <section class="container section">
+      <p class="press-eyebrow">{{ page.pen_name }} · Series</p>
+      <h1>{{ page.series_name }}</h1>
+      <p class="detail-hook">Books in the {{ page.series_name }} series. Explore the reading order and confirmed retailer links.</p>
+      <div class="books-grid books-grid--curated catalog-series-grid">
+        {% for book in page.series_books %}
+          {% include book-tile.html book=book %}
+        {% endfor %}
+      </div>
+      <p class="catalog-more"><a href="{{ page.author_url | relative_url }}">More from {{ page.pen_name }}</a></p>
+    </section>
+  </main>
+  {% include footer.html %}
+  {% include buy-modal.html %}
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
