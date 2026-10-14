@@ -38,12 +38,22 @@ If you're new to this repo, here are the basics in plain language:
   featured: true                   # shown in curated author shelves; all books get detail pages
   featured_order: 1                # display order within the curated shelf
   distribution_group: amazon-ku    # amazon-ku or wide
-  stores:
-    ca: "https://www.amazon.ca/dp/ASIN"
-    us: "https://www.amazon.com/dp/ASIN"
-    uk: "https://www.amazon.co.uk/dp/ASIN"
-    au: "https://www.amazon.com.au/dp/ASIN"
+  asin: "B0XXXXXXXX"              # replace with verified English-edition ASIN
 ```
+
+For a KDP book, add its **verified original-language ASIN once** as `asin:`.
+The site automatically builds standard Amazon US, Canada, UK, and Australia
+`/dp/ASIN` links. It displays those locations in the store selector and on the
+book detail page. Do not mark a published, ASIN-backed book as
+`retailer-links-pending`.
+
+For a wide book, retain the actual verified `retailer_url` (such as its Kobo
+listing) or a `stores:` mapping (e.g. `kobo`, `apple`, `barnes_noble`,
+`universal`). Existing direct store URLs remain supported. An explicit
+`stores` URL takes precedence over an auto-generated regional Amazon URL
+if both are provided, allowing special editions or retailer overrides.
+Never invent an ASIN or retailer destination. Each translation must use its
+own ASIN if its edition is separately listed.
 
 3. **Commit and push** to GitHub. GitHub Pages rebuilds automatically (~1 min).
 

@@ -33,6 +33,25 @@ module WriteOps
           book["pen_name"] = author["name"]
           book["author_url"] = "/authors/#{author['id']}/"
 
+          # ASIN-only KDP entries expand to the four usual Amazon storefronts.
+          # Explicit store URLs (including wide retailers) remain authoritative.
+          asin = book["asin"].to_s.strip.upcase
+          unless asin.empty?
+            unless /\A[A-Z0-9]{10}\z/.match?(asin)
+              raise "Invalid ASIN for #{data_key}: #{book['title']} (#{asin})"
+            end
+
+            standard_stores = {
+              "us" => "https://www.amazon.com/dp/#{asin}",
+              "ca" => "https://www.amazon.ca/dp/#{asin}",
+              "uk" => "https://www.amazon.co.uk/dp/#{asin}",
+              "au" => "https://www.amazon.com.au/dp/#{asin}"
+            }
+            custom_stores = book["stores"].is_a?(Hash) ? book["stores"] : {}
+            book["stores"] = standard_stores.merge(custom_stores)
+            book["asin"] = asin
+          end
+
           series = book["series"].to_s.sub(/\s+#\d+\s*\z/, "").strip
           book["series_name"] = series unless series.empty?
           series_groups[[author["id"], series]] << book unless series.empty?

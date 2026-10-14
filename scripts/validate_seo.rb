@@ -14,7 +14,42 @@ end
 
 errors = []
 book_files = Dir.glob(File.join(site_dir, "books", "*", "*", "index.html"))
+# ASIN-only catalog entries must render real, region-specific Amazon destinations.
+# A retailer_url or explicit stores mapping remains valid for wide titles.
+regional_hosts = {
+  "us" => "www.amazon.com",
+  "ca" => "www.amazon.ca",
+  "uk" => "www.amazon.co.uk",
+  "au" => "www.amazon.com.au"
+}
+asin_books = authors.flat_map do |author|
+  data = YAML.safe_load_file("_data/books_#{author.fetch('data_key')}.yml", permitted_classes: [Date, Time], aliases: true)
+  data.select { |book| !book["asin"].to_s.strip.empty? }
+end
+
 errors << "Expected #{expected} generated book pages; found #{book_files.length}" if book_files.length != expected
+asin_books.each do |book|
+  asin = book.fetch("asin").to_s.strip.upcase
+  if !/\A[A-Z0-9]{10}\z/.match?(asin)
+    errors << "#{book['title']}: malformed ASIN #{asin.inspect}"
+    next
+  end
+
+  expected_urls = regional_hosts.values.map { |host| "https://#{host}/dp/#{asin}" }
+  page = book_files.find do |path|
+    body = File.read(path)
+    body.include?("<h1>#{book['title']}</h1>")
+  end
+  unless page
+    errors << "#{book['title']}: generated detail page not found"
+    next
+  end
+  html = File.read(page)
+  expected_urls.each do |url|
+    errors << "#{book['title']}: missing generated link #{url}" unless html.include?(url)
+  end
+end
+
 catalog = File.join(site_dir, "books", "index.html")
 errors << "Missing all-books catalog page" unless File.file?(catalog)
 sitemap = File.join(site_dir, "sitemap.xml")
