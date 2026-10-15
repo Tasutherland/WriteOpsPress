@@ -6,7 +6,7 @@ email: contact@writeopspress.com
 
 # Fill only with the verified GA4 web-stream ID; empty keeps analytics disabled.
 analytics:
-  measurement_id: ""
+  measurement_id: "G-10KY13NWYM"
 
 # Build settings
 markdown: kramdown
