@@ -33,6 +33,9 @@
     <div class="container">
       <p>&copy; {{ 'now' | date: "%Y" }} WriteOps Press. All rights reserved.
         &nbsp;·&nbsp; <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
+        {% if site.analytics.measurement_id and site.analytics.measurement_id != '' %}
+        &nbsp;·&nbsp; <button type="button" class="analytics-settings" data-analytics-settings>Analytics settings</button>
+        {% endif %}
       </p>
     </div>
   </div>

@@ -1208,3 +1208,26 @@ p:last-child {
   .related-books .btn { display: block; margin-bottom: .75rem; }
   .related-books .btn + .btn { margin-left: 0; }
 }
+/* Optional analytics controls stay accessible on every page. */
+.analytics-consent[hidden] { display: none; }
+.analytics-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  padding: 1rem;
+  background: #fff;
+  color: #202020;
+  border-top: 2px solid #555;
+  box-shadow: 0 -4px 16px #0002;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+.analytics-consent h2 { margin: 0 0 .5rem; font-size: 1.15rem; color: #202020; }
+.analytics-consent p { margin: .4rem 0; font-size: .95rem; }
+.analytics-consent a { color: #28306f; text-decoration: underline; }
+.analytics-consent-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: .75rem; }
+.analytics-consent-actions .btn { color: #202020; border-color: #555; background: #fff; }
+.analytics-settings { background: none; border: 0; padding: 0; color: inherit; font: inherit; text-decoration: underline; cursor: pointer; }
+.analytics-settings:focus-visible, .analytics-consent button:focus-visible { outline: 3px solid #28306f; outline-offset: 3px; }

@@ -5,7 +5,7 @@
 {% assign book = include.book %}
 {% assign primary_url = book.detail_url | default: book.retailer_url | default: book.stores.us %}
 {% assign store_count = book.stores | size %}
-<article class="book-tile {% if book.featured %}book-tile--featured{% endif %} {% if book.distribution_group %}book-tile--{{ book.distribution_group }}{% endif %}">
+<article class="book-tile {% if book.featured %}book-tile--featured{% endif %} {% if book.distribution_group %}book-tile--{{ book.distribution_group }}{% endif %}" data-book-title="{{ book.title | escape }}" data-work-id="{{ book.work_id | escape }}" data-author="{{ book.pen_name | escape }}" data-edition="ebook" data-link-placement="book_tile">
   <div class="book-cover-wrap">
     {% if book.cover %}
       {% if primary_url %}
@@ -33,7 +33,7 @@
     {% if book.hook %}<p class="book-hook">{{ book.hook }}</p>{% endif %}
     {% if book.availability == "preorder" %}<p class="book-availability">Preorder</p>{% endif %}
     {% if store_count > 0 %}
-    <button class="btn btn-primary buy-btn" data-title="{{ book.title | escape }}" data-stores='{{ book.stores | jsonify }}' aria-haspopup="dialog">
+    <button class="btn btn-primary buy-btn" data-title="{{ book.title | escape }}" data-stores='{{ book.stores | jsonify | escape }}' aria-haspopup="dialog">
       {% if book.availability == "preorder" %}Choose Preorder Store{% else %}Choose Store{% endif %}
     </button>
     {% elsif book.retailer_url %}

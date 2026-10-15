@@ -29,6 +29,15 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Validate analytics consent and click tracking
+        run: npm ci && npm test
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -40,6 +49,9 @@ jobs:
 
       - name: Validate SEO and book catalog
         run: ruby scripts/validate_seo.rb _site
+
+      - name: Validate analytics markup across built pages
+        run: node scripts/validate_analytics.cjs _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
