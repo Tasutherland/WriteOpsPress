@@ -1,0 +1,30 @@
+# Published English-language audiobooks. One record per audio edition.
+# Work ID links each edition to the existing ebook/catalog record.
+# Kobo destinations are Canadian English storefront links; add additional verified
+# retailers to the edition's stores map only after a live product match.
+- title: "Captured by the Enforcer"
+  work_id: "W0092"
+  isbn: "9781997006107"
+  narrator: "Cassius"
+  duration: "4 hr 4 min"
+  release_date: "2026-10-09"
+  stores:
+    kobo: "https://www.kobo.com/ca/en/audiobook/captured-by-the-enforcer"
+
+- title: "Shadow's Cage"
+  work_id: "W0155"
+  isbn: "9781997006114"
+  narrator: "Cassius"
+  duration: "3 hr 30 min"
+  release_date: "2026-10-09"
+  stores:
+    kobo: "https://www.kobo.com/ca/en/audiobook/shadow-s-cage"
+
+- title: "Terms of Ownership"
+  work_id: "W0095"
+  isbn: "9781997006121"
+  narrator: "Cassius"
+  duration: "2 hr 42 min"
+  release_date: "2026-10-09"
+  stores:
+    kobo: "https://www.kobo.com/ca/en/audiobook/terms-of-ownership-1"
