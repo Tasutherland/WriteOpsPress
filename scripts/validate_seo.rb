@@ -17,6 +17,11 @@ errors = []
 authors.each do |author|
   data = YAML.safe_load_file("_data/books_#{author.fetch('data_key')}.yml", permitted_classes: [Date, Time], aliases: true)
   data.each do |book|
+    cover = book["cover"].to_s.sub(%r{\A/}, "")
+    if cover.empty? || !File.file?(File.join(site_dir, cover))
+      errors << "#{book['title']}: missing book cover asset #{cover.inspect}"
+    end
+
     next unless book["availability"] == "preorder" && book["release_date"]
 
     release_date = Date.parse(book["release_date"].to_s)
@@ -83,6 +88,9 @@ end
 
 Dir.glob(File.join(site_dir, "**", "*.html")).each do |path|
   html = File.read(path)
+  if html.match?(/<a\b[^>]*class=["'][^"']*\bbuy-btn\b/i)
+    errors << "#{path}: direct retailer anchor has a modal-only buy-btn class"
+  end
   html.scan(/href=["'](\/(?:books|series)\/[^"'?#]*\/?)["']/).flatten.uniq.each do |url|
     target = File.join(site_dir, url.sub(%r{\A/}, ""), "index.html")
     errors << "#{path}: broken catalog link #{url}" unless File.file?(target)

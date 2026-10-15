@@ -59,7 +59,8 @@
   featured: true
   featured_order: 5
   distribution_group: amazon-ku
-  availability: preorder
+  release_date: "2026-08-15"
+  availability: published
   stores:
     us: "https://www.amazon.com/dp/B0HCRGVTPH"
     ca: "https://www.amazon.ca/dp/B0HCRGVTPH"
