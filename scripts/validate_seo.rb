@@ -68,6 +68,31 @@ asin_books.each do |book|
   end
 end
 
+# Audiobook editions must be purchasable through the dedicated AUDIOBOOK path,
+# never through an ebook URL. Do not add drafting editions to the website.
+audio_catalog_path = File.join(site_dir, "audiobooks", "index.html")
+audio_editions = YAML.safe_load_file("_data/audiobooks.yml", permitted_classes: [Date, Time], aliases: true)
+if !File.file?(audio_catalog_path)
+  errors << "Missing audiobook catalog page"
+else
+  audio_html = File.read(audio_catalog_path)
+  audio_editions.each do |edition|
+    title = edition["title"].to_s
+    url = edition.dig("stores", "kobo").to_s
+    errors << "#{title}: audiobook purchase link must point to Canadian English Kobo audio listing" unless url.match?(%r{\Ahttps://www\.kobo\.com/ca/en/audiobook/[a-z0-9-]+\z})
+    errors << "#{title}: audio edition link missing from audiobook catalog" unless audio_html.include?(url)
+    errors << "#{title}: audiobook ISBN missing" unless edition["isbn"].to_s.match?(/\A\d{13}\z/)
+  end
+end
+
+# Avoid unintentional retailer links to localized German or non-Canadian stores.
+rook_books = YAML.safe_load_file("_data/books_rook.yml", permitted_classes: [Date, Time], aliases: true)
+rook_books.select { |book| book["distribution_group"] == "wide" && book["retailer_url"].to_s.include?("kobo.com") }.each do |book|
+  unless book["retailer_url"].match?(%r{\Ahttps://www\.kobo\.com/ca/en/ebook/})
+    errors << "#{book['title']}: use English Canadian Kobo storefront URL"
+  end
+end
+
 catalog = File.join(site_dir, "books", "index.html")
 errors << "Missing all-books catalog page" unless File.file?(catalog)
 sitemap = File.join(site_dir, "sitemap.xml")
