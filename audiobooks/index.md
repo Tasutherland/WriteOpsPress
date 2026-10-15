@@ -18,7 +18,7 @@ permalink: /audiobooks/
   <div class="container">
     <div class="books-grid books-grid--curated catalog-all-grid">
       {% for audio in site.data.audiobooks %}
-      <article class="book-tile">
+      <article class="book-tile" data-book-title="{{ audio.title | escape }}" data-work-id="{{ audio.work_id | escape }}" data-author="{{ audio.pen_name | escape }}" data-edition="audiobook" data-link-placement="audiobook_catalog">
         <div class="book-cover-wrap">
           <a href="{{ audio.book_url | relative_url }}" aria-label="About {{ audio.title | escape }} by {{ audio.pen_name | escape }}">
             <img src="{{ audio.cover | relative_url }}" alt="Cover of {{ audio.title | escape }} by {{ audio.pen_name | escape }}" class="book-cover" loading="lazy" width="320" height="480">

@@ -90,6 +90,14 @@
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
       a.className = 'store-btn';
+      const context = trigger.closest('[data-book-title]');
+      if (context) {
+        ['bookTitle', 'workId', 'author', 'edition'].forEach(function (field) {
+          a.dataset[field] = context.dataset[field] || '';
+        });
+      }
+      a.dataset.storeRegion = key;
+      a.dataset.linkPlacement = 'regional_picker';
       a.innerHTML = `
         <span class="store-btn-left">
           <span class="store-btn-flag" aria-hidden="true">${info.flag}</span>

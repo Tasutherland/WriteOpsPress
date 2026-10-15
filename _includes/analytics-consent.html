@@ -1,0 +1,13 @@
+{% if site.analytics.measurement_id and site.analytics.measurement_id != '' %}
+<section id="analytics-consent" class="analytics-consent" aria-labelledby="analytics-consent-title" hidden>
+  <div class="container">
+    <h2 id="analytics-consent-title">Optional website analytics</h2>
+    <p>May we use Google Analytics cookies to understand visits and which book and audiobook retailer links readers choose? This sends browsing and device information to Google. We do not use it for personalised ads. You can browse and buy books without accepting. <a href="{{ '/privacy/' | relative_url }}">Privacy details</a></p>
+    <div class="analytics-consent-actions">
+      <button type="button" class="btn btn-outline" data-analytics-choice="denied">Reject analytics</button>
+      <button type="button" class="btn btn-outline" data-analytics-choice="granted">Accept analytics</button>
+    </div>
+    <p id="analytics-consent-status" role="status"></p>
+  </div>
+</section>
+{% endif %}

@@ -4,6 +4,10 @@ url: "https://writeopshq.com"
 baseurl: ""
 email: contact@writeopspress.com
 
+# Fill only with the verified GA4 web-stream ID; empty keeps analytics disabled.
+analytics:
+  measurement_id: ""
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -20,6 +24,11 @@ exclude:
   - Gemfile.lock
   - README.md
   - node_modules/
+  - package.json
+  - package-lock.json
+  - tests/
+  - docs/
+  - scripts/
 
 # Defaults
 defaults:

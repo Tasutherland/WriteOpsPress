@@ -29,7 +29,7 @@
       <a href="{{ book.series_url | relative_url }}">{{ book.series_name }}</a>
       {% endif %}
     </div>
-    <article class="container detail-layout">
+    <article class="container detail-layout" data-book-title="{{ book.title | escape }}" data-work-id="{{ book.work_id | escape }}" data-author="{{ page.pen_name | escape }}" data-edition="ebook" data-link-placement="book_detail">
       <div class="detail-cover">
         {% if book.cover %}
         <img src="{{ book.cover | relative_url }}" alt="Cover of {{ book.title }} by {{ page.pen_name }}" width="320" height="480" fetchpriority="high">
@@ -51,7 +51,7 @@
           {% if book.stores and book.stores.size > 0 %}
           <ul class="retailer-list">
             {% for store in book.stores %}
-            <li><a href="{{ store[1] }}" rel="noopener noreferrer" target="_blank">{% case store[0] %}{% when 'us' %}Amazon US{% when 'ca' %}Amazon Canada{% when 'uk' %}Amazon UK{% when 'au' %}Amazon Australia{% when 'kobo' %}Kobo{% when 'apple' %}Apple Books{% when 'barnes_noble' %}Barnes &amp; Noble{% when 'universal' %}All retailers{% else %}{{ store[0] | replace: '_', ' ' | capitalize }}{% endcase %}<span aria-hidden="true">↗</span></a></li>
+            <li><a href="{{ store[1] }}" data-store-region="{{ store[0] | escape }}" rel="noopener noreferrer" target="_blank">{% case store[0] %}{% when 'us' %}Amazon US{% when 'ca' %}Amazon Canada{% when 'uk' %}Amazon UK{% when 'au' %}Amazon Australia{% when 'kobo' %}Kobo{% when 'apple' %}Apple Books{% when 'barnes_noble' %}Barnes &amp; Noble{% when 'universal' %}All retailers{% else %}{{ store[0] | replace: '_', ' ' | capitalize }}{% endcase %}<span aria-hidden="true">↗</span></a></li>
             {% endfor %}
           </ul>
           {% elsif book.retailer_url %}
@@ -66,7 +66,7 @@
         <div class="detail-retailers">
           <h2>Listen to the audiobook</h2>
           <p>Narrated by {{ book.audiobook.narrator }} · {{ book.audiobook.duration }} · Unabridged English audio edition.</p>
-          <a class="btn btn-primary retailer-link" href="{{ book.audiobook.stores.kobo }}" target="_blank" rel="noopener noreferrer" data-edition="audiobook" data-work-id="{{ book.audiobook.work_id }}">Buy audiobook on Kobo</a>
+          <a class="btn btn-primary retailer-link" href="{{ book.audiobook.stores.kobo }}" target="_blank" rel="noopener noreferrer" data-book-title="{{ book.title | escape }}" data-author="{{ page.pen_name | escape }}" data-edition="audiobook" data-work-id="{{ book.audiobook.work_id }}" data-link-placement="book_detail">Buy audiobook on Kobo</a>
         </div>
         {% endif %}
         <p class="detail-notes">For general content guidance, visit the <a href="{{ page.author_url | relative_url }}#content-notes">{{ page.pen_name }} author page</a>.</p>
@@ -91,6 +91,7 @@
   </main>
   {% include footer.html %}
   {% include buy-modal.html %}
+  {% include analytics-consent.html %}
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>
