@@ -163,7 +163,7 @@
   distribution_group: wide
   release_date: "2026-09-29"
   availability: published
-  retailer_url: "https://www.kobo.com/gb/en/ebook/made-for-the-spider-beast"
+  retailer_url: "https://www.kobo.com/ca/en/ebook/made-for-the-spider-beast"
   retailer_label: "View on Kobo"
 
 - title: "Made for the Chimera"
@@ -177,5 +177,5 @@
   distribution_group: wide
   release_date: "2026-10-05"
   availability: published
-  retailer_url: "https://www.kobo.com/at/de/ebook/made-for-the-chimera"
+  retailer_url: "https://www.kobo.com/ca/en/ebook/made-for-the-chimera"
   retailer_label: "View on Kobo"
