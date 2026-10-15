@@ -62,6 +62,13 @@
           <p>Retailer links are being verified. Check back for purchase and preorder options.</p>
           {% endif %}
         </div>
+        {% if book.audiobook and book.audiobook.stores.kobo %}
+        <div class="detail-retailers">
+          <h2>Listen to the audiobook</h2>
+          <p>Narrated by {{ book.audiobook.narrator }} · {{ book.audiobook.duration }} · Unabridged English audio edition.</p>
+          <a class="btn btn-primary retailer-link" href="{{ book.audiobook.stores.kobo }}" target="_blank" rel="noopener noreferrer" data-edition="audiobook" data-work-id="{{ book.audiobook.work_id }}">Buy audiobook on Kobo</a>
+        </div>
+        {% endif %}
         <p class="detail-notes">For general content guidance, visit the <a href="{{ page.author_url | relative_url }}#content-notes">{{ page.pen_name }} author page</a>.</p>
       </div>
     </article>
