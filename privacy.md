@@ -46,7 +46,7 @@ permalink: /privacy/
           <strong>Kobo and other retailers</strong> — Purchase links leave this site. The retailer handles accounts, purchases, cookies, and its own privacy choices. Our website analytics cannot see what you buy on a retailer's website.
         </li>
         <li>
-          <strong>Amazon</strong> — Buy links on this site may lead to Amazon storefronts. We have no control over Amazon's data collection. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" target="_blank" rel="noopener">Amazon's Privacy Notice</a>.
+          <strong>Amazon</strong> — Buy links on this site may lead to Amazon storefronts. A limited pilot uses Amazon Attribution parameters on the US Kindle link for <em>Captured by the Enforcer</em>. If you choose that link, Amazon can attribute qualifying Amazon activity, purchases, and Kindle Unlimited reading to this website and provide aggregate reports to us. No Amazon tracking script loads on this site. Amazon handles its own cookies and privacy choices after you leave. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" target="_blank" rel="noopener">Amazon's Privacy Notice</a>.
         </li>
       </ul>
 
