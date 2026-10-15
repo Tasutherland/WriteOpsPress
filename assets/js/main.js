@@ -117,7 +117,7 @@
 
   // Wire up every Buy button
   document.addEventListener('click', function (e) {
-    const btn = e.target.closest('.buy-btn');
+    const btn = e.target.closest('button.buy-btn[data-stores]');
     if (!btn) return;
     const title  = btn.dataset.title  || 'Buy this book';
     const stores = JSON.parse(btn.dataset.stores || '{}');
