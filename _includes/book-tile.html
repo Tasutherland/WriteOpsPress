@@ -37,7 +37,7 @@
       {% if book.availability == "preorder" %}Choose Preorder Store{% else %}Choose Store{% endif %}
     </button>
     {% elsif book.retailer_url %}
-    <a class="btn btn-primary buy-btn" href="{{ book.retailer_url }}" target="_blank" rel="noopener noreferrer">{{ book.retailer_label | default: "View Retailers" }}</a>
+    <a class="btn btn-primary retailer-link" href="{{ book.retailer_url }}" target="_blank" rel="noopener noreferrer">{{ book.retailer_label | default: "View Retailers" }}</a>
     {% elsif book.availability == "coming-soon" %}
     <p class="book-availability">Coming Soon</p>
     {% else %}
