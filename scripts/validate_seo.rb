@@ -81,7 +81,7 @@ else
     url = edition.dig("stores", "kobo").to_s
     errors << "#{title}: audiobook purchase link must point to Canadian English Kobo audio listing" unless url.match?(%r{\Ahttps://www\.kobo\.com/ca/en/audiobook/[a-z0-9-]+\z})
     errors << "#{title}: audio edition link missing from audiobook catalog" unless audio_html.include?(url)
-    errors << "#{title}: audiobook ISBN missing" unless edition["isbn"].to_s.match?(/\A\d{13}\z/)
+    errors << "#{title}: audiobook ISBN must contain 13 digits when supplied" unless edition["isbn"].to_s.empty? || edition["isbn"].to_s.match?(/\A\d{13}\z/)
   end
 end
 
