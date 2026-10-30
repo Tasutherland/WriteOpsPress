@@ -16,6 +16,8 @@
   release_date: "2026-10-09"
   stores:
     kobo: "https://www.kobo.com/ca/en/audiobook/captured-by-the-enforcer"
+    spotify: "https://open.spotify.com/show/0JtYH45Dfxm1LIKeUpCSoh?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=b74a16bd-35dc-4301-b2e9-0f65adffbc64"
+    elevenreader: "https://elevenreader.io/audiobooks/captured-by-the-enforcer-audiobook/pj_YjuwWgDB8o9uUiF6iaZD"
 
 - title: "Shadow's Cage"
   work_id: "W0155"
@@ -25,6 +27,8 @@
   release_date: "2026-10-09"
   stores:
     kobo: "https://www.kobo.com/ca/en/audiobook/shadow-s-cage"
+    spotify: "https://open.spotify.com/show/7qRJeptRKzwTBCFuiU7UGv?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=69e8ccc5-eb01-420d-bccf-33dc88f0f82e"
+    elevenreader: "https://elevenreader.io/audiobooks/shadow-s-cage-audiobook/pj_t1YfAQrKD11xkFNGXRY4"
 
 - title: "Terms of Ownership"
   work_id: "W0095"
@@ -34,3 +38,5 @@
   release_date: "2026-10-09"
   stores:
     kobo: "https://www.kobo.com/ca/en/audiobook/terms-of-ownership-1"
+    spotify: "https://open.spotify.com/show/2wTqJod4S1fWBTGDVAWrpt?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=084aecd8-3591-4253-bfde-d963b3af5b8b"
+    elevenreader: "https://elevenreader.io/audiobooks/terms-of-ownership-audiobook/pj_bnObWnIlF56rOehFHS58"

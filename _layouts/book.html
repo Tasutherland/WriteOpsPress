@@ -66,7 +66,9 @@
         <div class="detail-retailers">
           <h2>Listen to the audiobook</h2>
           <p>{% if book.audiobook.narrator %}Narrated by {{ book.audiobook.narrator }} · {% endif %}{% if book.audiobook.duration %}{{ book.audiobook.duration }} · {% endif %}English audio edition.</p>
-          <a class="btn btn-primary retailer-link" href="{{ book.audiobook.stores.kobo }}" target="_blank" rel="noopener noreferrer" data-book-title="{{ book.title | escape }}" data-author="{{ page.pen_name | escape }}" data-edition="audiobook" data-work-id="{{ book.audiobook.work_id }}" data-link-placement="book_detail">Buy audiobook on Kobo</a>
+          {% for store in book.audiobook.stores %}
+          <p><a class="btn btn-primary retailer-link" href="{{ store[1] | escape }}" target="_blank" rel="noopener noreferrer" data-book-title="{{ book.title | escape }}" data-author="{{ page.pen_name | escape }}" data-edition="audiobook" data-work-id="{{ book.audiobook.work_id }}" data-link-placement="book_detail">{% case store[0] %}{% when 'kobo' %}Buy audiobook on Kobo{% when 'spotify' %}Listen on Spotify{% when 'elevenreader' %}Listen on ElevenReader{% else %}Listen on {{ store[0] | replace: '_', ' ' | capitalize }}{% endcase %}</a></p>
+          {% endfor %}
         </div>
         {% endif %}
         <p class="detail-notes">For general content guidance, visit the <a href="{{ page.author_url | relative_url }}#content-notes">{{ page.pen_name }} author page</a>.</p>

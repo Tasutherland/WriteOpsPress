@@ -116,6 +116,8 @@
     if (/^(www\.)?amazon\.(com|ca|co\.uk|com\.au|de|fr|it|es|co\.jp|in|com\.mx|nl|com\.br|se|pl|com\.be)$/.test(host)) return 'amazon';
     if (host === 'kobo.com' || host.endsWith('.kobo.com')) return 'kobo';
     if (host === 'books.apple.com') return 'apple_books';
+    if (host === 'open.spotify.com') return 'spotify';
+    if (host === 'elevenreader.io' || host.endsWith('.elevenreader.io')) return 'elevenreader';
     if (host === 'barnesandnoble.com' || host.endsWith('.barnesandnoble.com')) return 'barnes_noble';
     if (host === 'books2read.com' || host.endsWith('.books2read.com')) return 'universal';
     return '';

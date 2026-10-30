@@ -9,7 +9,7 @@ permalink: /audiobooks/
   <div class="container">
     <p class="press-eyebrow">WriteOps Press · Audio editions</p>
     <h1>Our Audiobooks</h1>
-    <p>Listen to our romance stories in audio. Each listing below links directly to the <strong>audiobook edition</strong> on Kobo, not the ebook.</p>
+    <p>Listen to our romance stories in audio. Choose a store below for the <strong>audiobook edition</strong>. Listening and purchase options vary by platform and region.</p>
     <p><a href="{{ '/books/' | relative_url }}">Prefer to read? Browse ebooks →</a></p>
   </div>
 </section>
@@ -28,9 +28,9 @@ permalink: /audiobooks/
           <p class="book-series">{{ audio.pen_name }} · Audiobook</p>
           <h2 class="book-title"><a href="{{ audio.book_url | relative_url }}">{{ audio.title }}</a></h2>
           <p class="book-hook">{% if audio.narrator %}Narrated by {{ audio.narrator }} · {% endif %}{% if audio.duration %}{{ audio.duration }} · {% endif %}English audiobook</p>
-          {% if audio.stores.kobo %}
-          <a class="btn btn-primary retailer-link" href="{{ audio.stores.kobo }}" target="_blank" rel="noopener noreferrer" data-edition="audiobook" data-work-id="{{ audio.work_id }}">Buy audiobook on Kobo</a>
-          {% endif %}
+          {% for store in audio.stores %}
+          <p><a class="btn btn-primary retailer-link" href="{{ store[1] | escape }}" target="_blank" rel="noopener noreferrer" data-edition="audiobook" data-work-id="{{ audio.work_id }}">{% case store[0] %}{% when 'kobo' %}Buy audiobook on Kobo{% when 'spotify' %}Listen on Spotify{% when 'elevenreader' %}Listen on ElevenReader{% else %}Listen on {{ store[0] | replace: '_', ' ' | capitalize }}{% endcase %}</a></p>
+          {% endfor %}
           <p><a href="{{ audio.book_url | relative_url }}">View book details and ebook options →</a></p>
         </div>
       </article>
