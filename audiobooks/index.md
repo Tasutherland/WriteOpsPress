@@ -27,7 +27,7 @@ permalink: /audiobooks/
         <div class="book-info">
           <p class="book-series">{{ audio.pen_name }} · Audiobook</p>
           <h2 class="book-title"><a href="{{ audio.book_url | relative_url }}">{{ audio.title }}</a></h2>
-          <p class="book-hook">Narrated by {{ audio.narrator }} · {{ audio.duration }} · English</p>
+          <p class="book-hook">{% if audio.narrator %}Narrated by {{ audio.narrator }} · {% endif %}{% if audio.duration %}{{ audio.duration }} · {% endif %}English audiobook</p>
           {% if audio.stores.kobo %}
           <a class="btn btn-primary retailer-link" href="{{ audio.stores.kobo }}" target="_blank" rel="noopener noreferrer" data-edition="audiobook" data-work-id="{{ audio.work_id }}">Buy audiobook on Kobo</a>
           {% endif %}

@@ -67,6 +67,10 @@ module WriteOps
       end
       Array(site.data["audiobooks"]).each do |audio|
         book = indexed_books[audio["work_id"].to_s]
+        if !book && audio["work_id"].to_s.empty?
+          matches = all_books.map(&:last).select { |entry| entry["title"] == audio["title"] && entry["pen_name"] == audio["pen_name"] }
+          book = matches.first if matches.length == 1
+        end
         raise "Audiobook has no matching catalog work: #{audio['title']}" unless book
         raise "Audiobook title mismatch: #{audio['title']}" unless audio["title"] == book["title"]
 

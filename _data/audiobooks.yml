@@ -1,4 +1,10 @@
 # Published English-language audiobooks. One record per audio edition.
+# Editions without a known Work ID match by exact title and pen name.
+- title: "Bought by the Alpha"
+  pen_name: "Rook Brennan"
+  stores:
+    kobo: "https://www.kobo.com/ca/en/audiobook/bought-by-the-alpha-3"
+
 # Work ID links each edition to the existing ebook/catalog record.
 # Kobo destinations are Canadian English storefront links; add additional verified
 # retailers to the edition's stores map only after a live product match.

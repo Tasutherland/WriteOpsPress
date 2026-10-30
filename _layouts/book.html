@@ -65,7 +65,7 @@
         {% if book.audiobook and book.audiobook.stores.kobo %}
         <div class="detail-retailers">
           <h2>Listen to the audiobook</h2>
-          <p>Narrated by {{ book.audiobook.narrator }} · {{ book.audiobook.duration }} · Unabridged English audio edition.</p>
+          <p>{% if book.audiobook.narrator %}Narrated by {{ book.audiobook.narrator }} · {% endif %}{% if book.audiobook.duration %}{{ book.audiobook.duration }} · {% endif %}English audio edition.</p>
           <a class="btn btn-primary retailer-link" href="{{ book.audiobook.stores.kobo }}" target="_blank" rel="noopener noreferrer" data-book-title="{{ book.title | escape }}" data-author="{{ page.pen_name | escape }}" data-edition="audiobook" data-work-id="{{ book.audiobook.work_id }}" data-link-placement="book_detail">Buy audiobook on Kobo</a>
         </div>
         {% endif %}
